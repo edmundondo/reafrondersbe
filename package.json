@@ -1,0 +1,6 @@
+{
+  "name": "reafrondersbe",
+  "private": true,
+  "type": "module",
+  "scripts": { "seed": "node scripts/build-seed.mjs" }
+}

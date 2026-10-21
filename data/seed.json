@@ -1,0 +1,266 @@
+{
+  "presentation": {
+    "mode": "flow",
+    "palette": "zambezi",
+    "particles": 6000,
+    "speed": 1.0,
+    "trail": 0.92,
+    "glow": 0.8,
+    "vortex": 1.0,
+    "showBorders": true,
+    "showLabels": true,
+    "focusCountry": "ZWE",
+    "autoTour": false,
+    "bpm": 112
+  },
+  "countries": [
+    {
+      "iso_a3": "ZWE",
+      "name": "Zimbabwe",
+      "region": "Southern Africa",
+      "tagline": "Where the smoke thunders, granite balances, and the Zambezi writes in light.",
+      "palette": [
+        "#2EC4B6",
+        "#F4D35E",
+        "#EE964B",
+        "#C2185B",
+        "#7BDFF2"
+      ],
+      "active": true,
+      "sort_order": 1
+    }
+  ],
+  "wonders": [
+    {
+      "slug": "victoria-falls",
+      "country_iso": "ZWE",
+      "name": "Victoria Falls",
+      "local_name": "Mosi-oa-Tunya — “The Smoke that Thunders”",
+      "category": "waterfall",
+      "lat": -17.9243,
+      "lng": 25.8572,
+      "summary": "The Zambezi drops into a narrow basalt chasm along a 1.7 km front on the Zimbabwe–Zambia border, throwing spray that can be seen from tens of kilometres away.",
+      "uniqueness": "Often called the largest single sheet of falling water on Earth, combining its 1,708 m width with a drop of about 108 m. A UNESCO World Heritage Site since 1989; its spray feeds a rainforest that grows on the cliff edge in a dry savanna.",
+      "stat_label": "Width × drop",
+      "stat_value": "1,708 m × ~108 m",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 1,
+      "art": {
+        "color": "#7BDFF2",
+        "intensity": 1.0,
+        "motion": "cascade"
+      }
+    },
+    {
+      "slug": "batoka-gorge",
+      "country_iso": "ZWE",
+      "name": "Batoka Gorge",
+      "local_name": null,
+      "category": "gorge",
+      "lat": -17.98,
+      "lng": 25.92,
+      "summary": "Below Victoria Falls the Zambezi zig-zags through a chain of sheer basalt gorges, carved as the falls retreated upstream over thousands of years.",
+      "uniqueness": "Each zig-zag records a former position of the waterfall, so the gorge works like a timeline written in rock. Its rapids rank among the world's great whitewater runs.",
+      "stat_label": "Length",
+      "stat_value": "~120 km",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 2,
+      "art": {
+        "color": "#2EC4B6",
+        "intensity": 0.7,
+        "motion": "zigzag"
+      }
+    },
+    {
+      "slug": "mana-pools",
+      "country_iso": "ZWE",
+      "name": "Mana Pools",
+      "local_name": "Mana — “four” in Shona, for its four main pools",
+      "category": "wetland",
+      "lat": -15.8,
+      "lng": 29.4,
+      "summary": "A wild Zambezi floodplain of oxbow pools and ana-tree woodland, where elephants stand on their hind legs to reach the branches.",
+      "uniqueness": "A UNESCO natural World Heritage Site (1984, with Sapi and Chewore). One of the few parks in Africa where guided walking among big game is permitted.",
+      "stat_label": "UNESCO",
+      "stat_value": "1984",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 3,
+      "art": {
+        "color": "#F4D35E",
+        "intensity": 0.8,
+        "motion": "ripple"
+      }
+    },
+    {
+      "slug": "hwange",
+      "country_iso": "ZWE",
+      "name": "Hwange National Park",
+      "local_name": null,
+      "category": "savanna",
+      "lat": -18.9,
+      "lng": 26.5,
+      "summary": "Zimbabwe's largest park: Kalahari sandveld, teak forest and pans, home to one of Africa's largest elephant populations.",
+      "uniqueness": "Life at Hwange gathers around its waterholes. In the dry season, herds of hundreds of elephants come to them at dusk.",
+      "stat_label": "Area",
+      "stat_value": "~14,650 km²",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 4,
+      "art": {
+        "color": "#EE964B",
+        "intensity": 0.9,
+        "motion": "herd"
+      }
+    },
+    {
+      "slug": "matobo-hills",
+      "country_iso": "ZWE",
+      "name": "Matobo Hills",
+      "local_name": "Matopos — “bald heads”",
+      "category": "rock",
+      "lat": -20.55,
+      "lng": 28.5,
+      "summary": "A sea of granite kopjes, whalebacks and balancing boulders, weathered from rock that formed over 2 billion years ago.",
+      "uniqueness": "A UNESCO World Heritage Site since 2003. It has one of the densest concentrations of rock art in southern Africa and one of the highest densities of black eagles and rhinos.",
+      "stat_label": "Granite age",
+      "stat_value": "> 2 billion yrs",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 5,
+      "art": {
+        "color": "#C2185B",
+        "intensity": 0.85,
+        "motion": "orbit"
+      }
+    },
+    {
+      "slug": "chinhoyi-caves",
+      "country_iso": "ZWE",
+      "name": "Chinhoyi Caves",
+      "local_name": "Chirorodziva — “Pool of the Fallen”",
+      "category": "cave",
+      "lat": -17.355,
+      "lng": 30.125,
+      "summary": "Limestone and dolomite caverns around a collapsed sinkhole holding the Sleeping Pool, a body of water that glows an unreal cobalt blue.",
+      "uniqueness": "The pool's clarity and its constant temperature of about 22 °C make it a famous cave-diving site. Its depths run past 80 m into flooded passages.",
+      "stat_label": "Water temp",
+      "stat_value": "~22 °C year-round",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 6,
+      "art": {
+        "color": "#3A86FF",
+        "intensity": 0.9,
+        "motion": "sink"
+      }
+    },
+    {
+      "slug": "mutarazi-falls",
+      "country_iso": "ZWE",
+      "name": "Mutarazi Falls",
+      "local_name": null,
+      "category": "waterfall",
+      "lat": -18.53,
+      "lng": 32.8,
+      "summary": "A thin ribbon of water that drops off the Eastern Highlands escarpment into the Honde Valley in two tiers.",
+      "uniqueness": "Zimbabwe's highest waterfall at about 762 m, often cited as the second-highest in Africa. A skywalk and zipline now hang over the drop.",
+      "stat_label": "Total drop",
+      "stat_value": "~762 m",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 7,
+      "art": {
+        "color": "#A8DADC",
+        "intensity": 0.75,
+        "motion": "cascade"
+      }
+    },
+    {
+      "slug": "mount-nyangani",
+      "country_iso": "ZWE",
+      "name": "Mount Nyangani",
+      "local_name": null,
+      "category": "mountain",
+      "lat": -18.3,
+      "lng": 32.85,
+      "summary": "A misty moorland plateau in Nyanga National Park and the source of rivers that flow toward both the Zambezi and the Indian Ocean.",
+      "uniqueness": "The highest point in Zimbabwe. Local lore holds that the mountain 'swallows' hikers, and its fast-changing mist has made that legend very easy to believe.",
+      "stat_label": "Elevation",
+      "stat_value": "2,592 m",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 8,
+      "art": {
+        "color": "#B8B8FF",
+        "intensity": 0.7,
+        "motion": "mist"
+      }
+    },
+    {
+      "slug": "chimanimani",
+      "country_iso": "ZWE",
+      "name": "Chimanimani Mountains",
+      "local_name": null,
+      "category": "mountain",
+      "lat": -19.8,
+      "lng": 33.05,
+      "summary": "Jagged white quartzite peaks, crystal streams and hidden caves straddling the Mozambique border.",
+      "uniqueness": "A botanical hotspot with many plant species found nowhere else on Earth. The quartzite gives the range a pale, almost lunar glow at sunrise.",
+      "stat_label": "Rock",
+      "stat_value": "Quartzite",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 9,
+      "art": {
+        "color": "#E9F5DB",
+        "intensity": 0.7,
+        "motion": "orbit"
+      }
+    },
+    {
+      "slug": "chilojo-cliffs",
+      "country_iso": "ZWE",
+      "name": "Chilojo Cliffs, Gonarezhou",
+      "local_name": "Gonarezhou — “Place of Elephants”",
+      "category": "rock",
+      "lat": -21.65,
+      "lng": 31.75,
+      "summary": "Banded red-and-ochre sandstone cliffs rising high above the Runde River in Gonarezhou National Park.",
+      "uniqueness": "Iconic of Zimbabwe's southeast lowveld, the cliffs blaze crimson at sunset. They're part of the Great Limpopo Transfrontier Park, which links Zimbabwe, South Africa and Mozambique.",
+      "stat_label": "Height",
+      "stat_value": "up to ~180 m",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 10,
+      "art": {
+        "color": "#E63946",
+        "intensity": 0.85,
+        "motion": "ripple"
+      }
+    },
+    {
+      "slug": "epworth-balancing-rocks",
+      "country_iso": "ZWE",
+      "name": "Epworth Balancing Rocks",
+      "local_name": null,
+      "category": "rock",
+      "lat": -17.89,
+      "lng": 31.15,
+      "summary": "Granite boulders stacked in impossible-looking towers just outside Harare, shaped by millions of years of weathering.",
+      "uniqueness": "They once appeared on Zimbabwe's banknotes, a natural sculpture garden that seems to defy gravity.",
+      "stat_label": "Near",
+      "stat_value": "Harare",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 11,
+      "art": {
+        "color": "#FFB703",
+        "intensity": 0.6,
+        "motion": "orbit"
+      }
+    }
+  ]
+}
