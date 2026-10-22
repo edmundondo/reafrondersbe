@@ -1,0 +1,72 @@
+{
+  "source": "zimbabwe-top30-gemini.json",
+  "retrieved": "2026-10-22T09:50:52.551Z",
+  "candidates": [
+    {
+      "kind": "species",
+      "rank": 1,
+      "slug": "flame-lily",
+      "name": "Flame Lily",
+      "country_iso": "ZWE",
+      "category": "flora",
+      "local_name": "Kajongwe / Amakukhulume",
+      "scientific_name": "Gloriosa superba",
+      "lat": -17.8833,
+      "lng": 31.1333,
+      "coord_note": "representative point — Nationwide Granite Kopjes & Woodlands",
+      "summary_draft": "Zimbabwe's national emblem; a climbing tuberous lily with reflexed scarlet-and-gold petals resembling dancing flames.",
+      "place_of_origin": "Nationwide Granite Kopjes & Woodlands",
+      "citations_claimed": "UNESCO World Heritage Site (#509, 1989) & Seven Natural Wonders of the World; National Emblem Act of Zimbabwe; ZSL EDGE #1 Priority Amphibian.",
+      "art": {
+        "color": "#E85D75",
+        "intensity": 0.8,
+        "motion": "bloom"
+      },
+      "review": {
+        "approved": false,
+        "needs": [
+          "verify every claim with 2 independent sources (imported list is unverified)",
+          "rewrite summary in your own words",
+          "footage"
+        ]
+      }
+    },
+    {
+      "kind": "species",
+      "rank": 1,
+      "slug": "cave-squeaker-frog",
+      "name": "Cave Squeaker Frog",
+      "country_iso": "ZWE",
+      "category": "fauna",
+      "local_name": "Datya",
+      "scientific_name": "Arthroleptis troglodytes",
+      "lat": -19.778,
+      "lng": 33.003,
+      "coord_note": "representative point — Summit Caves of Western Chimanimani, Manicaland",
+      "summary_draft": "Zimbabwe’s rarest endemic vertebrate; a tiny (21–25 mm) direct-developing frog found only in deep quartzite caves and sinkholes.",
+      "place_of_origin": "Summit Caves of Western Chimanimani, Manicaland",
+      "citations_claimed": "UNESCO World Heritage Site (#509, 1989) & Seven Natural Wonders of the World; National Emblem Act of Zimbabwe; ZSL EDGE #1 Priority Amphibian.",
+      "art": {
+        "color": "#9BE15D",
+        "intensity": 0.8,
+        "motion": "herd"
+      },
+      "review": {
+        "approved": false,
+        "needs": [
+          "verify every claim with 2 independent sources (imported list is unverified)",
+          "rewrite summary in your own words",
+          "footage"
+        ]
+      }
+    }
+  ],
+  "skipped_existing": [
+    {
+      "rank": 1,
+      "kind": "landmark",
+      "name": "Victoria Falls",
+      "matches": "victoria-falls"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "dataset_title": "Top 30 Natural Landmarks, Unique Flora, and Endemic Fauna of Zimbabwe (Descending Order 30 to 1)",
+  "total_ranks": 30,
+  "ordering": "Descending (30 to 1)",
+  "coordinate_reference_system": "WGS84 (EPSG:4326)",
+  "total_geolocated_points": 90,
+  "records": [
+    {
+      "rank": 1,
+      "landmark": {
+        "name": "Victoria Falls (Mosi-oa-Tunya)",
+        "category": "UNESCO Natural Wonder",
+        "place_of_origin": "Hwange District, Matabeleland North",
+        "significance": "The world's largest curtain of falling water (1,708m wide, 108m deep) on the Zambezi River, generating a mist column visible 50 km away.",
+        "latitude": -17.9243,
+        "longitude": 25.8572
+      },
+      "flora": {
+        "common_name": "Flame Lily",
+        "local_names": "Kajongwe / Amakukhulume",
+        "scientific_name": "Gloriosa superba",
+        "place_of_origin": "Nationwide Granite Kopjes & Woodlands",
+        "significance": "Zimbabwe's national emblem; a climbing tuberous lily with reflexed scarlet-and-gold petals resembling dancing flames.",
+        "latitude": -17.8833,
+        "longitude": 31.1333
+      },
+      "fauna": {
+        "common_name": "Cave Squeaker Frog",
+        "local_names": "Datya",
+        "scientific_name": "Arthroleptis troglodytes",
+        "place_of_origin": "Summit Caves of Western Chimanimani, Manicaland",
+        "significance": "Zimbabwe’s rarest endemic vertebrate; a tiny (21–25 mm) direct-developing frog found only in deep quartzite caves and sinkholes.",
+        "latitude": -19.778,
+        "longitude": 33.003
+      },
+      "citations_and_status": "UNESCO World Heritage Site (#509, 1989) & Seven Natural Wonders of the World; National Emblem Act of Zimbabwe; ZSL EDGE #1 Priority Amphibian."
+    }
+  ]
+}
