@@ -244,7 +244,8 @@ export async function harvest(opts, log = () => { }) {
         const n = await inat(c.scientific_name || c.name, country).catch(() => null);
         if (n) { c.inat_observations = n.count; c.media_candidates.push(...n.media.map(m => ({ ...m, trusted: 'inat-observation' }))); if (n.count) c.evidence.push({ source: 'iNaturalist', page: `https://www.inaturalist.org/observations?taxon_name=${encodeURIComponent(c.scientific_name || c.name)}&place_id=${n.place}` }); }
       } else {
-        c.media_candidates.push(...(await nasa(c.name).catch(() => [])).filter(m => (m.description || '').toLowerCase().includes(c.name.toLowerCase().split(/[ ,(]/)[0])));
+        const word = new RegExp(`\\b${c.name.split(/[ ,(]/)[0].replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i'); // whole word: 'Khami' must not match 'Khamis'
+        c.media_candidates.push(...(await nasa(c.name).catch(() => [])).filter(m => word.test(m.description || '')));
       }
     } catch (e) { c.media_error = e.message; }
     if (c.wikipedia || c.name) { const w = await wikipediaSummary(c.wikipedia || c.name); if (w?.page) { c.evidence.push({ source: 'Wikipedia', page: w.page }); c.wiki_extract = w.extract;
@@ -269,12 +270,13 @@ export async function harvest(opts, log = () => { }) {
 
 // ── CLI ───────────────────────────────────────────────────────────────────
 // node tools/harvest/harvest.mjs --iso3 ZWE --iso2 ZW --qid Q954 --country Zimbabwe \
-//   [--extra "Great Zimbabwe" --extra "Gloriosa superba"] [--no-species] [--out data/candidates/ZWE.json]
+//   [--extra "Great Zimbabwe" --extra "Gloriosa superba"] [--no-species] [--max-media 60] [--only "A,B"] [--out data/candidates/ZWE.json]
 if (isNode && import.meta.url === `file://${process.argv[1]}`) {
   const args = process.argv.slice(2), val = (k, d) => { const i = args.indexOf(k); return i >= 0 ? args[i + 1] : d; };
   const extras = args.flatMap((a, i) => a === '--extra' ? [args[i + 1]] : []).map(n => / [a-z]+$/.test(n) && /^[A-Z][a-z]+ [a-z]+$/.test(n) ? { name: n, scientific_name: n } : { name: n });
   const opts = { iso3: val('--iso3', 'ZWE'), iso2: val('--iso2', 'ZW'), qid: val('--qid', 'Q954'), country: val('--country', 'Zimbabwe'), extras,
-    species: !args.includes('--no-species'), sites: !args.includes('--no-sites'), protectedPlanetToken: process.env.PROTECTEDPLANET_TOKEN };
+    species: !args.includes('--no-species'), sites: !args.includes('--no-sites'), protectedPlanetToken: process.env.PROTECTEDPLANET_TOKEN,
+    maxMedia: +val('--max-media', 60), only: val('--only') ? val('--only').split(',').map(x => x.trim()).filter(Boolean) : undefined };
   const outPath = val('--out', `data/candidates/${opts.iso3}.json`);
   const res = await harvest(opts, (m) => console.error('·', m));
   const fs = await import('node:fs'); const path = await import('node:path');

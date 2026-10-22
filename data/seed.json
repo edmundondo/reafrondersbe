@@ -57,7 +57,11 @@
         "credit": "Nesnad",
         "license": "CC BY-SA 4.0",
         "source": "https://commons.wikimedia.org/wiki/File:Victoria_Falls_2019_8.webm"
-      }
+      },
+      "scientific_name": null,
+      "citations": [
+        "https://whc.unesco.org/en/list/509/"
+      ]
     },
     {
       "slug": "batoka-gorge",
@@ -85,8 +89,30 @@
         "credit": "Mike",
         "license": "CC BY 2.0",
         "source": "https://commons.wikimedia.org/wiki/File:Video_-_Above_Victoria_Falls.webm",
-        "note": "Stand-in: flight over the falls and the first gorges"
-      }
+        "note": "Stand-in: flight over the falls and the first gorges",
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Victoria_Falls_-_VicFalls3473.jpg/1280px-Victoria_Falls_-_VicFalls3473.jpg",
+            "credit": "lumoplank",
+            "license": "CC0",
+            "source": "https://commons.wikimedia.org/wiki/File:Victoria_Falls_-_VicFalls3473.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Victoria_Falls_-_VicFalls3460.jpg/1280px-Victoria_Falls_-_VicFalls3460.jpg",
+            "credit": "lumoplank",
+            "license": "CC0",
+            "source": "https://commons.wikimedia.org/wiki/File:Victoria_Falls_-_VicFalls3460.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Victoria_Falls_-_VicFalls3484.jpg/1280px-Victoria_Falls_-_VicFalls3484.jpg",
+            "credit": "lumoplank",
+            "license": "CC0",
+            "source": "https://commons.wikimedia.org/wiki/File:Victoria_Falls_-_VicFalls3484.jpg"
+          }
+        ]
+      },
+      "scientific_name": null,
+      "citations": []
     },
     {
       "slug": "mana-pools",
@@ -115,7 +141,11 @@
         "license": "CC BY 3.0",
         "source": "https://commons.wikimedia.org/wiki/File:Boswell_by_the_Zambezi_river.webm",
         "note": "Boswell — the bull elephant famous for standing on his hind legs"
-      }
+      },
+      "scientific_name": null,
+      "citations": [
+        "https://whc.unesco.org/en/list/302/"
+      ]
     },
     {
       "slug": "hwange",
@@ -144,8 +174,24 @@
         "license": "CC BY 3.0",
         "source": "https://commons.wikimedia.org/wiki/File:Elephants,_Mana_Pools_National_Park.webm",
         "start": 10,
-        "note": "Stand-in: elephant herd in Mana Pools, until Hwange footage is added"
-      }
+        "note": "Stand-in: elephant herd in Mana Pools, until Hwange footage is added",
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Smallpan-eles.jpg/1280px-Smallpan-eles.jpg",
+            "credit": "Laura (cardamom)",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Smallpan-eles.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/The_Presidential_Elephant_%27A_family%27_sharing_company_with_Australian_conservationist_Sharon_Pincott_while_she_sits_in_her_4x4_in_Hwange%2C_Zimbabwe.jpg/1280px-The_Presidential_Elephant_%27A_family%27_sharing_company_with_Australian_conservationist_Sharon_Pincott_while_she_sits_in_her_4x4_in_Hwange%2C_Zimbabwe.jpg",
+            "credit": "PincottSG",
+            "license": "CC0",
+            "source": "https://commons.wikimedia.org/wiki/File:The_Presidential_Elephant_'A_family'_sharing_company_with_Australian_conservationist_Sharon_Pincott_while_she_sits_in_her_4x4_in_Hwange,_Zimbabwe.jpg"
+          }
+        ]
+      },
+      "scientific_name": null,
+      "citations": []
     },
     {
       "slug": "matobo-hills",
@@ -167,7 +213,32 @@
         "intensity": 0.85,
         "motion": "orbit"
       },
-      "media": {}
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Aerial_view%2C_Gordon_Park%2C_Matobo_Hills.jpg",
+            "credit": "Babakathy",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Aerial_view,_Gordon_Park,_Matobo_Hills.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Shumba_from_Nyahwe%2C_Matobo_Hills.jpg",
+            "credit": "Babakathy",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Shumba_from_Nyahwe,_Matobo_Hills.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Balancing_Rocks_in_Matopos_National_Park.jpg/1280px-Balancing_Rocks_in_Matopos_National_Park.jpg",
+            "credit": "Susan Adams",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Balancing_Rocks_in_Matopos_National_Park.jpg"
+          }
+        ]
+      },
+      "scientific_name": null,
+      "citations": [
+        "https://whc.unesco.org/en/list/306/"
+      ]
     },
     {
       "slug": "chinhoyi-caves",
@@ -189,7 +260,30 @@
         "intensity": 0.9,
         "motion": "sink"
       },
-      "media": {}
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Sleeping_Pool%2C_Chinhoyi_Caves%2C_Zimbabwe.JPG/1280px-Sleeping_Pool%2C_Chinhoyi_Caves%2C_Zimbabwe.JPG",
+            "credit": "Suesen",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Sleeping_Pool,_Chinhoyi_Caves,_Zimbabwe.JPG"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Sleeping_Pool%2C_Chinhoyi_caves%2C_Zimbabwe.JPG/1280px-Sleeping_Pool%2C_Chinhoyi_caves%2C_Zimbabwe.JPG",
+            "credit": "Suesen",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Sleeping_Pool,_Chinhoyi_caves,_Zimbabwe.JPG"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Chinhoyi_caves%2C_Zimbabwe.JPG/1280px-Chinhoyi_caves%2C_Zimbabwe.JPG",
+            "credit": "Suesen",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Chinhoyi_caves,_Zimbabwe.JPG"
+          }
+        ]
+      },
+      "scientific_name": null,
+      "citations": []
     },
     {
       "slug": "mutarazi-falls",
@@ -211,7 +305,24 @@
         "intensity": 0.75,
         "motion": "cascade"
       },
-      "media": {}
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Mutarazi_Falls00.jpg",
+            "credit": "Bart Wursten",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Mutarazi_Falls00.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Mtarazi_falls.jpg/1280px-Mtarazi_falls.jpg",
+            "credit": "Seabifar",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Mtarazi_falls.jpg"
+          }
+        ]
+      },
+      "scientific_name": null,
+      "citations": []
     },
     {
       "slug": "mount-nyangani",
@@ -233,7 +344,30 @@
         "intensity": 0.7,
         "motion": "mist"
       },
-      "media": {}
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Mt._Nyangani.jpg/1280px-Mt._Nyangani.jpg",
+            "credit": "Seabifar",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Mt._Nyangani.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Nyangani_south_end.jpg",
+            "credit": "Babakathy",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Nyangani_south_end.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Nyama_falls.jpg",
+            "credit": "Babakathy",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Nyama_falls.jpg"
+          }
+        ]
+      },
+      "scientific_name": null,
+      "citations": []
     },
     {
       "slug": "chimanimani",
@@ -255,7 +389,11 @@
         "intensity": 0.7,
         "motion": "orbit"
       },
-      "media": {}
+      "media": {
+        "note": "No openly licensed footage or photos of the Zimbabwe side yet"
+      },
+      "scientific_name": null,
+      "citations": []
     },
     {
       "slug": "chilojo-cliffs",
@@ -277,7 +415,18 @@
         "intensity": 0.85,
         "motion": "ripple"
       },
-      "media": {}
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Zimbabwe_Gonarezhou_Landscape_Chilojo_Cliffs.jpg",
+            "credit": "Ralf Ellerich",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Zimbabwe_Gonarezhou_Landscape_Chilojo_Cliffs.jpg"
+          }
+        ]
+      },
+      "scientific_name": null,
+      "citations": []
     },
     {
       "slug": "epworth-balancing-rocks",
@@ -299,7 +448,158 @@
         "intensity": 0.6,
         "motion": "orbit"
       },
-      "media": {}
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Chiremba_Balancing_Rocks_-_Harare3500.jpg/1280px-Chiremba_Balancing_Rocks_-_Harare3500.jpg",
+            "credit": "lumoplank",
+            "license": "CC0",
+            "source": "https://commons.wikimedia.org/wiki/File:Chiremba_Balancing_Rocks_-_Harare3500.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Chiremba_Balancing_Rocks_-_Harare3512.jpg/1280px-Chiremba_Balancing_Rocks_-_Harare3512.jpg",
+            "credit": "lumoplank",
+            "license": "CC0",
+            "source": "https://commons.wikimedia.org/wiki/File:Chiremba_Balancing_Rocks_-_Harare3512.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Bankbiljet_van_tweehonderd_miljoen_Zimbabwaanse_dollars%2C_NG-2016-4-C.jpg/1280px-Bankbiljet_van_tweehonderd_miljoen_Zimbabwaanse_dollars%2C_NG-2016-4-C.jpg",
+            "credit": "Rijksmuseum",
+            "license": "CC0",
+            "source": "https://commons.wikimedia.org/wiki/File:Bankbiljet_van_tweehonderd_miljoen_Zimbabwaanse_dollars,_NG-2016-4-C.jpg"
+          }
+        ]
+      },
+      "scientific_name": null,
+      "citations": []
+    },
+    {
+      "slug": "great-zimbabwe",
+      "country_iso": "ZWE",
+      "name": "Great Zimbabwe",
+      "local_name": "Dzimba dza mabwe — “houses of stone”",
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": -20.2712,
+      "lng": 30.9333,
+      "summary": "The stone capital of a southern African kingdom that flourished from the 11th to the 15th century: dry-stone granite walls curving across a hilltop, a valley and the vast Great Enclosure.",
+      "uniqueness": "A UNESCO World Heritage Site since 1986 and often described as the largest ancient stone structure south of the Sahara. The nation takes its name from it, and the soapstone Zimbabwe Bird found here flies on the national flag.",
+      "stat_label": "Built",
+      "stat_value": "c. 1100–1450",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 12,
+      "art": {
+        "color": "#C9A66B",
+        "intensity": 0.95,
+        "motion": "orbit"
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/364/",
+        "https://en.wikipedia.org/wiki/Great_Zimbabwe",
+        "https://www.wikidata.org/wiki/Q209217"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/ASC_Leiden_-_Rietveld_Collection_-_East_Africa_1975_-_05_-_033_-_A_wall_of_the_ruins_of_Great_Zimbabwe_-_Masvingo%2C_Zimbabwe.jpg/1280px-ASC_Leiden_-_Rietveld_Collection_-_East_Africa_1975_-_05_-_033_-_A_wall_of_the_ruins_of_Great_Zimbabwe_-_Masvingo%2C_Zimbabwe.jpg",
+            "credit": "Aart Rietveld / ASC Leiden",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:ASC_Leiden_-_Rietveld_Collection_-_East_Africa_1975_-_05_-_033_-_A_wall_of_the_ruins_of_Great_Zimbabwe_-_Masvingo,_Zimbabwe.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/ASC_Leiden_-_Rietveld_Collection_-_East_Africa_1975_-_05_-_036_-_A_tower_of_Great_Zimbabwe_-_Masvingo%2C_Zimbabwe.jpg/1280px-ASC_Leiden_-_Rietveld_Collection_-_East_Africa_1975_-_05_-_036_-_A_tower_of_Great_Zimbabwe_-_Masvingo%2C_Zimbabwe.jpg",
+            "credit": "Aart Rietveld / ASC Leiden",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:ASC_Leiden_-_Rietveld_Collection_-_East_Africa_1975_-_05_-_036_-_A_tower_of_Great_Zimbabwe_-_Masvingo,_Zimbabwe.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Eastern-enclosure-great-zimbabwe.jpg/1280px-Eastern-enclosure-great-zimbabwe.jpg",
+            "credit": "ctsnow (Flickr)",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Eastern-enclosure-great-zimbabwe.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "flame-lily",
+      "country_iso": "ZWE",
+      "name": "Flame Lily",
+      "local_name": "Kajongwe — after jongwe, the cockerel (Shona)",
+      "scientific_name": "Gloriosa superba",
+      "category": "flora",
+      "lat": -17.8833,
+      "lng": 31.1333,
+      "summary": "Zimbabwe’s national flower: a climbing lily whose swept-back petals flicker from gold to scarlet like a flame.",
+      "uniqueness": "Specially protected under the Parks and Wildlife Act — wild flame lilies may not be picked or sold without a permit. It grows in woodland and on granite kopjes nationwide; this pin is a representative point near Harare.",
+      "stat_label": "Status",
+      "stat_value": "Specially protected",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 13,
+      "art": {
+        "color": "#E8432E",
+        "intensity": 0.9,
+        "motion": "bloom"
+      },
+      "citations": [
+        "https://www.thenationalnews.com/world/africa/zimbabwe-s-national-flower-faces-extinction-1.497350/",
+        "https://www.gbif.org/species/2740024",
+        "https://en.wikipedia.org/wiki/Gloriosa_superba"
+      ],
+      "media": {
+        "images": [
+          {
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109637518/large.jpg",
+            "credit": "iNaturalist observer (no rights reserved)",
+            "license": "CC0",
+            "source": "https://www.inaturalist.org/observations/67801135"
+          },
+          {
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/460665074/large.jpg",
+            "credit": "i_c_riddell",
+            "license": "CC BY",
+            "source": "https://www.inaturalist.org/observations/256875059"
+          },
+          {
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/183085807/large.jpeg",
+            "credit": "Tony Rebelo",
+            "license": "CC BY-SA",
+            "source": "https://www.inaturalist.org/observations/108711306"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "cave-squeaker",
+      "country_iso": "ZWE",
+      "name": "Cave Squeaker",
+      "local_name": "Datya — Shona for frog",
+      "scientific_name": "Arthroleptis troglodytes",
+      "category": "fauna",
+      "lat": -19.778,
+      "lng": 33.003,
+      "summary": "A tiny frog, about 25 mm long, known only from caves, sinkholes and montane grassland around 1,500 m on the western slopes of the Chimanimani Mountains.",
+      "uniqueness": "Critically Endangered and lost to science for 54 years: first collected in 1962, it was rediscovered in December 2016 by a Natural History Museum of Zimbabwe team who followed a call they had never heard before.",
+      "stat_label": "Known range",
+      "stat_value": "~20 km²",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 14,
+      "art": {
+        "color": "#9BE15D",
+        "intensity": 0.8,
+        "motion": "ripple"
+      },
+      "media": {
+        "note": "No openly licensed footage or photos yet — a living swarm stands in"
+      },
+      "citations": [
+        "https://serpentresearch.com/2017/02/06/2017-02-arthroleptis-troglodytes-rediscovered-in-zimbabwe/",
+        "https://www.edgeofexistence.org/species/cave-squeaker/",
+        "https://www.gbif.org/species/2429725"
+      ]
     }
   ]
 }

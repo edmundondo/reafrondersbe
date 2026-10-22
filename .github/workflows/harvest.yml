@@ -1,0 +1,41 @@
+# Run the open-data harvester on GitHub's free runners (Node, full network — the UNESCO
+# list works here, unlike in a browser) and commit the candidates file for review.
+# Actions tab → "Harvest open data" → Run workflow.
+name: Harvest open data
+on:
+  workflow_dispatch:
+    inputs:
+      iso3:    { description: 'ISO-3 country code', default: 'ZWE', required: true }
+      iso2:    { description: 'ISO-2 country code', default: 'ZW', required: true }
+      qid:     { description: 'Wikidata country item (Zimbabwe = Q954, Botswana = Q963)', default: 'Q954', required: true }
+      country: { description: 'Country name', default: 'Zimbabwe', required: true }
+      extras:  { description: 'Comma-separated extra sites or "Genus species"', default: 'Great Zimbabwe,Gloriosa superba,Arthroleptis troglodytes' }
+      max_media: { description: 'How many candidates get the (slower) media pass', default: '60' }
+permissions:
+  contents: write
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - name: Harvest
+        env:
+          PROTECTEDPLANET_TOKEN: ${{ secrets.PROTECTEDPLANET_TOKEN }}
+          EXTRAS: ${{ inputs.extras }}
+        run: |
+          args=()
+          IFS=',' read -ra X <<< "$EXTRAS"
+          for e in "${X[@]}"; do e="$(echo "$e" | xargs)"; [ -n "$e" ] && args+=(--extra "$e"); done
+          node tools/harvest/harvest.mjs --iso3 "${{ inputs.iso3 }}" --iso2 "${{ inputs.iso2 }}" --qid "${{ inputs.qid }}" \
+            --country "${{ inputs.country }}" --max-media "${{ inputs.max_media }}" "${args[@]}" \
+            --out "data/candidates/${{ inputs.iso3 }}.json"
+      - name: Commit candidates for review
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/candidates
+          git diff --cached --quiet || git commit -m "harvest: candidates for ${{ inputs.country }} (review before merge)"
+          git push
