@@ -27,7 +27,8 @@ const isNode = typeof process !== 'undefined' && !!process.versions?.node;
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 let lastCall = 0;
 async function get(url, { json = true, headers = {}, polite = 350 } = {}) {
-  const wait = lastCall + polite - Date.now(); if (wait > 0) await sleep(wait); lastCall = Date.now();
+  // polite spacing in Node; browsers serialise requests anyway and throttle timers in hidden tabs
+  if (isNode) { const wait = lastCall + polite - Date.now(); if (wait > 0) await sleep(wait); } lastCall = Date.now();
   const h = { Accept: json ? 'application/json' : '*/*', ...headers };
   if (isNode) h['User-Agent'] = UA; else h['Api-User-Agent'] = UA;
   const r = await fetch(url, { headers: h });
@@ -51,33 +52,37 @@ export function km(a, b) {
 // ── Wikidata ──────────────────────────────────────────────────────────────
 const CLASS_TO_CATEGORY = {
   Q34038: 'waterfall', Q8502: 'mountain', Q46831: 'mountain', Q1437299: 'mountain', Q150784: 'gorge', Q2042028: 'gorge', Q35509: 'cave',
-  Q23397: 'lake', Q131681: 'lake', Q4022: 'river', Q170321: 'wetland', Q46169: 'savanna', Q194195: 'rock', Q1123733: 'rock', Q8072: 'volcano', Q4421: 'forest',
+  Q23397: 'lake', Q131681: 'lake', Q170321: 'wetland', Q46169: 'savanna', Q194195: 'rock', Q1123733: 'rock', Q8072: 'volcano', Q4421: 'forest',
 };
-export async function wikidataSites(qid) {
+// Two light queries (the public endpoint times out on big UNIONs):
+//  1) natural features by class, kept only if notable (>= minLinks Wikipedia language editions)
+//  2) everything inscribed as a UNESCO World Heritage Site (P1435 = Q9259)
+export async function wikidataSites(qid, { minLinks = 3 } = {}) {
   const classes = Object.keys(CLASS_TO_CATEGORY).map(q => `wd:${q}`).join(' ');
-  const q = `SELECT ?item ?itemLabel ?class ?coord ?whs ?commonscat ?video ?image ?article WHERE {
-    { ?item wdt:P17 wd:${qid}; wdt:P31 ?class. VALUES ?class { ${classes} } }
-    UNION { ?item wdt:P17 wd:${qid}; wdt:P1435 wd:Q9259. OPTIONAL { ?item wdt:P31 ?class } }
-    ?item wdt:P625 ?coord.
-    OPTIONAL { ?item wdt:P757 ?whs } OPTIONAL { ?item wdt:P373 ?commonscat } OPTIONAL { ?item wdt:P10 ?video } OPTIONAL { ?item wdt:P18 ?image }
-    OPTIONAL { ?article schema:about ?item; schema:isPartOf <https://en.wikipedia.org/> }
-    SERVICE wikibase:label { bd:serviceParam wikibase:language "en". } }`;
-  const j = await get('https://query.wikidata.org/sparql?format=json&query=' + encodeURIComponent(q), { polite: 1000 });
+  const sel = `?item ?itemLabel ?class ?coord ?whs ?commonscat ?video ?image ?links`;
+  const opt = `OPTIONAL { ?item wdt:P757 ?whs } OPTIONAL { ?item wdt:P373 ?commonscat } OPTIONAL { ?item wdt:P10 ?video } OPTIONAL { ?item wdt:P18 ?image }
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }`;
+  const q1 = `SELECT ${sel} WHERE { VALUES ?class { ${classes} } ?item wdt:P31 ?class; wdt:P17 wd:${qid}; wdt:P625 ?coord; wikibase:sitelinks ?links. FILTER(?links >= ${minLinks}) ${opt} }`;
+  const q2 = `SELECT ${sel} WHERE { ?item wdt:P1435 wd:Q9259; wdt:P17 wd:${qid}; wdt:P625 ?coord; wikibase:sitelinks ?links. OPTIONAL { ?item wdt:P31 ?class } ${opt} }`;
+  const rows = [];
+  for (const q of [q1, q2]) rows.push(...(await get('https://query.wikidata.org/sparql?format=json&query=' + encodeURIComponent(q), { polite: 1000 })).results.bindings);
   const by = new Map();
-  for (const b of j.results.bindings) {
-    const id = b.item.value.split('/').pop(); const m = /Point\(([-\d.]+) ([-\d.]+)\)/.exec(b.coord.value); if (!m) continue;
+  for (const b of rows) {
+    const id = b.item.value.split('/').pop(); const m = /Point\(([-\d.]+) ([-\d.]+)\)/.exec(b.coord?.value || ''); if (!m) continue;
     const cls = b.class?.value.split('/').pop();
-    const prev = by.get(id) || { wikidata: id, name: b.itemLabel.value, lng: +m[1], lat: +m[2], classes: new Set(), kind: 'site' };
+    const prev = by.get(id) || { wikidata: id, name: b.itemLabel.value, lng: +m[1], lat: +m[2], classes: new Set(), kind: 'site', sitelinks: +(b.links?.value || 0) };
     if (cls) prev.classes.add(cls);
-    if (b.whs) prev.unesco_id = b.whs.value; if (b.commonscat) prev.commons_category = b.commonscat.value;
+    if (b.whs) prev.unesco_id = b.whs.value.replace(/rev$/, ''); if (b.commonscat) prev.commons_category = b.commonscat.value;
     if (b.video) prev.wd_video = decodeURIComponent(b.video.value.split('/').pop()); if (b.image) prev.wd_image = decodeURIComponent(b.image.value.split('/').pop());
-    if (b.article) prev.wikipedia = b.article.value;
     by.set(id, prev);
   }
-  return [...by.values()].filter(s => !/^Q\d+$/.test(s.name)).map(s => ({ ...s, classes: [...s.classes], category: s.classes.size ? (CLASS_TO_CATEGORY[[...s.classes].find(c => CLASS_TO_CATEGORY[c])] || (s.unesco_id ? 'heritage' : 'landform')) : (s.unesco_id ? 'heritage' : 'landform') }));
+  return [...by.values()].filter(s => !/^Q\d+$/.test(s.name)).sort((a, b) => b.sitelinks - a.sitelinks).map(s => {
+    const c = [...s.classes].find(k => CLASS_TO_CATEGORY[k]);
+    return { ...s, classes: [...s.classes], category: c ? CLASS_TO_CATEGORY[c] : (s.unesco_id ? 'heritage' : 'landform') };
+  });
 }
 export async function wikidataEndemics(qid, limit = 60) {
-  const q = `SELECT ?t ?tLabel ?name ?iucnLabel ?image ?video ?commonscat ?kingdomLabel WHERE {
+  const q = `SELECT ?t ?tLabel ?name ?iucnLabel ?image ?video ?commonscat WHERE {
     ?t wdt:P183 wd:${qid}; wdt:P225 ?name.
     OPTIONAL { ?t wdt:P141 ?iucn } OPTIONAL { ?t wdt:P18 ?image } OPTIONAL { ?t wdt:P10 ?video } OPTIONAL { ?t wdt:P373 ?commonscat }
     SERVICE wikibase:label { bd:serviceParam wikibase:language "en". } } LIMIT ${limit}`;
@@ -200,7 +205,9 @@ export async function harvest(opts, log = () => { }) {
   const { iso3, iso2, qid, country } = opts;
   const out = { country: { iso3, iso2, qid, name: country }, retrieved: new Date().toISOString(), criteria: { licences: 'CC0 / PD / CC BY / CC BY-SA (NC & ND excluded)', morph: 'CORS host required for colour-morph', verify: '2 independent sources; coords within 25 km' }, sources: {}, candidates: [] };
   const add = (c) => {
-    const dup = out.candidates.find(x => (x.wikidata && x.wikidata === c.wikidata) || slugify(x.name) === slugify(c.name) || (c.scientific_name && x.scientific_name === c.scientific_name));
+    const near = (x) => c.kind === 'site' && x.kind === 'site' && c.lat != null && x.lat != null && km([x.lng, x.lat], [c.lng, c.lat]) < 2;
+    const dup = out.candidates.find(x => (x.wikidata && x.wikidata === c.wikidata) || slugify(x.name) === slugify(c.name) || (c.scientific_name && x.scientific_name === c.scientific_name)
+      || (c.unesco_id && x.unesco_id === c.unesco_id) || near(x));
     if (dup) { Object.assign(dup, Object.fromEntries(Object.entries(c).filter(([k, v]) => v != null && dup[k] == null))); return dup; }
     out.candidates.push(c); return c;
   };
@@ -214,7 +221,9 @@ export async function harvest(opts, log = () => { }) {
   } catch (e) { out.sources.unesco = `skipped (${isNode ? e.message : 'browser: no CORS — run in Node'})`; }
   if (opts.protectedPlanetToken !== undefined) out.protected_areas = await protectedPlanet(iso3, opts.protectedPlanetToken).catch(e => ({ error: e.message }));
 
-  for (const c of out.candidates) {
+  const pool = opts.only ? out.candidates.filter(c => opts.only.some(n => slugify(n) === slugify(c.name) || n === c.scientific_name)) : out.candidates.slice(0, opts.maxMedia ?? 60);
+  out.media_pass = { checked: pool.length, of: out.candidates.length };
+  for (const c of pool) {
     log(`media: ${c.name}`);
     c.slug = c.slug || slugify(c.name); c.media_candidates = []; c.evidence = [];
     const names = [c.name, c.scientific_name, country].filter(Boolean);
