@@ -600,6 +600,55 @@
         "https://www.edgeofexistence.org/species/cave-squeaker/",
         "https://www.gbif.org/species/2429725"
       ]
+    },
+    {
+      "slug": "khami-ruins",
+      "country_iso": "ZWE",
+      "name": "Khami Ruins",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": -20.1583,
+      "lng": 28.3767,
+      "summary": "The dry-stone capital of the Torwa state, which rose as Great Zimbabwe declined: terraced granite platforms stepping down a hillside 22 km from Bulawayo.",
+      "uniqueness": "A UNESCO World Heritage Site since 1986, famed for chequer and chevron patterns built into its walls, including the longest decorated wall in the region. Finds of Ming porcelain, Rhineland stoneware and Spanish porcelain show how far its trade reached.",
+      "stat_label": "Torwa capital",
+      "stat_value": "c. 1450–1650",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 15,
+      "art": {
+        "color": "#D4A373",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Khami_Main_Platform.jpg/1280px-Khami_Main_Platform.jpg",
+            "credit": "Robert Stewart Burrett",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Khami_Main_Platform.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Khami_Hill_Complex.jpg/1280px-Khami_Hill_Complex.jpg",
+            "credit": "Senzeni1",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Khami_Hill_Complex.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/ZW_Khami_Ruins.JPG/1280px-ZW_Khami_Ruins.JPG",
+            "credit": "Digr",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:ZW_Khami_Ruins.JPG"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/365/",
+        "https://en.wikipedia.org/wiki/Khami",
+        "https://www.wikidata.org/wiki/Q938685"
+      ]
     }
   ]
 }

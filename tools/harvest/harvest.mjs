@@ -190,7 +190,8 @@ export async function wikipediaSummary(titleOrUrl) {
 export function scoreMedia(m, names) {
   if (!licenceOK(m.licence)) return -1;
   const text = `${m.title || ''} ${m.description || ''}`.toLowerCase();
-  const named = names.some(n => n && text.includes(n.toLowerCase()));
+  // whole-word match: 'Khami' must not match 'Khamis'
+  const named = names.some(n => n && new RegExp(`(^|[^\\p{L}])${n.toLowerCase().replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}($|[^\\p{L}])`, 'u').test(text));
   // Free-text search hits must name the site/species; trusted origins (the item's own
   // Commons category, Wikidata P10/P18, GBIF/iNat occurrence records) are already tied to it.
   if (!m.trusted && !named) return -1;
