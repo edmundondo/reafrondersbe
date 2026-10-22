@@ -30,7 +30,7 @@ async function get(url, { json = true, headers = {}, polite = 350 } = {}) {
   // polite spacing in Node; browsers serialise requests anyway and throttle timers in hidden tabs
   if (isNode) { const wait = lastCall + polite - Date.now(); if (wait > 0) await sleep(wait); } lastCall = Date.now();
   const h = { Accept: json ? 'application/json' : '*/*', ...headers };
-  if (isNode) h['User-Agent'] = UA; else h['Api-User-Agent'] = UA;
+  if (isNode) h['User-Agent'] = UA; else if (/wiki(media|data|pedia)\.org/.test(url)) h['Api-User-Agent'] = UA; // other APIs reject unknown headers from browsers
   const r = await fetch(url, { headers: h });
   if (!r.ok) throw new Error(`${r.status} ${url.slice(0, 120)}`);
   return json ? r.json() : r.text();
@@ -189,12 +189,16 @@ export async function wikipediaSummary(titleOrUrl) {
 // Rank media by: licence OK → video → CORS host (morph-ready) → place named in description → resolution
 export function scoreMedia(m, names) {
   if (!licenceOK(m.licence)) return -1;
+  const text = `${m.title || ''} ${m.description || ''}`.toLowerCase();
+  const named = names.some(n => n && text.includes(n.toLowerCase()));
+  // Free-text search hits must name the site/species; trusted origins (the item's own
+  // Commons category, Wikidata P10/P18, GBIF/iNat occurrence records) are already tied to it.
+  if (!m.trusted && !named) return -1;
   let s = 0;
   if (m.type === 'video') s += 50;
   if (m.seconds && (m.seconds < CRITERIA.video.minSeconds || m.seconds > CRITERIA.video.maxSeconds)) s -= 30;
   if (m.cors || CRITERIA.corsHosts.some(h => (m.url || '').includes(h))) s += 25;
-  const text = `${m.title || ''} ${m.description || ''}`.toLowerCase();
-  if (names.some(n => n && text.includes(n.toLowerCase()))) s += 20; else s -= 10;
+  if (named) s += 20; if (m.trusted) s += 15;
   if ((m.width || 0) >= 1280) s += 5;
   return s;
 }
@@ -226,19 +230,19 @@ export async function harvest(opts, log = () => { }) {
   for (const c of pool) {
     log(`media: ${c.name}`);
     c.slug = c.slug || slugify(c.name); c.media_candidates = []; c.evidence = [];
-    const names = [c.name, c.scientific_name, country].filter(Boolean);
+    const names = [c.name, c.scientific_name, c.local_name].filter(Boolean);
     try {
       const files = [c.wd_video, c.wd_image].filter(Boolean);
-      if (files.length) c.media_candidates.push(...await commonsFiles(files));
-      if (c.commons_category) c.media_candidates.push(...await commonsCategory(c.commons_category, { limit: 30 }));
+      if (files.length) c.media_candidates.push(...(await commonsFiles(files)).map(m => ({ ...m, trusted: 'wikidata' })));
+      if (c.commons_category) c.media_candidates.push(...(await commonsCategory(c.commons_category, { limit: 30 })).map(m => ({ ...m, trusted: 'commons-category' })));
       c.media_candidates.push(...await commonsSearch(c.scientific_name || c.name, { video: true, limit: 8 }));
       if (c.kind === 'species') {
         const g = await gbif(c.scientific_name || c.name, iso2).catch(() => null);
-        if (g) { c.gbif = { key: g.key, kingdom: g.kingdom, occurrences: g.occurrences, page: g.page }; c.media_candidates.push(...g.media); c.evidence.push({ source: 'GBIF', page: g.page });
+        if (g) { c.gbif = { key: g.key, kingdom: g.kingdom, occurrences: g.occurrences, page: g.page }; c.media_candidates.push(...g.media.map(m => ({ ...m, trusted: 'gbif-occurrence' }))); c.evidence.push({ source: 'GBIF', page: g.page });
           if (c.lat == null && g.median) { c.lng = g.median[0]; c.lat = g.median[1]; c.coord_note = 'median of GBIF occurrences in country'; }
           c.category = c.category || (g.kingdom === 'Plantae' || g.kingdom === 'Fungi' ? 'flora' : 'fauna'); }
         const n = await inat(c.scientific_name || c.name, country).catch(() => null);
-        if (n) { c.inat_observations = n.count; c.media_candidates.push(...n.media); }
+        if (n) { c.inat_observations = n.count; c.media_candidates.push(...n.media.map(m => ({ ...m, trusted: 'inat-observation' }))); if (n.count) c.evidence.push({ source: 'iNaturalist', page: `https://www.inaturalist.org/observations?taxon_name=${encodeURIComponent(c.scientific_name || c.name)}&place_id=${n.place}` }); }
       } else {
         c.media_candidates.push(...(await nasa(c.name).catch(() => [])).filter(m => (m.description || '').toLowerCase().includes(c.name.toLowerCase().split(/[ ,(]/)[0])));
       }
