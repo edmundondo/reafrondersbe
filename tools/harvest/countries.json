@@ -1,0 +1,16 @@
+{
+  "_note": "ISO codes + Wikidata items for batch runs: --countries BWA,ZAF,...  Add more as the atlas grows.",
+  "ZWE": { "iso2": "ZW", "qid": "Q954",  "name": "Zimbabwe" },
+  "BWA": { "iso2": "BW", "qid": "Q963",  "name": "Botswana" },
+  "ZAF": { "iso2": "ZA", "qid": "Q258",  "name": "South Africa" },
+  "MWI": { "iso2": "MW", "qid": "Q1020", "name": "Malawi" },
+  "ZMB": { "iso2": "ZM", "qid": "Q953",  "name": "Zambia" },
+  "NAM": { "iso2": "NA", "qid": "Q1030", "name": "Namibia" },
+  "MOZ": { "iso2": "MZ", "qid": "Q1029", "name": "Mozambique" },
+  "TZA": { "iso2": "TZ", "qid": "Q924",  "name": "Tanzania" },
+  "AGO": { "iso2": "AO", "qid": "Q916",  "name": "Angola" },
+  "LSO": { "iso2": "LS", "qid": "Q1013", "name": "Lesotho" },
+  "SWZ": { "iso2": "SZ", "qid": "Q1050", "name": "Eswatini" },
+  "MDG": { "iso2": "MG", "qid": "Q1019", "name": "Madagascar" },
+  "KEN": { "iso2": "KE", "qid": "Q114",  "name": "Kenya" }
+}

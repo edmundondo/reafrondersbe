@@ -98,13 +98,14 @@ export async function wikidataEndemics(qid, limit = 60) {
 
 // ── Wikimedia Commons ─────────────────────────────────────────────────────
 const COMMONS = 'https://commons.wikimedia.org/w/api.php?action=query&format=json&origin=*&prop=imageinfo|videoinfo&iiprop=url|size|mime|extmetadata&iiextmetadatafilter=LicenseShortName|Artist|ImageDescription|GPSLatitude|GPSLongitude|DateTimeOriginal&viprop=derivatives';
+export const normaliseCommonsUrl = (u) => String(u || '').split('?')[0].replace('https://thumb.wikimedia.org/wikipedia/commons/thumb/', 'https://upload.wikimedia.org/wikipedia/commons/thumb/');
 function commonsRecord(p) {
   const i = p.imageinfo?.[0] || {}, md = i.extmetadata || {}, d = p.videoinfo?.[0]?.derivatives || [];
   const isVideo = /^video\//.test(i.mime || '') || /\.(webm|ogv|mp4)$/i.test(p.title);
   const prefer = d.find(x => x.src.includes(CRITERIA.video.prefer))?.src, fallback = d.find(x => x.src.includes(CRITERIA.video.fallback))?.src;
   return {
     host: 'commons', title: p.title, page: 'https://commons.wikimedia.org/wiki/' + encodeURIComponent(p.title.replace(/ /g, '_')),
-    type: isVideo ? 'video' : 'image', url: isVideo ? (prefer || i.url) : (i.thumburl || i.url), fallback: isVideo ? (fallback || null) : null,
+    type: isVideo ? 'video' : 'image', url: normaliseCommonsUrl(isVideo ? (prefer || i.url) : (i.thumburl || i.url)), fallback: isVideo ? (fallback || null) : null,
     width: i.width, height: i.height, seconds: i.duration ? Math.round(i.duration) : null,
     licence: md.LicenseShortName?.value || '', credit: strip(md.Artist?.value).slice(0, 80), description: strip(md.ImageDescription?.value).slice(0, 300),
     gps: md.GPSLatitude ? [+md.GPSLongitude.value, +md.GPSLatitude.value] : null, cors: true,
@@ -272,15 +273,24 @@ export async function harvest(opts, log = () => { }) {
 // ── CLI ───────────────────────────────────────────────────────────────────
 // node tools/harvest/harvest.mjs --iso3 ZWE --iso2 ZW --qid Q954 --country Zimbabwe \
 //   [--extra "Great Zimbabwe" --extra "Gloriosa superba"] [--no-species] [--max-media 60] [--only "A,B"] [--out data/candidates/ZWE.json]
+// Batch: node tools/harvest/harvest.mjs --countries BWA,ZAF,MWI,ZMB,NAM,MOZ   (codes from countries.json)
 if (isNode && import.meta.url === `file://${process.argv[1]}`) {
   const args = process.argv.slice(2), val = (k, d) => { const i = args.indexOf(k); return i >= 0 ? args[i + 1] : d; };
-  const extras = args.flatMap((a, i) => a === '--extra' ? [args[i + 1]] : []).map(n => / [a-z]+$/.test(n) && /^[A-Z][a-z]+ [a-z]+$/.test(n) ? { name: n, scientific_name: n } : { name: n });
-  const opts = { iso3: val('--iso3', 'ZWE'), iso2: val('--iso2', 'ZW'), qid: val('--qid', 'Q954'), country: val('--country', 'Zimbabwe'), extras,
-    species: !args.includes('--no-species'), sites: !args.includes('--no-sites'), protectedPlanetToken: process.env.PROTECTEDPLANET_TOKEN,
-    maxMedia: +val('--max-media', 60), only: val('--only') ? val('--only').split(',').map(x => x.trim()).filter(Boolean) : undefined };
-  const outPath = val('--out', `data/candidates/${opts.iso3}.json`);
-  const res = await harvest(opts, (m) => console.error('·', m));
   const fs = await import('node:fs'); const path = await import('node:path');
-  fs.mkdirSync(path.dirname(outPath), { recursive: true }); fs.writeFileSync(outPath, JSON.stringify(res, null, 2));
-  console.error(`✓ ${res.candidates.length} candidates → ${outPath}`);
+  const table = JSON.parse(fs.readFileSync(new URL('./countries.json', import.meta.url)));
+  const extras = args.flatMap((a, i) => a === '--extra' ? [args[i + 1]] : []).map(n => /^[A-Z][a-z]+ [a-z]+$/.test(n) ? { name: n, scientific_name: n } : { name: n });
+  // --countries BWA,ZAF,... runs a batch (one candidates file each); otherwise --iso3/--iso2/--qid/--country
+  const list = val('--countries') ? val('--countries').split(',').map(x => x.trim().toUpperCase()).filter(Boolean)
+    : [val('--iso3', 'ZWE')];
+  for (const iso3 of list) {
+    const t = table[iso3] || {};
+    const opts = { iso3, iso2: val('--iso2', t.iso2), qid: val('--qid', t.qid), country: val('--country', t.name), extras: list.length > 1 ? [] : extras,
+      species: !args.includes('--no-species'), sites: !args.includes('--no-sites'), protectedPlanetToken: process.env.PROTECTEDPLANET_TOKEN,
+      maxMedia: +val('--max-media', 60), only: val('--only') ? val('--only').split(',').map(x => x.trim()).filter(Boolean) : undefined };
+    if (!opts.iso2 || !opts.qid) { console.error(`✗ ${iso3}: unknown — add it to tools/harvest/countries.json or pass --iso2/--qid`); continue; }
+    const outPath = list.length > 1 ? `data/candidates/${iso3}.json` : val('--out', `data/candidates/${iso3}.json`);
+    const res = await harvest(opts, (m) => console.error(`· ${iso3}`, m));
+    fs.mkdirSync(path.dirname(outPath), { recursive: true }); fs.writeFileSync(outPath, JSON.stringify(res, null, 2));
+    console.error(`✓ ${iso3}: ${res.candidates.length} candidates → ${outPath}`);
+  }
 }
