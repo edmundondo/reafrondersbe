@@ -11,7 +11,7 @@ for (const c of d.countries) {
   s += `insert into public.countries (iso_a3,name,region,tagline,palette,active,sort_order) values (${[c.iso_a3,c.name,c.region,c.tagline,c.palette,c.active,c.sort_order].map(q).join(',')})\n  on conflict (iso_a3) do update set name=excluded.name, region=excluded.region, tagline=excluded.tagline, palette=excluded.palette, active=excluded.active, sort_order=excluded.sort_order;\n`;
 }
 s += '\n';
-const cols = ['slug','country_iso','name','local_name','category','lat','lng','summary','uniqueness','stat_label','stat_value','unesco','visible','sort_order','art'];
+const cols = ['slug','country_iso','name','local_name','category','lat','lng','summary','uniqueness','stat_label','stat_value','unesco','visible','sort_order','art','media'];
 for (const w of d.wonders) {
   s += `insert into public.wonders (${cols.join(',')}) values (${cols.map(k => q(w[k])).join(',')})\n  on conflict (slug) do update set ${cols.filter(k=>k!=='slug').map(k=>`${k}=excluded.${k}`).join(', ')};\n`;
 }

@@ -13,6 +13,7 @@ The database behind **[ReAfronders](https://github.com/edmundondo/reafronders)**
 | `data/seed.json` | **The source of truth** for content: edit this to add countries and wonders |
 | `scripts/build-seed.mjs` | Turns `seed.json` → `supabase/seed.sql` |
 | `supabase/seed.sql` | Generated insert/upsert statements (safe to run repeatedly) |
+| `supabase/migrations/20261022000000_wonder_media.sql` | Adds `wonders.media` (virtual-tour footage + attribution) |
 
 ## Security model (Row Level Security)
 
@@ -59,7 +60,8 @@ Or skip the JSON and add wonders visually in the site's **Studio**. When you're 
 countries(iso_a3 PK, name, region, tagline, palette jsonb, active, sort_order)
 wonders(id uuid PK, slug unique, country_iso → countries, name, local_name, category,
         lat, lng, summary, uniqueness, stat_label, stat_value, unesco, visible,
-        sort_order, art jsonb {color, intensity, motion})
+        sort_order, art jsonb {color, intensity, motion},
+        media jsonb {video, fallback, credit, license, source, start, note})
 presentation(id='default', settings jsonb {mode, palette, particles, speed, trail,
              glow, vortex, bpm, showBorders, showLabels, focusCountry})
 editors(user_id → auth.users)

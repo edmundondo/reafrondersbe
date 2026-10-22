@@ -50,6 +50,13 @@
         "color": "#7BDFF2",
         "intensity": 1.0,
         "motion": "cascade"
+      },
+      "media": {
+        "video": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0a/Victoria_Falls_2019_8.webm/Victoria_Falls_2019_8.webm.480p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0a/Victoria_Falls_2019_8.webm/Victoria_Falls_2019_8.webm.360p.mpeg4.mov",
+        "credit": "Nesnad",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Victoria_Falls_2019_8.webm"
       }
     },
     {
@@ -71,6 +78,14 @@
         "color": "#2EC4B6",
         "intensity": 0.7,
         "motion": "zigzag"
+      },
+      "media": {
+        "video": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/52/Video_-_Above_Victoria_Falls.webm/Video_-_Above_Victoria_Falls.webm.480p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/52/Video_-_Above_Victoria_Falls.webm/Video_-_Above_Victoria_Falls.webm.360p.mpeg4.mov",
+        "credit": "Mike",
+        "license": "CC BY 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Video_-_Above_Victoria_Falls.webm",
+        "note": "Stand-in: flight over the falls and the first gorges"
       }
     },
     {
@@ -92,6 +107,14 @@
         "color": "#F4D35E",
         "intensity": 0.8,
         "motion": "ripple"
+      },
+      "media": {
+        "video": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/af/Boswell_by_the_Zambezi_river.webm/Boswell_by_the_Zambezi_river.webm.480p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/af/Boswell_by_the_Zambezi_river.webm/Boswell_by_the_Zambezi_river.webm.360p.mpeg4.mov",
+        "credit": "Lennart Hessel",
+        "license": "CC BY 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Boswell_by_the_Zambezi_river.webm",
+        "note": "Boswell — the bull elephant famous for standing on his hind legs"
       }
     },
     {
@@ -113,6 +136,15 @@
         "color": "#EE964B",
         "intensity": 0.9,
         "motion": "herd"
+      },
+      "media": {
+        "video": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/de/Elephants%2C_Mana_Pools_National_Park.webm/Elephants%2C_Mana_Pools_National_Park.webm.480p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/de/Elephants%2C_Mana_Pools_National_Park.webm/Elephants%2C_Mana_Pools_National_Park.webm.360p.mpeg4.mov",
+        "credit": "Lennart Hessel",
+        "license": "CC BY 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Elephants,_Mana_Pools_National_Park.webm",
+        "start": 10,
+        "note": "Stand-in: elephant herd in Mana Pools, until Hwange footage is added"
       }
     },
     {
@@ -134,7 +166,8 @@
         "color": "#C2185B",
         "intensity": 0.85,
         "motion": "orbit"
-      }
+      },
+      "media": {}
     },
     {
       "slug": "chinhoyi-caves",
@@ -155,7 +188,8 @@
         "color": "#3A86FF",
         "intensity": 0.9,
         "motion": "sink"
-      }
+      },
+      "media": {}
     },
     {
       "slug": "mutarazi-falls",
@@ -176,7 +210,8 @@
         "color": "#A8DADC",
         "intensity": 0.75,
         "motion": "cascade"
-      }
+      },
+      "media": {}
     },
     {
       "slug": "mount-nyangani",
@@ -197,7 +232,8 @@
         "color": "#B8B8FF",
         "intensity": 0.7,
         "motion": "mist"
-      }
+      },
+      "media": {}
     },
     {
       "slug": "chimanimani",
@@ -218,7 +254,8 @@
         "color": "#E9F5DB",
         "intensity": 0.7,
         "motion": "orbit"
-      }
+      },
+      "media": {}
     },
     {
       "slug": "chilojo-cliffs",
@@ -239,7 +276,8 @@
         "color": "#E63946",
         "intensity": 0.85,
         "motion": "ripple"
-      }
+      },
+      "media": {}
     },
     {
       "slug": "epworth-balancing-rocks",
@@ -260,7 +298,8 @@
         "color": "#FFB703",
         "intensity": 0.6,
         "motion": "orbit"
-      }
+      },
+      "media": {}
     }
   ]
 }
