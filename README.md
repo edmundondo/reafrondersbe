@@ -31,7 +31,7 @@ All of this was tested on Postgres: anon inserts are refused, signed-in non-edit
 ### Option A: dashboard only (no installs)
 1. Create a project at [supabase.com](https://supabase.com) (free plan), or reuse an existing one.
 2. **SQL Editor → New query**: paste `supabase/migrations/20261021000000_wonders_schema.sql`, then **Run**.
-3. New query: paste `supabase/seed.sql`, then **Run**. Zimbabwe's 11 wonders are now live.
+3. New query: paste `supabase/seed.sql`, then **Run**. All 7 countries (85 entries) are now live.
 4. **Authentication → URL Configuration**: add your site URL (e.g. `https://edmundondo.github.io/reafronders/`) to *Redirect URLs* so magic-link sign-in returns there.
 5. Make yourself an editor. Sign in once from the site's **Studio → Data** tab, then run:
    ```sql
@@ -96,6 +96,14 @@ node tools/harvest/merge.mjs data/candidates/ZWE.json && node scripts/build-seed
   - No openly licensed video exists yet for Great Zimbabwe, Matobo, Chinhoyi, Mutarazi, Nyangani, Chimanimani or Chilojo.
   - There are good CC photos for most of them, now used in the photo loops.
   - The Cave Squeaker has 4 GBIF records and no open images.
+
+**From the six-country run (BWA, ZAF, NAM, MWI, ZMB, MOZ; 22 Oct 2026):**
+- **55 entries added.** Every UNESCO site in each country is included. Victoria Falls stays under Zimbabwe, and the iSimangaliso–Maputo site appears once in each country, as two separate pins.
+- **Media:** 12 entries have real video. 6 are labelled stand-ins: the dugong, gemsbok and Kgalagadi clips, the blackwood and mbuna photos, and the devil's-claw photos from Namibia. Gcwihaba Caves is swarm-only. The choices are in `data/imports/sadc6-media.tsv`.
+- **Corrections:**
+  - Wikidata places Gcwihaba ~220 km east of the cave, and Barberton Makhonjwa on the Cape Fold Belt. Both now use the Wikipedia/UNESCO coordinates.
+  - Mulanje is a *cultural* landscape (2025), not a natural one.
+- **Left for review:** Mount Gorongosa (no open photos), Lake Niassa Reserve (MOZ), Tswapong Hills (BWA), Sudwala Caves and Howick Falls (ZAF), Ruacana Falls (NAM), Kasungu NP (MWI), North Luangwa NP (ZMB).
 
 ## Schema at a glance
 

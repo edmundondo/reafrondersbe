@@ -28,6 +28,96 @@
       ],
       "active": true,
       "sort_order": 1
+    },
+    {
+      "iso_a3": "BWA",
+      "name": "Botswana",
+      "region": "Southern Africa",
+      "tagline": "Where the Kalahari drinks the Okavango and salt pans hold the sky.",
+      "palette": [
+        "#3FA34D",
+        "#2B7BB9",
+        "#E3B04B",
+        "#F4EFE3",
+        "#C8553D"
+      ],
+      "active": true,
+      "sort_order": 2
+    },
+    {
+      "iso_a3": "ZAF",
+      "name": "South Africa",
+      "region": "Southern Africa",
+      "tagline": "Two oceans, fynbos and the Drakensberg, the Cradle of Humankind and some of the oldest rocks on Earth.",
+      "palette": [
+        "#E05A7A",
+        "#3E8E41",
+        "#D9A441",
+        "#1F6F9F",
+        "#F2E2C4"
+      ],
+      "active": true,
+      "sort_order": 3
+    },
+    {
+      "iso_a3": "NAM",
+      "name": "Namibia",
+      "region": "Southern Africa",
+      "tagline": "Red dunes, fog-fed life and ancient rock art where the desert meets the Atlantic.",
+      "palette": [
+        "#D9480F",
+        "#F2A65A",
+        "#1B3A5C",
+        "#EDE6D6",
+        "#6A8D3A"
+      ],
+      "active": true,
+      "sort_order": 4
+    },
+    {
+      "iso_a3": "MWI",
+      "name": "Malawi",
+      "region": "Southern Africa",
+      "tagline": "The Warm Heart of Africa: a lake of a thousand cichlids beneath sacred granite.",
+      "palette": [
+        "#1F78B4",
+        "#2BB3C0",
+        "#4C9A2A",
+        "#F2B134",
+        "#E8692C"
+      ],
+      "active": true,
+      "sort_order": 5
+    },
+    {
+      "iso_a3": "ZMB",
+      "name": "Zambia",
+      "region": "Southern Africa",
+      "tagline": "Rivers, waterfalls and miombo, where ten million bats arrive with the rains.",
+      "palette": [
+        "#198754",
+        "#B87333",
+        "#E9C46A",
+        "#2A6F97",
+        "#D62828"
+      ],
+      "active": true,
+      "sort_order": 6
+    },
+    {
+      "iso_a3": "MOZ",
+      "name": "Mozambique",
+      "region": "Southern Africa",
+      "tagline": "Some 2,500 km of Indian Ocean coast: coral islands, dugong bays and sky-island forests.",
+      "palette": [
+        "#00A6A6",
+        "#F4D58D",
+        "#2D6A4F",
+        "#C1121F",
+        "#FDF0D5"
+      ],
+      "active": true,
+      "sort_order": 7
     }
   ],
   "wonders": [
@@ -648,6 +738,3194 @@
         "https://whc.unesco.org/en/list/365/",
         "https://en.wikipedia.org/wiki/Khami",
         "https://www.wikidata.org/wiki/Q938685"
+      ]
+    },
+    {
+      "slug": "okavango-delta",
+      "country_iso": "BWA",
+      "name": "Okavango Delta",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "wetland",
+      "lat": -19.3,
+      "lng": 22.9,
+      "summary": "A river that never reaches the sea: the Okavango fans out across the Kalahari into a vast inland delta, flooding at the height of the dry season.",
+      "uniqueness": "Inscribed in 2014 as the 1,000th World Heritage Site. Its flood comes down from the Angolan highlands months after the rains, drawing one of Africa’s great concentrations of wildlife into the desert.",
+      "stat_label": "Flood peak",
+      "stat_value": "~June–August",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 1,
+      "art": {
+        "color": "#3FA34D",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Vista_a%C3%A9rea_del_delta_del_Okavango,_Botsuana,_2018-08-01,_DD_25.jpg/1280px-Vista_a%C3%A9rea_del_delta_del_Okavango,_Botsuana,_2018-08-01,_DD_25.jpg",
+            "credit": "Diego Delso",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_delta_del_Okavango,_Botsuana,_2018-08-01,_DD_25.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Mokoros_in_the_Okavango_Delta_-_Botswana_-_panoramio.jpg/1280px-Mokoros_in_the_Okavango_Delta_-_Botswana_-_panoramio.jpg",
+            "credit": "diego_cue",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Mokoros_in_the_Okavango_Delta_-_Botswana_-_panoramio.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/The_Okavango_Delta_from_1,200_ft.jpg/1280px-The_Okavango_Delta_from_1,200_ft.jpg",
+            "credit": "Andrew Balet",
+            "license": "CC BY 2.5",
+            "source": "https://commons.wikimedia.org/wiki/File:The_Okavango_Delta_from_1,200_ft.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/1432/",
+        "https://en.wikipedia.org/wiki/Okavango_Delta",
+        "https://www.wikidata.org/wiki/Q650872"
+      ]
+    },
+    {
+      "slug": "tsodilo-hills",
+      "country_iso": "BWA",
+      "name": "Tsodilo Hills",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": -18.77,
+      "lng": 21.75,
+      "summary": "Four quartzite hills rising out of the Kalahari, holding more than 4,500 rock paintings within about 10 km².",
+      "uniqueness": "Sometimes called the “Louvre of the Desert”, the hills are still revered by the San and Hambukushu as a place of ancestral spirits. World Heritage Site since 2001.",
+      "stat_label": "Rock paintings",
+      "stat_value": "4,500+",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 2,
+      "art": {
+        "color": "#C8553D",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Tsodilo_Hills,_Botswana1.jpg/1280px-Tsodilo_Hills,_Botswana1.jpg",
+            "credit": "Joachim Huber",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Tsodilo_Hills,_Botswana1.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Tsodilo_Hills_rock_paintings1.jpg/1280px-Tsodilo_Hills_rock_paintings1.jpg",
+            "credit": "Joachim Huber",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Tsodilo_Hills_rock_paintings1.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Tsodilo_Hills,_Botswana2.jpg/1280px-Tsodilo_Hills,_Botswana2.jpg",
+            "credit": "Joachim Huber",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Tsodilo_Hills,_Botswana2.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/1021/",
+        "https://en.wikipedia.org/wiki/Tsodilo",
+        "https://www.wikidata.org/wiki/Q214007"
+      ]
+    },
+    {
+      "slug": "chobe-national-park",
+      "country_iso": "BWA",
+      "name": "Chobe National Park",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "savanna",
+      "lat": -18.65,
+      "lng": 24.4,
+      "summary": "Botswana’s first national park, where the Chobe River pulls enormous herds down to drink in the dry season.",
+      "uniqueness": "Known for one of the largest elephant concentrations in Africa; tens of thousands gather along the riverfront and the Linyanti in the dry months.",
+      "stat_label": "Established",
+      "stat_value": "1967",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 3,
+      "art": {
+        "color": "#8FB339",
+        "intensity": 0.85,
+        "motion": "herd"
+      },
+      "media": {
+        "video": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1f/African_buffalo_(Syncerus_caffer)_in_Botswana.webm/African_buffalo_(Syncerus_caffer)_in_Botswana.webm.480p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1f/African_buffalo_(Syncerus_caffer)_in_Botswana.webm/African_buffalo_(Syncerus_caffer)_in_Botswana.webm.360p.mpeg4.mov",
+        "credit": "Stefan Krasowski",
+        "license": "CC BY 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:African_buffalo_(Syncerus_caffer)_in_Botswana.webm",
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Beautiful_savanna_on_our_way_to_the_Chobe_National_Park_(4613620058).jpg/1280px-Beautiful_savanna_on_our_way_to_the_Chobe_National_Park_(4613620058).jpg",
+            "credit": "Jorge Láscar from Australia",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Beautiful_savanna_on_our_way_to_the_Chobe_National_Park_(4613620058).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Chobe_N.P._01.jpg/1280px-Chobe_N.P._01.jpg",
+            "credit": "LBM1948",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Chobe_N.P._01.jpg"
+          }
+        ],
+        "note": "Buffalo herd filmed along the Chobe and Victoria Falls corridor."
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Chobe_National_Park",
+        "https://www.wikidata.org/wiki/Q859389"
+      ]
+    },
+    {
+      "slug": "makgadikgadi-pans",
+      "country_iso": "BWA",
+      "name": "Makgadikgadi Pans",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "desert",
+      "lat": -20.61,
+      "lng": 24.78,
+      "summary": "The dry bed of an ancient super-lake: salt flats so wide and white they read as sky from the air.",
+      "uniqueness": "One of the largest salt-pan systems on Earth. After good rains it floods shallowly, flamingos breed, and zebra and wildebeest migrate across its grasslands.",
+      "stat_label": "Pan system",
+      "stat_value": "~16,000 km²",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 4,
+      "art": {
+        "color": "#F4EFE3",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Baobab_(Adansonia_digitata),_parque_nacional_Makgadikgadi_Pans,_Botsuana,_2018-07-30,_DD_03-08_PAN.jpg/1280px-Baobab_(Adansonia_digitata),_parque_nacional_Makgadikgadi_Pans,_Botsuana,_2018-07-30,_DD_03-08_PAN.jpg",
+            "credit": "Diego Delso",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Baobab_(Adansonia_digitata),_parque_nacional_Makgadikgadi_Pans,_Botsuana,_2018-07-30,_DD_03-08_PAN.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Avestruces_(Struthio_camelus),_salar_del_parque_nacional_Makgadikgadi_Pans,_Botsuana,_2018-07-30,_DD_51.jpg/1280px-Avestruces_(Struthio_camelus),_salar_del_parque_nacional_Makgadikgadi_Pans,_Botsuana,_2018-07-30,_DD_51.jpg",
+            "credit": "Diego Delso",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Avestruces_(Struthio_camelus),_salar_del_parque_nacional_Makgadikgadi_Pans,_Botsuana,_2018-07-30,_DD_51.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Baobab_(Adansonia_digitata),_parque_nacional_Makgadikgadi_Pans,_Botsuana,_2018-07-30,_DD_01.jpg/1280px-Baobab_(Adansonia_digitata),_parque_nacional_Makgadikgadi_Pans,_Botsuana,_2018-07-30,_DD_01.jpg",
+            "credit": "Diego Delso",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Baobab_(Adansonia_digitata),_parque_nacional_Makgadikgadi_Pans,_Botsuana,_2018-07-30,_DD_01.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Makgadikgadi_Pan",
+        "https://www.wikidata.org/wiki/Q1747195"
+      ]
+    },
+    {
+      "slug": "nxai-pan",
+      "country_iso": "BWA",
+      "name": "Nxai Pan & Baines’ Baobabs",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "savanna",
+      "lat": -20.04,
+      "lng": 24.77,
+      "summary": "A fossil lake bed of short grass and acacia islands, home to the baobab grove the artist Thomas Baines painted in 1862.",
+      "uniqueness": "Part of the Makgadikgadi system; in the rains zebra and springbok gather on its grasslands, many arriving from the Chobe–Linyanti wetlands.",
+      "stat_label": "Baines painted it",
+      "stat_value": "1862",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 5,
+      "art": {
+        "color": "#E3B04B",
+        "intensity": 0.85,
+        "motion": "herd"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Baines_Baobabs,_Nxai_Pan_(48591835096).jpg/1280px-Baines_Baobabs,_Nxai_Pan_(48591835096).jpg",
+            "credit": "Fabio Achilli from Milano, Italy",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Baines_Baobabs,_Nxai_Pan_(48591835096).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Baines_Baobabs,_Nxai_Pan_(48591909117).jpg/1280px-Baines_Baobabs,_Nxai_Pan_(48591909117).jpg",
+            "credit": "Fabio Achilli from Milano, Italy",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Baines_Baobabs,_Nxai_Pan_(48591909117).jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Nxai_Pan_National_Park",
+        "https://www.wikidata.org/wiki/Q859377"
+      ]
+    },
+    {
+      "slug": "kubu-island",
+      "country_iso": "BWA",
+      "name": "Kubu Island",
+      "local_name": "Lekhubu (Setswana) · Ga’nnyo",
+      "scientific_name": null,
+      "category": "rock",
+      "lat": -20.893,
+      "lng": 25.819,
+      "summary": "A granite ridge crowned with ancient baobabs, marooned in the white of Sowa Pan.",
+      "uniqueness": "A sacred site and national monument: stone walls and Stone Age tools show people have gathered on this “island” in the salt for thousands of years.",
+      "stat_label": "Setting",
+      "stat_value": "Sowa Pan",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 6,
+      "art": {
+        "color": "#F2A65A",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Kubu_Island_In_The_Salt_Flats_(190899107).jpeg/1280px-Kubu_Island_In_The_Salt_Flats_(190899107).jpeg",
+            "credit": "Rad Dougall",
+            "license": "CC BY 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Kubu_Island_In_The_Salt_Flats_(190899107).jpeg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Baobabs_on_Kubu_island,_Botswana.jpg/1280px-Baobabs_on_Kubu_island,_Botswana.jpg",
+            "credit": "abi.bhattachan",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Baobabs_on_Kubu_island,_Botswana.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Boababs_at_Kubu.jpg",
+            "credit": "Hein waschefort",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Boababs_at_Kubu.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Kubu_Island",
+        "https://www.wikidata.org/w/index.php?search=Kubu+Island"
+      ]
+    },
+    {
+      "slug": "central-kalahari",
+      "country_iso": "BWA",
+      "name": "Central Kalahari Game Reserve",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "desert",
+      "lat": -21.89,
+      "lng": 23.76,
+      "summary": "One of Africa’s largest reserves: fossil river valleys, pans and grass under a huge Kalahari sky.",
+      "uniqueness": "Created in 1961 for both wildlife and the San who live there. After rain, Deception Valley’s ancient riverbed draws springbok, gemsbok and black-maned Kalahari lions.",
+      "stat_label": "Area",
+      "stat_value": "52,800 km²",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 7,
+      "art": {
+        "color": "#C9A227",
+        "intensity": 0.85,
+        "motion": "mist"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Central_Kalahari_Game_Reserve_-_panoramio.jpg",
+            "credit": "Parakh Hoon",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Central_Kalahari_Game_Reserve_-_panoramio.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Naro_Bushmen_hunting_in_the_Central_Kalahari_Game_Reserve,_Botswana_2008.jpg/1280px-Naro_Bushmen_hunting_in_the_Central_Kalahari_Game_Reserve,_Botswana_2008.jpg",
+            "credit": "DVL2",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Naro_Bushmen_hunting_in_the_Central_Kalahari_Game_Reserve,_Botswana_2008.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Central_Kalahari_Game_Reserve"
+      ]
+    },
+    {
+      "slug": "gcwihaba-caves",
+      "country_iso": "BWA",
+      "name": "Gcwihaba Caves",
+      "local_name": "Drotsky’s Cave",
+      "scientific_name": null,
+      "category": "cave",
+      "lat": -20.024,
+      "lng": 21.354,
+      "summary": "A dolomite cave in the dry north-west Kalahari, hung with stalactites and home to bat colonies.",
+      "uniqueness": "Its formations grew when the Kalahari was far wetter, so the cave is an archive of the region’s past climate.",
+      "stat_label": "Also called",
+      "stat_value": "Drotsky’s Cave",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 8,
+      "art": {
+        "color": "#7B6D8D",
+        "intensity": 0.85,
+        "motion": "sink"
+      },
+      "media": {
+        "note": "No openly licensed footage or photos found yet — swarm only."
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Gcwihaba",
+        "https://www.wikidata.org/wiki/Q29905437"
+      ]
+    },
+    {
+      "slug": "devils-claw",
+      "country_iso": "BWA",
+      "name": "Devil’s Claw",
+      "local_name": null,
+      "scientific_name": "Harpagophytum procumbens",
+      "category": "flora",
+      "lat": -22.33,
+      "lng": 23.51,
+      "summary": "A Kalahari creeper with magenta trumpet flowers and hooked fruit that hitch rides on passing hooves.",
+      "uniqueness": "Its storage roots are a traditional medicine now traded worldwide as an anti-inflammatory, so wild harvesting is regulated. The pin is a representative point from GBIF records.",
+      "stat_label": "Family",
+      "stat_value": "Sesame (Pedaliaceae)",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 9,
+      "art": {
+        "color": "#C2185B",
+        "intensity": 0.85,
+        "motion": "bloom"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Teufelskralle_(Harpagophytum_procumbens).jpg/1280px-Teufelskralle_(Harpagophytum_procumbens).jpg",
+            "credit": "Olga Ernst & Hp.Baumeler",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Teufelskralle_(Harpagophytum_procumbens).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Harpagophytum_procumbens_MHNT.BOT.2005.0.1243.jpg/1280px-Harpagophytum_procumbens_MHNT.BOT.2005.0.1243.jpg",
+            "credit": "Roger Culos",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Harpagophytum_procumbens_MHNT.BOT.2005.0.1243.jpg"
+          }
+        ],
+        "note": "Photos from Namibia and a herbarium specimen — no open Botswana photo yet."
+      },
+      "citations": [
+        "https://www.gbif.org/species/3585335",
+        "https://en.wikipedia.org/wiki/Harpagophytum"
+      ]
+    },
+    {
+      "slug": "plains-zebra-botswana",
+      "country_iso": "BWA",
+      "name": "Plains Zebra",
+      "local_name": null,
+      "scientific_name": "Equus quagga",
+      "category": "fauna",
+      "lat": -19.9,
+      "lng": 25.3,
+      "summary": "Botswana’s national animal: zebras support the national coat of arms, and the flag’s black-and-white band echoes their stripes.",
+      "uniqueness": "Each year zebras trek between the Chobe–Linyanti wetlands and Nxai Pan, a round trip of about 500 km that is often cited as Africa’s longest recorded land-mammal migration.",
+      "stat_label": "Migration",
+      "stat_value": "~500 km round trip",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 10,
+      "art": {
+        "color": "#F4EFE3",
+        "intensity": 0.85,
+        "motion": "herd"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/214576160/large.jpeg",
+            "credit": "iNaturalist observer (no rights reserved)",
+            "license": "CC0",
+            "source": "https://www.inaturalist.org/observations/126462480"
+          },
+          {
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/301070256/large.jpeg",
+            "credit": "Tony Eales",
+            "license": "CC BY-SA 4.0",
+            "source": "https://www.inaturalist.org/observations/173368539"
+          },
+          {
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12221796/large.jpeg",
+            "credit": "iNaturalist observer (no rights reserved)",
+            "license": "CC0",
+            "source": "https://www.inaturalist.org/observations/9054134"
+          }
+        ]
+      },
+      "citations": [
+        "https://www.gbif.org/species/2440892",
+        "https://en.wikipedia.org/wiki/Plains_zebra",
+        "https://en.wikipedia.org/wiki/Coat_of_arms_of_Botswana"
+      ]
+    },
+    {
+      "slug": "maloti-drakensberg",
+      "country_iso": "ZAF",
+      "name": "Maloti-Drakensberg Park",
+      "local_name": "uKhahlamba: “barrier of spears” (isiZulu)",
+      "scientific_name": null,
+      "category": "mountain",
+      "lat": -29.37,
+      "lng": 29.53,
+      "summary": "A basalt wall rising above 3,000 m along the Lesotho border: the highest part of Southern Africa’s Great Escarpment.",
+      "uniqueness": "A mixed natural and cultural World Heritage Site (2000, extended into Lesotho in 2013). Its caves and shelters hold the largest concentration of rock paintings in Africa south of the Sahara.",
+      "stat_label": "Rock-art images",
+      "stat_value": "~35,000+",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 1,
+      "art": {
+        "color": "#3E8E41",
+        "intensity": 0.85,
+        "motion": "mist"
+      },
+      "media": {
+        "video": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1e/UKhahlamba-Drakensberg_Park.webm/UKhahlamba-Drakensberg_Park.webm.480p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1e/UKhahlamba-Drakensberg_Park.webm/UKhahlamba-Drakensberg_Park.webm.360p.mpeg4.mov",
+        "credit": "avinjamaier",
+        "license": "CC BY 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:UKhahlamba-Drakensberg_Park.webm",
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Drakensberg_(15543813103).jpg/1280px-Drakensberg_(15543813103).jpg",
+            "credit": "Darren Glanville from Acle, Norfolk, UK",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Drakensberg_(15543813103).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Drakensberg_(15541237114).jpg/1280px-Drakensberg_(15541237114).jpg",
+            "credit": "Darren Glanville from Acle, Norfolk, UK",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Drakensberg_(15541237114).jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/985/",
+        "https://en.wikipedia.org/wiki/Drakensberg",
+        "https://www.wikidata.org/wiki/Q183295"
+      ]
+    },
+    {
+      "slug": "table-mountain",
+      "country_iso": "ZAF",
+      "name": "Table Mountain",
+      "local_name": "Hoerikwaggo: “mountain in the sea” (Khoekhoe)",
+      "scientific_name": null,
+      "category": "mountain",
+      "lat": -33.957,
+      "lng": 18.403,
+      "summary": "Cape Town’s flat-topped sandstone mountain, often draped in a “tablecloth” of cloud pouring off its summit.",
+      "uniqueness": "Part of the Cape Floral Region World Heritage Site and one of the New 7 Wonders of Nature. Its slopes hold an exceptional density of fynbos species.",
+      "stat_label": "Highest point",
+      "stat_value": "~1,085 m",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 2,
+      "art": {
+        "color": "#1F6F9F",
+        "intensity": 0.85,
+        "motion": "mist"
+      },
+      "media": {
+        "video": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/03/Table_Mountain_Aerial_Cable_Car_01.webm/Table_Mountain_Aerial_Cable_Car_01.webm.480p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/03/Table_Mountain_Aerial_Cable_Car_01.webm/Table_Mountain_Aerial_Cable_Car_01.webm.360p.mpeg4.mov",
+        "credit": "Spasimir Pilev",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Table_Mountain_Aerial_Cable_Car_01.webm"
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Table_Mountain",
+        "https://www.wikidata.org/wiki/Q213360",
+        "https://whc.unesco.org/en/list/1007/"
+      ]
+    },
+    {
+      "slug": "robben-island",
+      "country_iso": "ZAF",
+      "name": "Robben Island",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": -33.806,
+      "lng": 18.366,
+      "summary": "A low island in Table Bay used for nearly four centuries as a place of banishment, imprisonment and isolation.",
+      "uniqueness": "Nelson Mandela spent 18 of his 27 prison years here. World Heritage Site since 1999, as a symbol of the triumph of the human spirit over oppression.",
+      "stat_label": "Inscribed",
+      "stat_value": "1999",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 3,
+      "art": {
+        "color": "#F2E2C4",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "video": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8b/Table_Bay,_Trip_to_Robben_Island_by_Ferry.webm/Table_Bay,_Trip_to_Robben_Island_by_Ferry.webm.480p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8b/Table_Bay,_Trip_to_Robben_Island_by_Ferry.webm/Table_Bay,_Trip_to_Robben_Island_by_Ferry.webm.360p.mpeg4.mov",
+        "credit": "Nahid Sultan",
+        "license": "CC BY 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Table_Bay,_Trip_to_Robben_Island_by_Ferry.webm",
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/AHI_Treasures_of_Southern_Africa_3-07_0104_N_(554672987).jpg/1280px-AHI_Treasures_of_Southern_Africa_3-07_0104_N_(554672987).jpg",
+            "credit": "Joe Ross from Lansing, Michigan",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:AHI_Treasures_of_Southern_Africa_3-07_0104_N_(554672987).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/AHI_Treasures_of_Southern_Africa_3-07_0120_N_(554674637).jpg/1280px-AHI_Treasures_of_Southern_Africa_3-07_0120_N_(554674637).jpg",
+            "credit": "Joe Ross from Lansing, Michigan",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:AHI_Treasures_of_Southern_Africa_3-07_0120_N_(554674637).jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/916/",
+        "https://en.wikipedia.org/wiki/Robben_Island",
+        "https://www.wikidata.org/wiki/Q192493"
+      ]
+    },
+    {
+      "slug": "vredefort-dome",
+      "country_iso": "ZAF",
+      "name": "Vredefort Dome",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "landform",
+      "lat": -27.0,
+      "lng": 27.5,
+      "summary": "The eroded core of the oldest and largest known impact structure on Earth, struck about two billion years ago.",
+      "uniqueness": "The original crater is estimated at 170–300 km across. What remains is a ring of hills around the town of Vredefort, World Heritage Site since 2005.",
+      "stat_label": "Age",
+      "stat_value": "~2.02 billion years",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 4,
+      "art": {
+        "color": "#D9A441",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Vredefort_Dome_Vredefort-001.jpg/1280px-Vredefort_Dome_Vredefort-001.jpg",
+            "credit": "Leo za1",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Vredefort_Dome_Vredefort-001.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Vredefort_Dome_Vredefort-002.jpg/1280px-Vredefort_Dome_Vredefort-002.jpg",
+            "credit": "Leo za1",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Vredefort_Dome_Vredefort-002.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/1162/",
+        "https://en.wikipedia.org/wiki/Vredefort_impact_structure",
+        "https://www.wikidata.org/wiki/Q330095"
+      ]
+    },
+    {
+      "slug": "cradle-of-humankind",
+      "country_iso": "ZAF",
+      "name": "Cradle of Humankind",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": -26.016,
+      "lng": 27.734,
+      "summary": "Limestone caves north-west of Johannesburg that have yielded a large share of the world’s early hominin fossils.",
+      "uniqueness": "Home of “Mrs Ples” and “Little Foot” at Sterkfontein and Homo naledi at Rising Star. Part of the Fossil Hominid Sites World Heritage Site (1999, extended in 2005 to Taung and Makapan).",
+      "stat_label": "Oldest finds",
+      "stat_value": "~3.6 million years",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 5,
+      "art": {
+        "color": "#B5835A",
+        "intensity": 0.85,
+        "motion": "sink"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Cradle_of_Humankind_at_from_Maropeng_Visitor_Centre.jpg/1280px-Cradle_of_Humankind_at_from_Maropeng_Visitor_Centre.jpg",
+            "credit": "Olof Somell (Nobel Museum)",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Cradle_of_Humankind_at_from_Maropeng_Visitor_Centre.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Sterkfontein_Caves_23.jpg/1280px-Sterkfontein_Caves_23.jpg",
+            "credit": "Mike Peel (www.mikepeel.net)",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Sterkfontein_Caves_23.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Sterkfontein_Caves_59.jpg/1280px-Sterkfontein_Caves_59.jpg",
+            "credit": "Mike Peel (www.mikepeel.net)",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Sterkfontein_Caves_59.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/915/",
+        "https://en.wikipedia.org/wiki/Cradle_of_Humankind",
+        "https://www.wikidata.org/wiki/Q1130112"
+      ]
+    },
+    {
+      "slug": "richtersveld",
+      "country_iso": "ZAF",
+      "name": "Richtersveld Cultural and Botanical Landscape",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": -28.6,
+      "lng": 17.2,
+      "summary": "A rugged mountain desert where Nama herders still move with the seasons, carrying portable rush-mat houses.",
+      "uniqueness": "World Heritage Site since 2007 for a semi-nomadic pastoral way of life that is centuries old, set among one of the richest succulent floras on Earth.",
+      "stat_label": "Inscribed",
+      "stat_value": "2007",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 6,
+      "art": {
+        "color": "#C97B3C",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Nama_huts.JPG/1280px-Nama_huts.JPG",
+            "credit": "Newydd (Wikimedia Commons)",
+            "license": "CC BY 2.5",
+            "source": "https://commons.wikimedia.org/wiki/File:Nama_huts.JPG"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Cheiridopsis_denticulata-PICT2507.jpg/1280px-Cheiridopsis_denticulata-PICT2507.jpg",
+            "credit": "Winfried Bruenken (Amrum)",
+            "license": "CC BY-SA 2.5",
+            "source": "https://commons.wikimedia.org/wiki/File:Cheiridopsis_denticulata-PICT2507.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/PICT2453_Ornithogalum_suaveolen.JPG/1280px-PICT2453_Ornithogalum_suaveolen.JPG",
+            "credit": "Winfried Bruenken (Amrum)",
+            "license": "CC BY-SA 2.5",
+            "source": "https://commons.wikimedia.org/wiki/File:PICT2453_Ornithogalum_suaveolen.JPG"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/1265/",
+        "https://en.wikipedia.org/wiki/Richtersveld",
+        "https://www.wikidata.org/wiki/Q1353565"
+      ]
+    },
+    {
+      "slug": "cape-floral-region",
+      "country_iso": "ZAF",
+      "name": "Cape Floral Region",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "landform",
+      "lat": -32.35,
+      "lng": 19.08,
+      "summary": "The smallest and richest of the world’s six floral kingdoms, packed into the mountains of the south-western Cape.",
+      "uniqueness": "Less than 0.5% of Africa’s area, yet nearly 20% of its flora, and about 69% of its ~9,000 plant species grow nowhere else. 13 protected clusters; this pin marks the Cederberg.",
+      "stat_label": "Endemic plants",
+      "stat_value": "~69%",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 7,
+      "art": {
+        "color": "#E05A7A",
+        "intensity": 0.85,
+        "motion": "bloom"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Cederberg,_South_Africa_(32644366536).jpg/1280px-Cederberg,_South_Africa_(32644366536).jpg",
+            "credit": "yeowatzup from Göttingen, Germany",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Cederberg,_South_Africa_(32644366536).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Cederberg,_South_Africa_-_Sunset1.jpg/1280px-Cederberg,_South_Africa_-_Sunset1.jpg",
+            "credit": "Domenico Convertini",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Cederberg,_South_Africa_-_Sunset1.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Cederberg,_South_Africa_2023_2.jpg/1280px-Cederberg,_South_Africa_2023_2.jpg",
+            "credit": "dconvertini",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Cederberg,_South_Africa_2023_2.jpg"
+          }
+        ],
+        "note": "Photos from the Cederberg cluster of the property."
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/1007/",
+        "https://en.wikipedia.org/wiki/Cape_Floristic_Region"
+      ]
+    },
+    {
+      "slug": "tugela-falls",
+      "country_iso": "ZAF",
+      "name": "Tugela Falls",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "waterfall",
+      "lat": -28.75,
+      "lng": 28.89,
+      "summary": "A ribbon of water leaping off the Drakensberg Amphitheatre in a chain of free-falling drops.",
+      "uniqueness": "With a total drop of about 948 m, it vies with Venezuela’s Angel Falls as the world’s tallest waterfall; some measurements rank it first.",
+      "stat_label": "Total drop",
+      "stat_value": "~948 m",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 8,
+      "art": {
+        "color": "#7FC8F8",
+        "intensity": 0.85,
+        "motion": "cascade"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Tugela_falls.jpg/1280px-Tugela_falls.jpg",
+            "credit": "Juniper339",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Tugela_falls.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Tugela_Falls.jpg/1280px-Tugela_Falls.jpg",
+            "credit": "PhilippN",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Tugela_Falls.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Tugela_Falls_drop-off.jpg/1280px-Tugela_Falls_drop-off.jpg",
+            "credit": "Andynct",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Tugela_Falls_drop-off.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Tugela_Falls",
+        "https://www.wikidata.org/wiki/Q223649"
+      ]
+    },
+    {
+      "slug": "isimangaliso",
+      "country_iso": "ZAF",
+      "name": "iSimangaliso Wetland Park",
+      "local_name": "iSimangaliso: “miracle and wonder” (isiZulu)",
+      "scientific_name": null,
+      "category": "wetland",
+      "lat": -27.65,
+      "lng": 32.57,
+      "summary": "About 280 km of coast, coral reefs, forested dunes, lakes and swamps on the KwaZulu-Natal coast.",
+      "uniqueness": "World Heritage Site since 1999. In 2025 it was extended across the border to include Mozambique’s Maputo National Park, forming one transboundary site.",
+      "stat_label": "Coastline",
+      "stat_value": "~280 km",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 9,
+      "art": {
+        "color": "#2EC4B6",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Mission_Rocks_%22Beach%22_(46635539581).jpg/1280px-Mission_Rocks_%22Beach%22_(46635539581).jpg",
+            "credit": "Bernard DUPONT from FRANCE",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Mission_Rocks_%22Beach%22_(46635539581).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/ISimangaliso_Wetland_Park,_gravel_road.jpg/1280px-ISimangaliso_Wetland_Park,_gravel_road.jpg",
+            "credit": "Ossewa",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:ISimangaliso_Wetland_Park,_gravel_road.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Observation_deck_at_iSimangaliso_Wetland_Park.jpg/1280px-Observation_deck_at_iSimangaliso_Wetland_Park.jpg",
+            "credit": "Ossewa",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Observation_deck_at_iSimangaliso_Wetland_Park.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/914/",
+        "https://en.wikipedia.org/wiki/ISimangaliso_Wetland_Park",
+        "https://www.wikidata.org/wiki/Q310719"
+      ]
+    },
+    {
+      "slug": "augrabies-falls",
+      "country_iso": "ZAF",
+      "name": "Augrabies Falls",
+      "local_name": "Aukoerebis: “place of great noise” (Khoekhoe)",
+      "scientific_name": null,
+      "category": "waterfall",
+      "lat": -28.59,
+      "lng": 20.34,
+      "summary": "The Orange River thunders into a granite gorge in the middle of the Northern Cape desert.",
+      "uniqueness": "The main fall drops about 56 m into a gorge roughly 18 km long, protected by Augrabies Falls National Park since 1966.",
+      "stat_label": "Main drop",
+      "stat_value": "~56 m",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 10,
+      "art": {
+        "color": "#7BDFF2",
+        "intensity": 0.85,
+        "motion": "cascade"
+      },
+      "media": {
+        "video": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c6/Augrabies_Falls_Video-001.ogv/Augrabies_Falls_Video-001.ogv.480p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c6/Augrabies_Falls_Video-001.ogv/Augrabies_Falls_Video-001.ogv.360p.mpeg4.mov",
+        "credit": "NJR ZA",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Augrabies_Falls_Video-001.ogv",
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Augrabies_Falls_1.JPG/1280px-Augrabies_Falls_1.JPG",
+            "credit": "Octagon",
+            "license": "CC BY 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Augrabies_Falls_1.JPG"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Augrabies_-_Twin_Falls_-_001.jpg/1280px-Augrabies_-_Twin_Falls_-_001.jpg",
+            "credit": "NJR ZA",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Augrabies_-_Twin_Falls_-_001.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Augrabies_Falls",
+        "https://www.wikidata.org/wiki/Q39544"
+      ]
+    },
+    {
+      "slug": "blyde-river-canyon",
+      "country_iso": "ZAF",
+      "name": "Blyde River Canyon",
+      "local_name": "Motlatse Canyon",
+      "scientific_name": null,
+      "category": "gorge",
+      "lat": -24.58,
+      "lng": 30.8,
+      "summary": "A 26 km sandstone canyon on the Drakensberg escarpment, with the Three Rondavels standing over the Blyde River.",
+      "uniqueness": "Often called one of the largest “green canyons” on Earth for its subtropical forest. At Bourke’s Luck the Treur and Blyde rivers have scoured giant potholes.",
+      "stat_label": "Length",
+      "stat_value": "~26 km",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 11,
+      "art": {
+        "color": "#3E8E41",
+        "intensity": 0.85,
+        "motion": "zigzag"
+      },
+      "media": {
+        "video": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/01/Motlatse_Canyon_Bourke_Luck_Potholes_(2).webm/Motlatse_Canyon_Bourke_Luck_Potholes_(2).webm.480p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/01/Motlatse_Canyon_Bourke_Luck_Potholes_(2).webm/Motlatse_Canyon_Bourke_Luck_Potholes_(2).webm.360p.mpeg4.mov",
+        "credit": "Pierre André",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Motlatse_Canyon_Bourke_Luck_Potholes_(2).webm",
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Blyde_River_Canyon_with_3_Rondavels_panorama.jpeg/1280px-Blyde_River_Canyon_with_3_Rondavels_panorama.jpeg",
+            "credit": "Hansm",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Blyde_River_Canyon_with_3_Rondavels_panorama.jpeg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Blyde_River_Canyon_Panorama_2013.jpg/1280px-Blyde_River_Canyon_Panorama_2013.jpg",
+            "credit": "Stefan Schäfer, Lich",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Blyde_River_Canyon_Panorama_2013.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Blyde_River_Canyon",
+        "https://www.wikidata.org/wiki/Q886892"
+      ]
+    },
+    {
+      "slug": "mapungubwe",
+      "country_iso": "ZAF",
+      "name": "Mapungubwe Cultural Landscape",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": -22.19,
+      "lng": 29.24,
+      "summary": "A sandstone hill above the Limpopo–Shashe confluence, seat of the first known kingdom in Southern Africa.",
+      "uniqueness": "Between about 1220 and 1290 it grew rich on gold and ivory traded to the Indian Ocean; the famous golden rhino came from a royal grave here. Its decline preceded the rise of Great Zimbabwe. World Heritage Site since 2003.",
+      "stat_label": "Capital",
+      "stat_value": "c. 1220–1290",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 12,
+      "art": {
+        "color": "#D4A373",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Mapungubwe_hill_limpopo.jpg/1280px-Mapungubwe_hill_limpopo.jpg",
+            "credit": "Marius Loots",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Mapungubwe_hill_limpopo.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Mapungubwe_Cultural_Landscape-114907.jpg/1280px-Mapungubwe_Cultural_Landscape-114907.jpg",
+            "credit": "Francesco Bandarin",
+            "license": "CC BY-SA 3.0 IGO",
+            "source": "https://commons.wikimedia.org/wiki/File:Mapungubwe_Cultural_Landscape-114907.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Mapungubwe_Cultural_Landscape-114909.jpg/1280px-Mapungubwe_Cultural_Landscape-114909.jpg",
+            "credit": "Francesco Bandarin",
+            "license": "CC BY-SA 3.0 IGO",
+            "source": "https://commons.wikimedia.org/wiki/File:Mapungubwe_Cultural_Landscape-114909.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/1099/",
+        "https://en.wikipedia.org/wiki/Kingdom_of_Mapungubwe",
+        "https://www.wikidata.org/wiki/Q1136251"
+      ]
+    },
+    {
+      "slug": "barberton-makhonjwa",
+      "country_iso": "ZAF",
+      "name": "Barberton Makhonjwa Mountains",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "mountain",
+      "lat": -25.974,
+      "lng": 31.014,
+      "summary": "Some of the oldest and best-preserved volcanic and sedimentary rocks on Earth, 3.6–3.25 billion years old.",
+      "uniqueness": "They preserve debris from meteorite impacts and some of the earliest traces of life, a window onto the young Earth. World Heritage Site since 2018.",
+      "stat_label": "Rock age",
+      "stat_value": "3.6–3.25 bn years",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 13,
+      "art": {
+        "color": "#6D597A",
+        "intensity": 0.85,
+        "motion": "mist"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Barberton_oli_202169_lrg.jpg/1280px-Barberton_oli_202169_lrg.jpg",
+            "credit": "NASA Earth Observatory",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Barberton_oli_202169_lrg.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/The_Crocodile_River_traverses_South_Africa_ESA418736,_Makhonjwa.jpg/1280px-The_Crocodile_River_traverses_South_Africa_ESA418736,_Makhonjwa.jpg",
+            "credit": "European Space Agency",
+            "license": "CC BY-SA 3.0 IGO",
+            "source": "https://commons.wikimedia.org/wiki/File:The_Crocodile_River_traverses_South_Africa_ESA418736,_Makhonjwa.jpg"
+          }
+        ],
+        "note": "Satellite views (NASA Landsat 8, ESA Sentinel-2)."
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/1575/",
+        "https://en.wikipedia.org/wiki/Makhonjwa_Mountains"
+      ]
+    },
+    {
+      "slug": "khomani-cultural-landscape",
+      "country_iso": "ZAF",
+      "name": "ǂKhomani Cultural Landscape",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": -25.69,
+      "lng": 20.37,
+      "summary": "Red Kalahari dunes on the Botswana and Namibia borders, home to the ǂKhomani San and their traditions.",
+      "uniqueness": "Inscribed in 2017 for a San way of life, and a knowledge of the desert, that run from the Stone Age to the present.",
+      "stat_label": "Inscribed",
+      "stat_value": "2017",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 14,
+      "art": {
+        "color": "#D9480F",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "video": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bc/Cheetah_(Acinonyx_jubatus)_juvenile_....webm/Cheetah_(Acinonyx_jubatus)_juvenile_....webm.480p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bc/Cheetah_(Acinonyx_jubatus)_juvenile_....webm/Cheetah_(Acinonyx_jubatus)_juvenile_....webm.360p.mpeg4.mov",
+        "credit": "Bernard DUPONT",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Cheetah_(Acinonyx_jubatus)_juvenile_....webm",
+        "note": "Filmed in the Nossob riverbed, Kgalagadi Transfrontier Park, which the cultural landscape lies within."
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/1545/",
+        "https://en.wikipedia.org/wiki/%C7%82Khomani_Cultural_Landscape"
+      ]
+    },
+    {
+      "slug": "mandela-legacy-sites",
+      "country_iso": "ZAF",
+      "name": "Nelson Mandela Legacy Sites",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": -25.74,
+      "lng": 28.212,
+      "summary": "Fourteen places that tell South Africa’s 20th-century struggle for freedom. This pin marks the Union Buildings in Pretoria.",
+      "uniqueness": "Inscribed in 2024 as “Human Rights, Liberation and Reconciliation”; components include Sharpeville, Walter Sisulu Square and Mqhekezweni, where Mandela grew up.",
+      "stat_label": "Components",
+      "stat_value": "14",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 15,
+      "art": {
+        "color": "#F2E2C4",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/East_Wing_of_the_Union_Buildings.JPG/1280px-East_Wing_of_the_Union_Buildings.JPG",
+            "credit": "Portiatn",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:East_Wing_of_the_Union_Buildings.JPG"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Pretoria_Union_Buildings-001.jpg/1280px-Pretoria_Union_Buildings-001.jpg",
+            "credit": "Leo za1",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Pretoria_Union_Buildings-001.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/1_Aspect_of_Union_Buildings_-_Pretoria_-_South_Africa.jpg/1280px-1_Aspect_of_Union_Buildings_-_Pretoria_-_South_Africa.jpg",
+            "credit": "Hein waschefort",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:1_Aspect_of_Union_Buildings_-_Pretoria_-_South_Africa.jpg"
+          }
+        ],
+        "note": "Union Buildings, Pretoria — one of 14 components."
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/1676/",
+        "https://www.wikidata.org/wiki/Q65936861"
+      ]
+    },
+    {
+      "slug": "pleistocene-occupation-sites",
+      "country_iso": "ZAF",
+      "name": "Pleistocene Occupation Sites",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": -34.208,
+      "lng": 22.089,
+      "summary": "Coastal and inland caves preserving a record of modern human behaviour that reaches back about 162,000 years.",
+      "uniqueness": "Pinnacle Point (this pin), Diepkloof and Sibhudu hold early evidence of ochre processing, engraved patterns, shell beads and advanced weapons. World Heritage Site since 2024.",
+      "stat_label": "Record",
+      "stat_value": "162,000–38,000 yrs ago",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 16,
+      "art": {
+        "color": "#B5835A",
+        "intensity": 0.85,
+        "motion": "sink"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Pinnacle_Point_Archaeological_Site,_Mossel_Bay_South_Africa.jpg",
+            "credit": "Andrew Hall",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Pinnacle_Point_Archaeological_Site,_Mossel_Bay_South_Africa.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/A_view_from_Pinnacle_Point,_Mossel_Bay,_South_Africa.jpg/1280px-A_view_from_Pinnacle_Point,_Mossel_Bay,_South_Africa.jpg",
+            "credit": "Satdeep Gill",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:A_view_from_Pinnacle_Point,_Mossel_Bay,_South_Africa.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/1723/",
+        "https://en.wikipedia.org/wiki/Pinnacle_Point",
+        "https://www.wikidata.org/wiki/Q65936860"
+      ]
+    },
+    {
+      "slug": "kruger-national-park",
+      "country_iso": "ZAF",
+      "name": "Kruger National Park",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "savanna",
+      "lat": -24.0,
+      "lng": 31.5,
+      "summary": "One of Africa’s great game reserves, stretching about 360 km along the Mozambique border.",
+      "uniqueness": "First protected as the Sabi Game Reserve in 1898, it is now part of the Great Limpopo Transfrontier Park with Mozambique and Zimbabwe.",
+      "stat_label": "Area",
+      "stat_value": "~19,600 km²",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 17,
+      "art": {
+        "color": "#D9A441",
+        "intensity": 0.85,
+        "motion": "herd"
+      },
+      "media": {
+        "video": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/61/Plains_Zebra_(Equus_quagga_burchellii)_coming_to_drink_....webm/Plains_Zebra_(Equus_quagga_burchellii)_coming_to_drink_....webm.480p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/61/Plains_Zebra_(Equus_quagga_burchellii)_coming_to_drink_....webm/Plains_Zebra_(Equus_quagga_burchellii)_coming_to_drink_....webm.360p.mpeg4.mov",
+        "credit": "Bernard DUPONT",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Plains_Zebra_(Equus_quagga_burchellii)_coming_to_drink_....webm",
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Kruger_National_Park,_Hazyview,_South_Africa_(Unsplash).jpg/1280px-Kruger_National_Park,_Hazyview,_South_Africa_(Unsplash).jpg",
+            "credit": "AnnaKate Auten",
+            "license": "CC0",
+            "source": "https://commons.wikimedia.org/wiki/File:Kruger_National_Park,_Hazyview,_South_Africa_(Unsplash).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Kruger_National_Park_(5386947728).jpg/1280px-Kruger_National_Park_(5386947728).jpg",
+            "credit": "David Siu from Memphis, TN",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Kruger_National_Park_(5386947728).jpg"
+          }
+        ],
+        "note": "Plains zebra coming to drink, H1-3 road south of Satara."
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Kruger_National_Park"
+      ]
+    },
+    {
+      "slug": "king-protea",
+      "country_iso": "ZAF",
+      "name": "King Protea",
+      "local_name": null,
+      "scientific_name": "Protea cynaroides",
+      "category": "flora",
+      "lat": -33.98,
+      "lng": 18.98,
+      "summary": "South Africa’s national flower, with the largest flower head of any protea: up to about 30 cm across.",
+      "uniqueness": "A fire-adapted fynbos shrub that resprouts from a thick underground stem after veld fires. The pin is a representative point from GBIF records in the Western Cape.",
+      "stat_label": "Flower head",
+      "stat_value": "up to ~30 cm",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 18,
+      "art": {
+        "color": "#E05A7A",
+        "intensity": 0.85,
+        "motion": "bloom"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Protea_cynaroides_154805716.jpg/1280px-Protea_cynaroides_154805716.jpg",
+            "credit": "Tony Rebelo",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Protea_cynaroides_154805716.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Protea_cynaroides_MS_9113.jpg/1280px-Protea_cynaroides_MS_9113.jpg",
+            "credit": "Marco Schmidt",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Protea_cynaroides_MS_9113.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Prot%C3%A9a_royale_%C3%A0_Stellenbosch_(Afrique_du_Sud).jpg/1280px-Prot%C3%A9a_royale_%C3%A0_Stellenbosch_(Afrique_du_Sud).jpg",
+            "credit": "Pierre André",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Prot%C3%A9a_royale_%C3%A0_Stellenbosch_(Afrique_du_Sud).jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Protea_cynaroides",
+        "https://www.gbif.org/species/search?q=Protea%20cynaroides"
+      ]
+    },
+    {
+      "slug": "african-penguin",
+      "country_iso": "ZAF",
+      "name": "African Penguin",
+      "local_name": null,
+      "scientific_name": "Spheniscus demersus",
+      "category": "fauna",
+      "lat": -34.373,
+      "lng": 18.893,
+      "summary": "Africa’s only penguin, braying like a donkey on the granite of the Cape coast.",
+      "uniqueness": "Classified as Critically Endangered by the IUCN in 2024 after decades of steep decline. Colonies such as Stony Point at Betty’s Bay (this pin) are closely protected.",
+      "stat_label": "IUCN status",
+      "stat_value": "Critically Endangered",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 19,
+      "art": {
+        "color": "#1F6F9F",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "video": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/26/African_penguins,_Betty's_Bay_06.webm/African_penguins,_Betty's_Bay_06.webm.480p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/26/African_penguins,_Betty's_Bay_06.webm/African_penguins,_Betty's_Bay_06.webm.360p.mpeg4.mov",
+        "credit": "Spasimir Pilev",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:African_penguins,_Betty's_Bay_06.webm",
+        "note": "Wild colony at Betty’s Bay."
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/African_penguin",
+        "https://www.iucnredlist.org/species/22697810/"
+      ]
+    },
+    {
+      "slug": "namib-sand-sea",
+      "country_iso": "NAM",
+      "name": "Namib Sand Sea",
+      "local_name": "Sossusvlei",
+      "scientific_name": null,
+      "category": "desert",
+      "lat": -24.885,
+      "lng": 15.408,
+      "summary": "The only coastal desert in the world with vast dune fields shaped by fog: a sea of sand covering more than 3 million hectares.",
+      "uniqueness": "Some dunes around Sossusvlei rise over 300 m, and beetles and plants harvest Atlantic fog to drink. World Heritage Site since 2013.",
+      "stat_label": "Area",
+      "stat_value": "~30,800 km²",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 1,
+      "art": {
+        "color": "#D9480F",
+        "intensity": 0.85,
+        "motion": "mist"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/2010-09-25_14-24-19_Namibia_Hardap_Hammerstein.jpg/1280px-2010-09-25_14-24-19_Namibia_Hardap_Hammerstein.jpg",
+            "credit": "Hansueli Krapf",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:2010-09-25_14-24-19_Namibia_Hardap_Hammerstein.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/2010-09-25_14-36-05_Namibia_Hardap_Hammerstein.jpg/1280px-2010-09-25_14-36-05_Namibia_Hardap_Hammerstein.jpg",
+            "credit": "Hansueli Krapf",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:2010-09-25_14-36-05_Namibia_Hardap_Hammerstein.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/2010-09-25_14-49-37_Namibia_Hardap_Hammerstein.jpg/1280px-2010-09-25_14-49-37_Namibia_Hardap_Hammerstein.jpg",
+            "credit": "Hansueli Krapf",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:2010-09-25_14-49-37_Namibia_Hardap_Hammerstein.jpg"
+          }
+        ],
+        "note": "Sossusvlei, inside the Namib Sand Sea."
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/1430/",
+        "https://en.wikipedia.org/wiki/Namib",
+        "https://www.wikidata.org/wiki/Q1773441"
+      ]
+    },
+    {
+      "slug": "twyfelfontein",
+      "country_iso": "NAM",
+      "name": "Twyfelfontein",
+      "local_name": "ǀUi-ǁAis",
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": -20.59,
+      "lng": 14.37,
+      "summary": "One of the largest concentrations of rock engravings in Africa: more than 2,000 figures cut into sandstone around a desert spring.",
+      "uniqueness": "Rhinos, giraffes, lions and human footprints, carved by hunter-gatherers over thousands of years. Namibia’s first World Heritage Site (2007).",
+      "stat_label": "Engravings",
+      "stat_value": "2,000+",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 2,
+      "art": {
+        "color": "#C97B3C",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Twyfelfontein_7_(SqueakyMarmot).jpg/1280px-Twyfelfontein_7_(SqueakyMarmot).jpg",
+            "credit": "SqueakyMarmot / Mike, Vancouver, Canada",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Twyfelfontein_7_(SqueakyMarmot).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Namibie_Twyfelfontein_05.JPG/1280px-Namibie_Twyfelfontein_05.JPG",
+            "credit": "GIRAUD Patrick",
+            "license": "CC BY 2.5",
+            "source": "https://commons.wikimedia.org/wiki/File:Namibie_Twyfelfontein_05.JPG"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Twyfelfontein_20.jpg/1280px-Twyfelfontein_20.jpg",
+            "credit": "Mike from Vancouver, Canada",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Twyfelfontein_20.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/1255/",
+        "https://en.wikipedia.org/wiki/Twyfelfontein",
+        "https://www.wikidata.org/wiki/Q754791"
+      ]
+    },
+    {
+      "slug": "etosha",
+      "country_iso": "NAM",
+      "name": "Etosha National Park",
+      "local_name": "Etosha: “great white place” (Oshiwambo)",
+      "scientific_name": null,
+      "category": "savanna",
+      "lat": -18.8,
+      "lng": 16.3,
+      "summary": "A salt pan white as chalk, ringed by waterholes where elephant, rhino and lion gather in the dry season.",
+      "uniqueness": "Proclaimed a game reserve in 1907, it is one of Africa’s oldest protected areas. The pan alone covers about 4,800 km².",
+      "stat_label": "Pan",
+      "stat_value": "~4,800 km²",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 3,
+      "art": {
+        "color": "#EDE6D6",
+        "intensity": 0.85,
+        "motion": "herd"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Etosha_pan_(1).jpg/1280px-Etosha_pan_(1).jpg",
+            "credit": "Ji-Elle",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Etosha_pan_(1).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Giraffa_Pan_Etosha.tif/lossy-page1-1280px-Giraffa_Pan_Etosha.tif.jpg",
+            "credit": "Buiobuione",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Giraffa_Pan_Etosha.tif"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Etosha_pan_-_namibia.jpg/1280px-Etosha_pan_-_namibia.jpg",
+            "credit": "Moongateclimber",
+            "license": "CC BY 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Etosha_pan_-_namibia.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Etosha_National_Park",
+        "https://www.wikidata.org/wiki/Q675633"
+      ]
+    },
+    {
+      "slug": "fish-river-canyon",
+      "country_iso": "NAM",
+      "name": "Fish River Canyon",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "gorge",
+      "lat": -27.59,
+      "lng": 17.6,
+      "summary": "Africa’s largest canyon: about 160 km long and up to roughly 550 m deep, cut by the Fish River through Namibia’s southern plateau.",
+      "uniqueness": "A five-day hiking trail follows the canyon floor, and hot springs at Ai-Ais sit at its southern end.",
+      "stat_label": "Depth",
+      "stat_value": "up to ~550 m",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 4,
+      "art": {
+        "color": "#A44A3F",
+        "intensity": 0.85,
+        "motion": "zigzag"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Fish_River_Canyon_Namibia.jpg/1280px-Fish_River_Canyon_Namibia.jpg",
+            "credit": "Thomas Schoch",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Fish_River_Canyon_Namibia.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Namibia_Fischfluss-Canyon_08.jpg/1280px-Namibia_Fischfluss-Canyon_08.jpg",
+            "credit": "Zairon",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Namibia_Fischfluss-Canyon_08.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Namibia_Fischfluss-Canyon_18.jpg/1280px-Namibia_Fischfluss-Canyon_18.jpg",
+            "credit": "Zairon",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Namibia_Fischfluss-Canyon_18.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Fish_River_Canyon"
+      ]
+    },
+    {
+      "slug": "epupa-falls",
+      "country_iso": "NAM",
+      "name": "Epupa Falls",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "waterfall",
+      "lat": -17.0,
+      "lng": 13.25,
+      "summary": "The Kunene River splinters into dozens of channels and tumbles through a series of falls on the Angola border.",
+      "uniqueness": "The falls spread over about 1.5 km, framed by baobabs and makalani palms in the homeland of the Himba.",
+      "stat_label": "Spread",
+      "stat_value": "~1.5 km",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 5,
+      "art": {
+        "color": "#2EC4B6",
+        "intensity": 0.85,
+        "motion": "cascade"
+      },
+      "media": {
+        "video": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5c/Epupa_falls_&_Cunene_River.webm/Epupa_falls_&_Cunene_River.webm.480p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5c/Epupa_falls_&_Cunene_River.webm/Epupa_falls_&_Cunene_River.webm.360p.mpeg4.mov",
+        "credit": "Виктор Пинчук",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Epupa_falls_&_Cunene_River.webm",
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Epupa_falls_(main_falls).jpg/1280px-Epupa_falls_(main_falls).jpg",
+            "credit": "Hans Hillewaert",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Epupa_falls_(main_falls).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Epupa_Falls_chasm.jpg/1280px-Epupa_Falls_chasm.jpg",
+            "credit": "Hans Hillewaert",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Epupa_Falls_chasm.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Epupa_Falls",
+        "https://www.wikidata.org/wiki/Q187918"
+      ]
+    },
+    {
+      "slug": "brandberg",
+      "country_iso": "NAM",
+      "name": "Brandberg",
+      "local_name": "Dâures: “burning mountain” (Damara)",
+      "scientific_name": null,
+      "category": "mountain",
+      "lat": -21.15,
+      "lng": 14.58,
+      "summary": "Namibia’s highest mountain, a granite massif that glows red at sunset.",
+      "uniqueness": "Its summit, Königstein, reaches about 2,573 m, and its ravines hold thousands of rock paintings, including the famous “White Lady”.",
+      "stat_label": "Highest point",
+      "stat_value": "~2,573 m",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 6,
+      "art": {
+        "color": "#E76F51",
+        "intensity": 0.85,
+        "motion": "mist"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Brandberg_Mountain_Panorama.jpg/1280px-Brandberg_Mountain_Panorama.jpg",
+            "credit": "Joel Holdsworth",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Brandberg_Mountain_Panorama.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Approach_to_Brandberg_White_Lady_site_(3690485342).jpg/1280px-Approach_to_Brandberg_White_Lady_site_(3690485342).jpg",
+            "credit": "Greg Willis from Denver, CO, USA",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Approach_to_Brandberg_White_Lady_site_(3690485342).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/50_(1_sur_1).JPG/1280px-50_(1_sur_1).JPG",
+            "credit": "Angliers",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:50_(1_sur_1).JPG"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Brandberg_Mountain",
+        "https://www.wikidata.org/wiki/Q897834"
+      ]
+    },
+    {
+      "slug": "spitzkoppe",
+      "country_iso": "NAM",
+      "name": "Spitzkoppe",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "rock",
+      "lat": -21.83,
+      "lng": 15.2,
+      "summary": "Bald granite peaks more than 120 million years old, rising about 700 m out of the Namib plains: the “Matterhorn of Namibia”.",
+      "uniqueness": "Rock arches and shelters at its base, such as Bushman’s Paradise, hold San paintings.",
+      "stat_label": "Summit",
+      "stat_value": "~1,728 m",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 7,
+      "art": {
+        "color": "#F2A65A",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Approaching_Spitzkoppe_28.06.2008_08-05-57.jpg/1280px-Approaching_Spitzkoppe_28.06.2008_08-05-57.jpg",
+            "credit": "Hansueli Krapf",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Approaching_Spitzkoppe_28.06.2008_08-05-57.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/2008-06-28_08-17-43_Namibia_Erongo_Usakos.JPG/1280px-2008-06-28_08-17-43_Namibia_Erongo_Usakos.JPG",
+            "credit": "Hansueli Krapf",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:2008-06-28_08-17-43_Namibia_Erongo_Usakos.JPG"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/2008-06-28_08-37-23_Namibia_Erongo_Uigaran.JPG/1280px-2008-06-28_08-37-23_Namibia_Erongo_Uigaran.JPG",
+            "credit": "Hansueli Krapf",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:2008-06-28_08-37-23_Namibia_Erongo_Uigaran.JPG"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Spitzkoppe",
+        "https://www.wikidata.org/wiki/Q2124779"
+      ]
+    },
+    {
+      "slug": "skeleton-coast",
+      "country_iso": "NAM",
+      "name": "Skeleton Coast",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "coast",
+      "lat": -19.19,
+      "lng": 12.72,
+      "summary": "Fog, surf and shipwrecks: a coast where dunes run straight into the cold Atlantic.",
+      "uniqueness": "The Benguela Current breeds dense fog, and desert-adapted lions and brown hyenas forage along the shore. National park since 1971.",
+      "stat_label": "Area",
+      "stat_value": "16,845 km²",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 8,
+      "art": {
+        "color": "#1B3A5C",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Namib_Skeleton_Coast_Park,_Namibia_(3045328373).jpg/1280px-Namib_Skeleton_Coast_Park,_Namibia_(3045328373).jpg",
+            "credit": "Joachim Huber from Switzerland",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Namib_Skeleton_Coast_Park,_Namibia_(3045328373).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Namib_Skeleton_Coast_Park,_Namibia_(3045342479).jpg/1280px-Namib_Skeleton_Coast_Park,_Namibia_(3045342479).jpg",
+            "credit": "Joachim Huber from Switzerland",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Namib_Skeleton_Coast_Park,_Namibia_(3045342479).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Laika_ac_Skeleton_Coast_(8419506040).jpg/1280px-Laika_ac_Skeleton_Coast_(8419506040).jpg",
+            "credit": "Laika ac from USA",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Laika_ac_Skeleton_Coast_(8419506040).jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Skeleton_Coast_National_Park",
+        "https://www.wikidata.org/wiki/Q3695317"
+      ]
+    },
+    {
+      "slug": "dragons-breath-cave",
+      "country_iso": "NAM",
+      "name": "Dragon’s Breath Cave",
+      "local_name": "Drachenhauchloch",
+      "scientific_name": null,
+      "category": "cave",
+      "lat": -19.468,
+      "lng": 17.786,
+      "summary": "A cave hiding the world’s largest known non-subglacial underground lake.",
+      "uniqueness": "Found in 1986, the lake covers almost 2 hectares of crystal-clear water, and the cave reaches a total depth of about 205 m. It is named for the warm, moist air that breathes out of its entrance.",
+      "stat_label": "Lake area",
+      "stat_value": "~2 ha",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 9,
+      "art": {
+        "color": "#1B3A5C",
+        "intensity": 0.85,
+        "motion": "sink"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Sketch_of_Dragons_Breath_Hole_1986.jpg",
+            "credit": "Des Fourie",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Sketch_of_Dragons_Breath_Hole_1986.jpg"
+          }
+        ],
+        "note": "A 1986 survey sketch of the cave; no open photo of the lake yet."
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Dragon%27s_Breath_Cave",
+        "https://www.wikidata.org/wiki/Q1254270"
+      ]
+    },
+    {
+      "slug": "welwitschia",
+      "country_iso": "NAM",
+      "name": "Welwitschia",
+      "local_name": null,
+      "scientific_name": "Welwitschia mirabilis",
+      "category": "flora",
+      "lat": -22.62,
+      "lng": 15.03,
+      "summary": "A desert plant with only two leaves, which keep growing for its whole life and are shredded by wind into a tangle.",
+      "uniqueness": "Individuals are estimated to live well over 1,000 years, drinking Atlantic fog. It appears on Namibia’s coat of arms. This pin marks the Welwitschia Plains near Swakopmund.",
+      "stat_label": "Lifespan",
+      "stat_value": "1,000+ years",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 10,
+      "art": {
+        "color": "#6A8D3A",
+        "intensity": 0.85,
+        "motion": "bloom"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Welwitschia_mirabilis(1).jpg/1280px-Welwitschia_mirabilis(1).jpg",
+            "credit": "Thomas Schoch",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Welwitschia_mirabilis(1).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Welwitschia_mirabilis_(female).jpg/1280px-Welwitschia_mirabilis_(female).jpg",
+            "credit": "Hans Hillewaert",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Welwitschia_mirabilis_(female).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Welwitschia_mirabilis_S&J5.jpg/1280px-Welwitschia_mirabilis_S&J5.jpg",
+            "credit": "Sara & Joachim on Flickr",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Welwitschia_mirabilis_S&J5.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Welwitschia",
+        "https://www.gbif.org/species/search?q=Welwitschia%20mirabilis"
+      ]
+    },
+    {
+      "slug": "gemsbok",
+      "country_iso": "NAM",
+      "name": "Gemsbok",
+      "local_name": null,
+      "scientific_name": "Oryx gazella",
+      "category": "fauna",
+      "lat": -23.66,
+      "lng": 15.93,
+      "summary": "A desert antelope with rapier-straight horns; a pair support Namibia’s coat of arms.",
+      "uniqueness": "Built for drought, it can go long periods without drinking, getting water from melons and roots and letting its body heat rise by day to save water.",
+      "stat_label": "Symbol of",
+      "stat_value": "Namibia’s coat of arms",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 11,
+      "art": {
+        "color": "#EDE6D6",
+        "intensity": 0.85,
+        "motion": "herd"
+      },
+      "media": {
+        "video": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b0/Gemsboks_(Oryx_gazella)_coming_to_drink_with_Secretarybird_passing_by_.......webm/Gemsboks_(Oryx_gazella)_coming_to_drink_with_Secretarybird_passing_by_.......webm.480p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b0/Gemsboks_(Oryx_gazella)_coming_to_drink_with_Secretarybird_passing_by_.......webm/Gemsboks_(Oryx_gazella)_coming_to_drink_with_Secretarybird_passing_by_.......webm.360p.mpeg4.mov",
+        "credit": "Bernard DUPONT",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Gemsboks_(Oryx_gazella)_coming_to_drink_with_Secretarybird_passing_by_.......webm",
+        "note": "Stand-in: filmed in the Kgalagadi (South Africa); no open Namibian clip yet."
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Gemsbok",
+        "https://en.wikipedia.org/wiki/Coat_of_arms_of_Namibia"
+      ]
+    },
+    {
+      "slug": "lake-malawi-national-park",
+      "country_iso": "MWI",
+      "name": "Lake Malawi National Park",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "lake",
+      "lat": -14.03,
+      "lng": 34.88,
+      "summary": "Clear water and granite islands at the lake’s southern tip, alive with hundreds of cichlid species found nowhere else.",
+      "uniqueness": "World Heritage Site since 1984, created mainly to protect fish. Its cichlids are a textbook case of evolution, often compared to Darwin’s finches. The lake is shared with Mozambique (Lago Niassa) and Tanzania.",
+      "stat_label": "Inscribed",
+      "stat_value": "1984",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 1,
+      "art": {
+        "color": "#1F78B4",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Otter_Point,_Cape_Maclear_(Malawi).jpg/1280px-Otter_Point,_Cape_Maclear_(Malawi).jpg",
+            "credit": "Hans Hillewaert",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Otter_Point,_Cape_Maclear_(Malawi).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Haliaeetus_vocifer_-Cape_Maclear,_Malawi_-fishing-8.jpg/1280px-Haliaeetus_vocifer_-Cape_Maclear,_Malawi_-fishing-8.jpg",
+            "credit": "Joachim Huber",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Haliaeetus_vocifer_-Cape_Maclear,_Malawi_-fishing-8.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Morning_fish_guys_@_cape_maclear.jpg/1280px-Morning_fish_guys_@_cape_maclear.jpg",
+            "credit": "GAGAN P V",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Morning_fish_guys_@_cape_maclear.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/289/",
+        "https://en.wikipedia.org/wiki/Lake_Malawi_National_Park",
+        "https://www.wikidata.org/wiki/Q1077596"
+      ]
+    },
+    {
+      "slug": "mount-mulanje",
+      "country_iso": "MWI",
+      "name": "Mount Mulanje Cultural Landscape",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "mountain",
+      "lat": -15.912,
+      "lng": 35.658,
+      "summary": "A granite massif rising abruptly from tea estates; its summit, Sapitwa, is the highest point in Malawi.",
+      "uniqueness": "Inscribed in 2025 as a cultural landscape: the Yao, Mang’anja and Lhomwe hold the mountain sacred as home of deities, spirits and ancestors.",
+      "stat_label": "Sapitwa Peak",
+      "stat_value": "3,002 m",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 2,
+      "art": {
+        "color": "#4C9A2A",
+        "intensity": 0.85,
+        "motion": "mist"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mount_Mulanje.jpg",
+            "credit": "africankelli",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Mount_Mulanje.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Mount_Mulanje_Mozambique.jpg/1280px-Mount_Mulanje_Mozambique.jpg",
+            "credit": "mikeymckay",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Mount_Mulanje_Mozambique.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Chambe.jpg/1280px-Chambe.jpg",
+            "credit": "Dr. Ferdinand Groeger",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Chambe.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/1201/",
+        "https://en.wikipedia.org/wiki/Mulanje_Massif",
+        "https://www.wikidata.org/wiki/Q1510436"
+      ]
+    },
+    {
+      "slug": "chongoni-rock-art",
+      "country_iso": "MWI",
+      "name": "Chongoni Rock-Art Area",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": -14.29,
+      "lng": 34.28,
+      "summary": "Forested granite hills in central Malawi with 127 painted rock sites, the densest cluster of rock art in Central Africa.",
+      "uniqueness": "The paintings run from Late Stone Age hunter-gatherers to Chewa farmers, whose rituals still connect to the shelters. World Heritage Site since 2006.",
+      "stat_label": "Rock-art sites",
+      "stat_value": "127",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 3,
+      "art": {
+        "color": "#E8692C",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Chongoni_rock_art.jpg",
+            "credit": "「Malawi」",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Chongoni_rock_art.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Chongoni_Rock-Art_Area-110124.jpg/1280px-Chongoni_Rock-Art_Area-110124.jpg",
+            "credit": "Lazare Eloundou Assomo",
+            "license": "CC BY-SA 3.0 IGO",
+            "source": "https://commons.wikimedia.org/wiki/File:Chongoni_Rock-Art_Area-110124.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Chongoni_Rock-Art_Area-110128.jpg/1280px-Chongoni_Rock-Art_Area-110128.jpg",
+            "credit": "Lazare Eloundou Assomo",
+            "license": "CC BY-SA 3.0 IGO",
+            "source": "https://commons.wikimedia.org/wiki/File:Chongoni_Rock-Art_Area-110128.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/476/",
+        "https://en.wikipedia.org/wiki/Chongoni_Rock_Art_Area",
+        "https://www.wikidata.org/wiki/Q832262"
+      ]
+    },
+    {
+      "slug": "nyika-plateau",
+      "country_iso": "MWI",
+      "name": "Nyika Plateau",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "mountain",
+      "lat": -10.67,
+      "lng": 33.83,
+      "summary": "A rolling grassland plateau above 2,000 m in Malawi’s largest national park.",
+      "uniqueness": "In the rains its grasslands flower with around 200 orchid species, while roan antelope and zebra graze between patches of montane forest.",
+      "stat_label": "Area",
+      "stat_value": "~3,200 km²",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 4,
+      "art": {
+        "color": "#F2B134",
+        "intensity": 0.85,
+        "motion": "mist"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Nyika_dambo.jpg/1280px-Nyika_dambo.jpg",
+            "credit": "Dr. Thomas Wagner",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Nyika_dambo.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Nyika_National_Park,_Malawi_(2489516573).jpg/1280px-Nyika_National_Park,_Malawi_(2489516573).jpg",
+            "credit": "Joachim Huber from Switzerland",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Nyika_National_Park,_Malawi_(2489516573).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Nyika_afromontane_forest.jpg/1280px-Nyika_afromontane_forest.jpg",
+            "credit": "Dr. Thomas Wagner",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Nyika_afromontane_forest.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Nyika_National_Park",
+        "https://www.wikidata.org/wiki/Q1567460"
+      ]
+    },
+    {
+      "slug": "zomba-plateau",
+      "country_iso": "MWI",
+      "name": "Zomba Plateau",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "mountain",
+      "lat": -15.33,
+      "lng": 35.32,
+      "summary": "A flat-topped massif above Malawi’s old colonial capital, cloaked in forest, streams and waterfalls.",
+      "uniqueness": "At about 2,087 m, its viewpoints look out toward Lake Chilwa and Mulanje on clear days.",
+      "stat_label": "Highest point",
+      "stat_value": "~2,087 m",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 5,
+      "art": {
+        "color": "#2BB3C0",
+        "intensity": 0.85,
+        "motion": "mist"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Panorama_Blick_auf_das_Zomba_Plateau_vom_Ndangopuma_H%C3%BCgel.jpg/1280px-Panorama_Blick_auf_das_Zomba_Plateau_vom_Ndangopuma_H%C3%BCgel.jpg",
+            "credit": "Rockwurm",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Panorama_Blick_auf_das_Zomba_Plateau_vom_Ndangopuma_H%C3%BCgel.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Zomba_Plateau_seen_from_south.jpg/1280px-Zomba_Plateau_seen_from_south.jpg",
+            "credit": "Felefuchs",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Zomba_Plateau_seen_from_south.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Mulunguzi_dam_and_Williams_Falls.jpg/1280px-Mulunguzi_dam_and_Williams_Falls.jpg",
+            "credit": "Felefuchs",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Mulunguzi_dam_and_Williams_Falls.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Zomba_Plateau",
+        "https://www.wikidata.org/wiki/Q8073720"
+      ]
+    },
+    {
+      "slug": "liwonde",
+      "country_iso": "MWI",
+      "name": "Liwonde National Park",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "river",
+      "lat": -14.83,
+      "lng": 35.33,
+      "summary": "The Shire River winds through palm savanna crowded with hippos and crocodiles.",
+      "uniqueness": "Managed by African Parks since 2015, which has brought back cheetahs and lions.",
+      "stat_label": "Established",
+      "stat_value": "1973",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 6,
+      "art": {
+        "color": "#4C9A2A",
+        "intensity": 0.85,
+        "motion": "herd"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Liwonde_Park_-_view_of_Shire_River.jpg",
+            "credit": "Brian Dell",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Liwonde_Park_-_view_of_Shire_River.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Liwonde-Park.jpg",
+            "credit": "Dr. Ferdinand Groeger",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Liwonde-Park.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Liwonde_NP_-_panoramio.jpg/1280px-Liwonde_NP_-_panoramio.jpg",
+            "credit": "Timon Zingg",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Liwonde_NP_-_panoramio.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Liwonde_National_Park",
+        "https://www.wikidata.org/wiki/Q2739189"
+      ]
+    },
+    {
+      "slug": "lake-chilwa",
+      "country_iso": "MWI",
+      "name": "Lake Chilwa",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "wetland",
+      "lat": -15.3,
+      "lng": 35.7,
+      "summary": "A shallow, slightly salty lake ringed by swamps and floodplains near the Mozambique border.",
+      "uniqueness": "A Ramsar wetland and UNESCO biosphere reserve. It has dried out completely several times and refilled, yet still supports a major fishery.",
+      "stat_label": "Size",
+      "stat_value": "~60 × 40 km",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 7,
+      "art": {
+        "color": "#2BB3C0",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Lakechilwa.jpg/1280px-Lakechilwa.jpg",
+            "credit": "Felefuchs",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Lakechilwa.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Punter_on_Lake_Chilwa,_Malawi.jpg/1280px-Punter_on_Lake_Chilwa,_Malawi.jpg",
+            "credit": "Wardtmar",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Punter_on_Lake_Chilwa,_Malawi.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Lake_Chilwa,_Malawi.jpg/1280px-Lake_Chilwa,_Malawi.jpg",
+            "credit": "U.S. Geological Survey",
+            "license": "CC0",
+            "source": "https://commons.wikimedia.org/wiki/File:Lake_Chilwa,_Malawi.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Lake_Chilwa",
+        "https://www.wikidata.org/wiki/Q746975"
+      ]
+    },
+    {
+      "slug": "majete",
+      "country_iso": "MWI",
+      "name": "Majete Wildlife Reserve",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "savanna",
+      "lat": -15.97,
+      "lng": 34.76,
+      "summary": "Emptied by poaching in the 1980s, Majete is again home to the Big Five.",
+      "uniqueness": "Since African Parks took over management in 2003, thousands of animals have been reintroduced, including elephant, black rhino, lion and leopard.",
+      "stat_label": "Restored since",
+      "stat_value": "2003",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 8,
+      "art": {
+        "color": "#F2B134",
+        "intensity": 0.85,
+        "motion": "herd"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Majete_wildlife_reserve.jpg/1280px-Majete_wildlife_reserve.jpg",
+            "credit": "David Davies",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Majete_wildlife_reserve.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Elephant_at_Majete_wildlife_reserve.jpg/1280px-Elephant_at_Majete_wildlife_reserve.jpg",
+            "credit": "David Davies",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Elephant_at_Majete_wildlife_reserve.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/5_Water_buffalo_Wasserb%C3%BCffel_(36884594806).jpg/1280px-5_Water_buffalo_Wasserb%C3%BCffel_(36884594806).jpg",
+            "credit": "Cornelius Kibelka from Berlin, Germany",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:5_Water_buffalo_Wasserb%C3%BCffel_(36884594806).jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Majete_Wildlife_Reserve"
+      ]
+    },
+    {
+      "slug": "mulanje-cedar",
+      "country_iso": "MWI",
+      "name": "Mulanje Cedar",
+      "local_name": null,
+      "scientific_name": "Widdringtonia whytei",
+      "category": "flora",
+      "lat": -15.9,
+      "lng": 35.53,
+      "summary": "Malawi’s national tree: a towering cypress found only on Mount Mulanje.",
+      "uniqueness": "Critically Endangered after logging and fires, with a replanting effort under way on the massif. Trees can reach 40–50 m.",
+      "stat_label": "IUCN status",
+      "stat_value": "Critically Endangered",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 9,
+      "art": {
+        "color": "#3A7D44",
+        "intensity": 0.85,
+        "motion": "bloom"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/432430723/large.jpeg",
+            "credit": "Tony Rebelo",
+            "license": "CC BY-SA 4.0",
+            "source": "https://www.inaturalist.org/observations/242567006"
+          },
+          {
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/433063149/large.jpeg",
+            "credit": "Tony Rebelo",
+            "license": "CC BY-SA 4.0",
+            "source": "https://www.inaturalist.org/observations/242901522"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Widdringtonia_whytei_Mulanje_Malawi.jpg",
+            "credit": "Amanita Phalloides (German Wikipedia)",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Widdringtonia_whytei_Mulanje_Malawi.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Widdringtonia_whytei",
+        "https://www.inaturalist.org/taxa/Widdringtonia-whytei"
+      ]
+    },
+    {
+      "slug": "zebra-mbuna",
+      "country_iso": "MWI",
+      "name": "Zebra Mbuna",
+      "local_name": "mbuna: “rock-dweller”",
+      "scientific_name": "Maylandia zebra",
+      "category": "fauna",
+      "lat": -13.55,
+      "lng": 34.76,
+      "summary": "A rock-dwelling cichlid of Lake Malawi, one of hundreds of mbuna species that evolved within a single lake.",
+      "uniqueness": "Mbuna graze algae from the rocks. Their colours and fast-forming species make Lake Malawi a living laboratory of evolution. The pin is a representative point from GBIF records.",
+      "stat_label": "Length",
+      "stat_value": "~11 cm",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 10,
+      "art": {
+        "color": "#2B6CB0",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Maylandia_zebra_61728832.jpg/1280px-Maylandia_zebra_61728832.jpg",
+            "credit": "Kai Squires",
+            "license": "CC BY 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Maylandia_zebra_61728832.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Maylandia_zebra.jpg/1280px-Maylandia_zebra.jpg",
+            "credit": "Klaus Rudloff",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Maylandia_zebra.jpg"
+          }
+        ],
+        "note": "Aquarium specimens — no open underwater footage from the lake yet."
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Zebra_mbuna",
+        "https://www.gbif.org/species/search?q=Maylandia%20zebra"
+      ]
+    },
+    {
+      "slug": "south-luangwa",
+      "country_iso": "ZMB",
+      "name": "South Luangwa National Park",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "river",
+      "lat": -13.1,
+      "lng": 31.6,
+      "summary": "An oxbow-laced river valley famous as the birthplace of the walking safari.",
+      "uniqueness": "The Luangwa’s lagoons hold some of Africa’s densest hippo populations, and the valley is renowned for leopards and Thornicroft’s giraffe.",
+      "stat_label": "Area",
+      "stat_value": "9,050 km²",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 1,
+      "art": {
+        "color": "#E9C46A",
+        "intensity": 0.85,
+        "motion": "herd"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Loxodonta_africana_South_Luangwa_National_Park_(1).jpg/1280px-Loxodonta_africana_South_Luangwa_National_Park_(1).jpg",
+            "credit": "Geoff Gallice",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Loxodonta_africana_South_Luangwa_National_Park_(1).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Luangwa_river02.jpg/1280px-Luangwa_river02.jpg",
+            "credit": "Paul Maritz",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Luangwa_river02.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Flickr_-_ggallice_-_Bush_sunset.jpg/1280px-Flickr_-_ggallice_-_Bush_sunset.jpg",
+            "credit": "Geoff Gallice from Gainesville, FL, USA",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Flickr_-_ggallice_-_Bush_sunset.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/South_Luangwa_National_Park",
+        "https://www.wikidata.org/wiki/Q1973215"
+      ]
+    },
+    {
+      "slug": "kafue",
+      "country_iso": "ZMB",
+      "name": "Kafue National Park",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "savanna",
+      "lat": -15.3,
+      "lng": 25.9,
+      "summary": "Zambia’s largest national park, about 22,400 km² of floodplain and miombo woodland.",
+      "uniqueness": "In the north the Busanga Plains flood each year and draw red lechwe, puku and lions; it is one of the largest parks in Africa.",
+      "stat_label": "Area",
+      "stat_value": "~22,400 km²",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 2,
+      "art": {
+        "color": "#198754",
+        "intensity": 0.85,
+        "motion": "herd"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Kafue_National_Park.jpg/1280px-Kafue_National_Park.jpg",
+            "credit": "LittleT889",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Kafue_National_Park.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Safari_Road_Savanna_Kafue_Jul23_A7C_05580.jpg/1280px-Safari_Road_Savanna_Kafue_Jul23_A7C_05580.jpg",
+            "credit": "Timothy A. Gonsalves",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Safari_Road_Savanna_Kafue_Jul23_A7C_05580.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Area_Burn_Savanna_Kafue_Jul23_A7C_05607.jpg/1280px-Area_Burn_Savanna_Kafue_Jul23_A7C_05607.jpg",
+            "credit": "Timothy A. Gonsalves",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Area_Burn_Savanna_Kafue_Jul23_A7C_05607.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Kafue_National_Park",
+        "https://www.wikidata.org/wiki/Q1721097"
+      ]
+    },
+    {
+      "slug": "lower-zambezi",
+      "country_iso": "ZMB",
+      "name": "Lower Zambezi National Park",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "river",
+      "lat": -15.6,
+      "lng": 29.57,
+      "summary": "Elephants wade between islands on the Zambezi’s north bank, facing Zimbabwe’s Mana Pools.",
+      "uniqueness": "A private presidential reserve until 1983, which spared it from heavy hunting. With Mana Pools it forms one of Africa’s great river wildernesses.",
+      "stat_label": "Proclaimed",
+      "stat_value": "1983",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 3,
+      "art": {
+        "color": "#2A6F97",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Lower_Zambezi,_Zambia_(2518067857).jpg/1280px-Lower_Zambezi,_Zambia_(2518067857).jpg",
+            "credit": "Joachim Huber from Switzerland",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Lower_Zambezi,_Zambia_(2518067857).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Elephants_Lower_Zambezi.jpg",
+            "credit": "Paul Kane",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Elephants_Lower_Zambezi.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Hippos_Lower_Zambezi.jpg",
+            "credit": "Paul Kane",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Hippos_Lower_Zambezi.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Lower_Zambezi_National_Park",
+        "https://www.wikidata.org/wiki/Q503518"
+      ]
+    },
+    {
+      "slug": "kalambo-falls",
+      "country_iso": "ZMB",
+      "name": "Kalambo Falls",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "waterfall",
+      "lat": -8.597,
+      "lng": 31.24,
+      "summary": "A single drop of about 235 m on the Tanzania border, among the tallest uninterrupted waterfalls in Africa.",
+      "uniqueness": "The site is also a key archaeological record: in 2023 researchers reported the oldest known wooden structure here, at least 476,000 years old.",
+      "stat_label": "Single drop",
+      "stat_value": "~235 m",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 4,
+      "art": {
+        "color": "#7BDFF2",
+        "intensity": 0.85,
+        "motion": "cascade"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Kalambo_Falls.jpg",
+            "credit": "Worldtraveller at English Wikipedia",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Kalambo_Falls.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Kalambo_falls.jpg",
+            "credit": "Kelvin Chidoti",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Kalambo_falls.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/235_meters_of_single_drop_waterfall,_the_second_largest_waterfall_in_Africa.jpg/1280px-235_meters_of_single_drop_waterfall,_the_second_largest_waterfall_in_Africa.jpg",
+            "credit": "Humphrey Kaburu",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:235_meters_of_single_drop_waterfall,_the_second_largest_waterfall_in_Africa.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Kalambo_Falls",
+        "https://www.wikidata.org/wiki/Q798283",
+        "https://www.nature.com/articles/s41586-023-06557-9"
+      ]
+    },
+    {
+      "slug": "liuwa-plain",
+      "country_iso": "ZMB",
+      "name": "Liuwa Plain National Park",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "savanna",
+      "lat": -14.5,
+      "lng": 22.48,
+      "summary": "A vast floodplain grassland in Barotseland, with Africa’s second-largest wildebeest migration.",
+      "uniqueness": "Protected since the 19th century, when the Litunga (king of the Lozi) made it a royal hunting ground. Hyenas, lions and wild dogs follow the herds.",
+      "stat_label": "Area",
+      "stat_value": "3,369 km²",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 5,
+      "art": {
+        "color": "#E9C46A",
+        "intensity": 0.85,
+        "motion": "herd"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Liuwa_Plain_National_Park_01.jpg/1280px-Liuwa_Plain_National_Park_01.jpg",
+            "credit": "S1m0nB3rry",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Liuwa_Plain_National_Park_01.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Liuwa_Plain_National_Park_02.jpg/1280px-Liuwa_Plain_National_Park_02.jpg",
+            "credit": "S1m0nB3rry",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Liuwa_Plain_National_Park_02.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Liuwa_Plain_National_Park_04.jpg/1280px-Liuwa_Plain_National_Park_04.jpg",
+            "credit": "S1m0nB3rry",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Liuwa_Plain_National_Park_04.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Liuwa_Plain_National_Park",
+        "https://www.wikidata.org/wiki/Q1471784"
+      ]
+    },
+    {
+      "slug": "bangweulu-wetlands",
+      "country_iso": "ZMB",
+      "name": "Bangweulu Wetlands",
+      "local_name": "Bangweulu: “where the water meets the sky”",
+      "scientific_name": null,
+      "category": "wetland",
+      "lat": -11.4,
+      "lng": 30.0,
+      "summary": "A shallow lake and huge swamp on northern Zambia’s plateau, flat to the horizon.",
+      "uniqueness": "One of the best places on Earth to see the shoebill, and home to tens of thousands of endemic black lechwe.",
+      "stat_label": "Signature bird",
+      "stat_value": "Shoebill",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 6,
+      "art": {
+        "color": "#2A6F97",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Bangweulu_Swamps.jpg/1280px-Bangweulu_Swamps.jpg",
+            "credit": "Mehmet Karatay",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Bangweulu_Swamps.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Lake_bangweulu.jpg/1280px-Lake_bangweulu.jpg",
+            "credit": "Baba's Door",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Lake_bangweulu.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Dugouts.jpg/1280px-Dugouts.jpg",
+            "credit": "Mehmet Karatay",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Dugouts.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Lake_Bangweulu",
+        "https://en.wikipedia.org/wiki/Bangweulu_Swamps",
+        "https://www.wikidata.org/wiki/Q673169"
+      ]
+    },
+    {
+      "slug": "ngonye-falls",
+      "country_iso": "ZMB",
+      "name": "Ngonye Falls",
+      "local_name": "Sioma Falls",
+      "scientific_name": null,
+      "category": "waterfall",
+      "lat": -16.65,
+      "lng": 23.57,
+      "summary": "The Zambezi pours over a horseshoe of rock in western Zambia, a few hundred kilometres upstream of Victoria Falls.",
+      "uniqueness": "A broad crescent of cascades in Sioma Ngwezi country, a quieter preview of the river that later becomes Mosi-oa-Tunya.",
+      "stat_label": "River",
+      "stat_value": "Zambezi",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 7,
+      "art": {
+        "color": "#7FC8F8",
+        "intensity": 0.85,
+        "motion": "cascade"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Ngonye_falls_at_Zambezi_river,_Zambia.jpg/1280px-Ngonye_falls_at_Zambezi_river,_Zambia.jpg",
+            "credit": "Petrtyl",
+            "license": "CC BY 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Ngonye_falls_at_Zambezi_river,_Zambia.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Ngonye_falls_at_Zambezi_river,_Zambia_(aerial_view).jpg/1280px-Ngonye_falls_at_Zambezi_river,_Zambia_(aerial_view).jpg",
+            "credit": "Petrtyl",
+            "license": "CC BY 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Ngonye_falls_at_Zambezi_river,_Zambia_(aerial_view).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Zambezi_river_with_Ngonye_falls_in_Sioma_district,_Western_province,_Zambia.jpg/1280px-Zambezi_river_with_Ngonye_falls_in_Sioma_district,_Western_province,_Zambia.jpg",
+            "credit": "Petrtyl",
+            "license": "CC BY 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Zambezi_river_with_Ngonye_falls_in_Sioma_district,_Western_province,_Zambia.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Ngonye_Falls",
+        "https://www.wikidata.org/wiki/Q1650303"
+      ]
+    },
+    {
+      "slug": "nsumbu-lake-tanganyika",
+      "country_iso": "ZMB",
+      "name": "Nsumbu & Lake Tanganyika",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "lake",
+      "lat": -8.74,
+      "lng": 30.38,
+      "summary": "Zambia’s stretch of Lake Tanganyika: sandy bays, cliffs and clear water at the south end of one of the world’s deepest lakes.",
+      "uniqueness": "Lake Tanganyika is the second-deepest and second-oldest lake on Earth, and its cichlids evolved in parallel with Lake Malawi’s.",
+      "stat_label": "Lake depth",
+      "stat_value": "~1,470 m",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 8,
+      "art": {
+        "color": "#0B4F6C",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Nsumbu_-_panoramio.jpg",
+            "credit": "Peter Syfert",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Nsumbu_-_panoramio.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Nsumbu_National_Park",
+        "https://en.wikipedia.org/wiki/Lake_Tanganyika"
+      ]
+    },
+    {
+      "slug": "kundalila-falls",
+      "country_iso": "ZMB",
+      "name": "Kundalila Falls",
+      "local_name": "Kundalila: “crying dove”",
+      "scientific_name": null,
+      "category": "waterfall",
+      "lat": -13.15,
+      "lng": 30.7,
+      "summary": "A clear stream drops about 60 m off the Muchinga escarpment.",
+      "uniqueness": "Rock pools at the top sit on the edge of the escarpment, with wide views over miombo woodland.",
+      "stat_label": "Drop",
+      "stat_value": "~60 m",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 9,
+      "art": {
+        "color": "#7BDFF2",
+        "intensity": 0.85,
+        "motion": "cascade"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Kundalila_Falls,_serenje_Zambia_01.jpg/1280px-Kundalila_Falls,_serenje_Zambia_01.jpg",
+            "credit": "Mr. Chishinzhi",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Kundalila_Falls,_serenje_Zambia_01.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Kundalila_Falls_downside.jpg/1280px-Kundalila_Falls_downside.jpg",
+            "credit": "Sybryn",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Kundalila_Falls_downside.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Kundalila_Falls",
+        "https://www.wikidata.org/wiki/Q6444278"
+      ]
+    },
+    {
+      "slug": "zambezi-teak",
+      "country_iso": "ZMB",
+      "name": "Zambezi Teak",
+      "local_name": "Mukusi",
+      "scientific_name": "Baikiaea plurijuga",
+      "category": "flora",
+      "lat": -17.2,
+      "lng": 24.6,
+      "summary": "A hardwood of the Kalahari sands that once formed dense forests across western Zambia.",
+      "uniqueness": "Its heavy red timber went into railway sleepers and parquet floors across the region, and much of the old forest has been logged. The pin is a representative point near Sesheke.",
+      "stat_label": "Also called",
+      "stat_value": "Rhodesian / Zambian teak",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 10,
+      "art": {
+        "color": "#B87333",
+        "intensity": 0.85,
+        "motion": "bloom"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/528743838/large.jpg",
+            "credit": "Timothy Whitehead",
+            "license": "CC BY 4.0",
+            "source": "https://www.inaturalist.org/observations/293786155"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Baikiaea_plurijuga_arbre_MHNT.JPG/1280px-Baikiaea_plurijuga_arbre_MHNT.JPG",
+            "credit": "Roger Culos",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Baikiaea_plurijuga_arbre_MHNT.JPG"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Baikiaea_plurijuga",
+        "https://www.inaturalist.org/observations/293786155"
+      ]
+    },
+    {
+      "slug": "kasanka-bat-migration",
+      "country_iso": "ZMB",
+      "name": "Kasanka Bat Migration",
+      "local_name": null,
+      "scientific_name": "Eidolon helvum",
+      "category": "fauna",
+      "lat": -12.56,
+      "lng": 30.18,
+      "summary": "Every November, an estimated 8–10 million straw-coloured fruit bats descend on a small patch of swamp forest in Kasanka National Park.",
+      "uniqueness": "Often called the largest mammal migration on Earth by numbers. The bats stay for about two months, feasting on wild fruit.",
+      "stat_label": "Bats",
+      "stat_value": "~8–10 million",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 11,
+      "art": {
+        "color": "#D62828",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/346173458/large.jpeg",
+            "credit": "Michael Bakker Paiva",
+            "license": "CC BY 4.0",
+            "source": "https://www.inaturalist.org/observations/196661247"
+          },
+          {
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/578333493/large.jpg",
+            "credit": "Ryan van Huyssteen",
+            "license": "CC BY 4.0",
+            "source": "https://www.inaturalist.org/observations/319907719"
+          },
+          {
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/24597834/large.jpeg",
+            "credit": "TOUROULT Julien",
+            "license": "CC BY 4.0",
+            "source": "https://www.inaturalist.org/observations/16361804"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Kasanka_National_Park",
+        "https://en.wikipedia.org/wiki/Straw-coloured_fruit_bat"
+      ]
+    },
+    {
+      "slug": "island-of-mozambique",
+      "country_iso": "MOZ",
+      "name": "Island of Mozambique",
+      "local_name": "Ilha de Moçambique",
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": -15.035,
+      "lng": 40.735,
+      "summary": "A coral island off the northern coast that gave the country its name and was the capital of Portuguese East Africa until 1898.",
+      "uniqueness": "World Heritage Site since 1991. Its stone town and macuti (palm-thatch) town show centuries of Swahili, Arab, Indian and Portuguese exchange; the Chapel of Nossa Senhora do Baluarte (1522) is often cited as the oldest European building in the southern hemisphere.",
+      "stat_label": "Capital until",
+      "stat_value": "1898",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 1,
+      "art": {
+        "color": "#F4D58D",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Mozambique_(3912235854).jpg/1280px-Mozambique_(3912235854).jpg",
+            "credit": "F Mira from Lisbon, Portugal",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Mozambique_(3912235854).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Musiro_Ilha_de_Mozambique_(3923789736).jpg/1280px-Musiro_Ilha_de_Mozambique_(3923789736).jpg",
+            "credit": "Rosino",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Musiro_Ilha_de_Mozambique_(3923789736).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Boats_outside_Island_of_Mozambique.jpg/1280px-Boats_outside_Island_of_Mozambique.jpg",
+            "credit": "Stig Nygaard",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Boats_outside_Island_of_Mozambique.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/599/",
+        "https://en.wikipedia.org/wiki/Island_of_Mozambique",
+        "https://www.wikidata.org/wiki/Q331099"
+      ]
+    },
+    {
+      "slug": "gorongosa",
+      "country_iso": "MOZ",
+      "name": "Gorongosa National Park",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "savanna",
+      "lat": -18.77,
+      "lng": 34.5,
+      "summary": "A rift-valley park of floodplains, lakes and woodland, reborn after civil war nearly wiped out its wildlife.",
+      "uniqueness": "A long-term restoration partnership has helped large-mammal numbers climb from a few thousand to many tens of thousands. Rain-forested Mount Gorongosa feeds its rivers.",
+      "stat_label": "Area",
+      "stat_value": "~4,000 km²",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 2,
+      "art": {
+        "color": "#2D6A4F",
+        "intensity": 0.85,
+        "motion": "herd"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Gorongosa_-_terrain.JPG",
+            "credit": "Brian Dell",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Gorongosa_-_terrain.JPG"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Serra_de_Gorongosa_(4403936386).jpg",
+            "credit": "Ton Rulkens from Mozambique",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Serra_de_Gorongosa_(4403936386).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Mayfly,_Gorongosa_National_Park,_Mozambique_(29110144998).jpg/1280px-Mayfly,_Gorongosa_National_Park,_Mozambique_(29110144998).jpg",
+            "credit": "Judy Gallagher",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Mayfly,_Gorongosa_National_Park,_Mozambique_(29110144998).jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Gorongosa_National_Park",
+        "https://www.wikidata.org/wiki/Q113952"
+      ]
+    },
+    {
+      "slug": "bazaruto-archipelago",
+      "country_iso": "MOZ",
+      "name": "Bazaruto Archipelago",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "coast",
+      "lat": -21.67,
+      "lng": 35.47,
+      "summary": "Islands of towering dunes and turquoise shallows off Vilankulo.",
+      "uniqueness": "A national park since 1971. Its seagrass meadows shelter Mozambique’s largest remaining dugong population, along with sea turtles and coral reefs.",
+      "stat_label": "Islands",
+      "stat_value": "6",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 3,
+      "art": {
+        "color": "#00A6A6",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Bazaruto-Island-East-Coast-From-South.jpg/1280px-Bazaruto-Island-East-Coast-From-South.jpg",
+            "credit": "Bjørn Christian Tørrissen",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Bazaruto-Island-East-Coast-From-South.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Bazaruto_Island_Mozambique_from_air.jpg/1280px-Bazaruto_Island_Mozambique_from_air.jpg",
+            "credit": "Tom Corser",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Bazaruto_Island_Mozambique_from_air.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Bazaruto-Island-2009.jpg/1280px-Bazaruto-Island-2009.jpg",
+            "credit": "Bjørn Christian Tørrissen",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Bazaruto-Island-2009.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Bazaruto_Archipelago",
+        "https://www.wikidata.org/wiki/Q1102054"
+      ]
+    },
+    {
+      "slug": "quirimbas",
+      "country_iso": "MOZ",
+      "name": "Quirimbas Archipelago",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "coast",
+      "lat": -12.35,
+      "lng": 40.6,
+      "summary": "A chain of coral islands and mangroves in Cabo Delgado, including Ibo’s old Swahili-Portuguese town.",
+      "uniqueness": "The national park (2002) protects the southern islands and a large mainland area, and is also a UNESCO biosphere reserve.",
+      "stat_label": "Park founded",
+      "stat_value": "2002",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 4,
+      "art": {
+        "color": "#2EC4B6",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Ilha_do_Ibo_-_sunset-01.jpg/1280px-Ilha_do_Ibo_-_sunset-01.jpg",
+            "credit": "Rosino",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Ilha_do_Ibo_-_sunset-01.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Iss070e026322.jpg/1280px-Iss070e026322.jpg",
+            "credit": "NASA Johnson Space Center",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Iss070e026322.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Quirimbas_Fisherman_on_dhow_safari.JPG/1280px-Quirimbas_Fisherman_on_dhow_safari.JPG",
+            "credit": "Travel Local",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Quirimbas_Fisherman_on_dhow_safari.JPG"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Quirimbas_National_Park",
+        "https://www.wikidata.org/wiki/Q1546990"
+      ]
+    },
+    {
+      "slug": "mount-mabu",
+      "country_iso": "MOZ",
+      "name": "Mount Mabu",
+      "local_name": "the “Google Forest”",
+      "scientific_name": null,
+      "category": "forest",
+      "lat": -16.3,
+      "lng": 36.4,
+      "summary": "About 7,000 ha of old-growth rainforest on a remote mountain, spotted by scientists on Google Earth in 2005.",
+      "uniqueness": "Expeditions from 2008 found species new to science, including butterflies, chameleons and a snake. It is one of the largest mid-altitude rainforests in southern Africa.",
+      "stat_label": "Forest",
+      "stat_value": "~7,000 ha",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 5,
+      "art": {
+        "color": "#2D6A4F",
+        "intensity": 0.85,
+        "motion": "mist"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Mount_Mabu,_Mozambique_(ASTER).jpg/1280px-Mount_Mabu,_Mozambique_(ASTER).jpg",
+            "credit": "NASA/METI/AIST/Japan Space Systems, U.S./Japan ASTER Science Team",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Mount_Mabu,_Mozambique_(ASTER).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Mount_Mabu_(10.3897-zse.92.9948)_Figure_2_(cropped).jpg",
+            "credit": "Conradie W et al. (ZooKeys)",
+            "license": "CC BY 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Mount_Mabu_(10.3897-zse.92.9948)_Figure_2_(cropped).jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Mount_Mabu",
+        "https://www.wikidata.org/wiki/Q1613668"
+      ]
+    },
+    {
+      "slug": "mount-namuli",
+      "country_iso": "MOZ",
+      "name": "Mount Namuli",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "mountain",
+      "lat": -15.37,
+      "lng": 37.03,
+      "summary": "A granite dome rising to 2,419 m: Mozambique’s second-highest mountain and a “sky island” of endemic life.",
+      "uniqueness": "Its montane grassland and forest patches shelter species found nowhere else, such as the Namuli apalis and Vincent’s bush squirrel.",
+      "stat_label": "Height",
+      "stat_value": "2,419 m",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 6,
+      "art": {
+        "color": "#6A994E",
+        "intensity": 0.85,
+        "motion": "mist"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Mount_Namuli_(10.3897-zse.92.9948)_Figure_2_(cropped).jpg",
+            "credit": "Conradie W et al. (ZooKeys)",
+            "license": "CC BY 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Mount_Namuli_(10.3897-zse.92.9948)_Figure_2_(cropped).jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Mount_Namuli",
+        "https://www.wikidata.org/wiki/Q1516857"
+      ]
+    },
+    {
+      "slug": "maputo-national-park",
+      "country_iso": "MOZ",
+      "name": "Maputo National Park",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "coast",
+      "lat": -26.5,
+      "lng": 32.8,
+      "summary": "Coastal lakes, swamps and forested dunes on Maputo Bay, where turtles nest on the beaches.",
+      "uniqueness": "Since 2025 it has been part of the transboundary World Heritage Site “iSimangaliso Wetland Park and Maputo National Park”, shared with South Africa.",
+      "stat_label": "Area",
+      "stat_value": "1,718 km²",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 7,
+      "art": {
+        "color": "#00A6A6",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Maputo_National_Park,_Mozambique.jpg/1280px-Maputo_National_Park,_Mozambique.jpg",
+            "credit": "Charles J. Sharp",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Maputo_National_Park,_Mozambique.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Plains_zebras_(Equus_quagga)_Maputo.jpg/1280px-Plains_zebras_(Equus_quagga)_Maputo.jpg",
+            "credit": "Charles J. Sharp",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Plains_zebras_(Equus_quagga)_Maputo.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/South_African_giraffes_(Giraffa_camelopardalis_giraffa)_Maputo.jpg/1280px-South_African_giraffes_(Giraffa_camelopardalis_giraffa)_Maputo.jpg",
+            "credit": "Charles J. Sharp",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:South_African_giraffes_(Giraffa_camelopardalis_giraffa)_Maputo.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/914/",
+        "https://en.wikipedia.org/wiki/Maputo_National_Park",
+        "https://www.wikidata.org/wiki/Q130019294"
+      ]
+    },
+    {
+      "slug": "african-blackwood",
+      "country_iso": "MOZ",
+      "name": "African Blackwood",
+      "local_name": "Pau-preto (Portuguese) · mpingo (Swahili)",
+      "scientific_name": "Dalbergia melanoxylon",
+      "category": "flora",
+      "lat": -17.33,
+      "lng": 34.39,
+      "summary": "A small, slow-growing tree with near-black heartwood: the wood of clarinets, oboes and bagpipes.",
+      "uniqueness": "Much of the world’s supply comes from Mozambique and Tanzania. Trees take 60 years or more to mature, and the species is rated Near Threatened. The pin is a representative point from GBIF records.",
+      "stat_label": "Matures in",
+      "stat_value": "60+ years",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 8,
+      "art": {
+        "color": "#3B2F2F",
+        "intensity": 0.85,
+        "motion": "bloom"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Dalbergia_melanoxylon_(tree).jpg/1280px-Dalbergia_melanoxylon_(tree).jpg",
+            "credit": "Marie-Elisabeth Gorge",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Dalbergia_melanoxylon_(tree).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Dalbergia_melanoxylon_1DS-II_4-5854.jpg/1280px-Dalbergia_melanoxylon_1DS-II_4-5854.jpg",
+            "credit": "SAplants",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Dalbergia_melanoxylon_1DS-II_4-5854.jpg"
+          }
+        ],
+        "note": "Stand-ins: a tree in Tanzania and flowers in Pretoria NBG."
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Dalbergia_melanoxylon",
+        "https://www.gbif.org/species/search?q=Dalbergia%20melanoxylon"
+      ]
+    },
+    {
+      "slug": "dugong-bazaruto",
+      "country_iso": "MOZ",
+      "name": "Dugong",
+      "local_name": null,
+      "scientific_name": "Dugong dugon",
+      "category": "fauna",
+      "lat": -21.95,
+      "lng": 35.35,
+      "summary": "A gentle sea cow grazing the seagrass in the bay behind the Bazaruto islands.",
+      "uniqueness": "About 120 animals here form the largest remnant dugong population in Mozambique, often described as the last viable one on East Africa’s coast.",
+      "stat_label": "Population",
+      "stat_value": "~120",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 9,
+      "art": {
+        "color": "#5FA8D3",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "video": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fa/Dugong_dugon._Seekuh._%D0%94%D1%8E%D0%B3%D0%BE%D0%BD%D1%8C.Rotes_Meer..DSCF9602.webm/Dugong_dugon._Seekuh._%D0%94%D1%8E%D0%B3%D0%BE%D0%BD%D1%8C.Rotes_Meer..DSCF9602.webm.480p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fa/Dugong_dugon._Seekuh._%D0%94%D1%8E%D0%B3%D0%BE%D0%BD%D1%8C.Rotes_Meer..DSCF9602.webm/Dugong_dugon._Seekuh._%D0%94%D1%8E%D0%B3%D0%BE%D0%BD%D1%8C.Rotes_Meer..DSCF9602.webm.360p.mpeg4.mov",
+        "credit": "Kora27",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Dugong_dugon._Seekuh._%D0%94%D1%8E%D0%B3%D0%BE%D0%BD%D1%8C.Rotes_Meer..DSCF9602.webm",
+        "note": "Stand-in: filmed in the Red Sea (Egypt); no open Bazaruto footage yet."
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Bazaruto_Archipelago",
+        "https://en.wikipedia.org/wiki/Dugong"
       ]
     }
   ]
