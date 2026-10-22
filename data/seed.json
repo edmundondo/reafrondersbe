@@ -741,6 +741,48 @@
       ]
     },
     {
+      "slug": "lake-kariba",
+      "country_iso": "ZWE",
+      "name": "Lake Kariba",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "lake",
+      "lat": -16.6,
+      "lng": 28.7,
+      "summary": "A vast reservoir on the Zambezi, shared with Zambia: drowned forests, islands and hippo-lined shores stretching to the horizon.",
+      "uniqueness": "Filled between 1958 and 1963 behind the 128 m Kariba Dam, it is the world’s largest man-made reservoir by volume. Its creation displaced about 57,000 Tonga people, and Operation Noah rescued around 6,000 large animals from the rising water.",
+      "stat_label": "Volume",
+      "stat_value": "~180 km³",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 16,
+      "art": {
+        "color": "#2EC4B6",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "video": "media/kariba-ed-mundondo.webm",
+        "fallback": "media/kariba-ed-mundondo.mp4",
+        "credit": "Ed Mundondo",
+        "license": "© Ed Mundondo",
+        "images": [
+          {
+            "url": "media/kariba-ed-mundondo-poster.jpg",
+            "credit": "Ed Mundondo",
+            "license": "© Ed Mundondo",
+            "source": null
+          }
+        ],
+        "note": "Original footage by Ed Mundondo: the lake from Kariba Heights, hippos on the shore, and the shoreline by boat."
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Lake_Kariba",
+        "https://en.wikipedia.org/wiki/Kariba_Dam",
+        "https://www.wikidata.org/wiki/Q1047206"
+      ]
+    },
+    {
       "slug": "okavango-delta",
       "country_iso": "BWA",
       "name": "Okavango Delta",
