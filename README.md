@@ -31,7 +31,8 @@ All of this was tested on Postgres: anon inserts are refused, signed-in non-edit
 ### Option A: dashboard only (no installs)
 1. Create a project at [supabase.com](https://supabase.com) (free plan), or reuse an existing one.
 2. **SQL Editor → New query**: paste `supabase/migrations/20261021000000_wonders_schema.sql`, then **Run**.
-3. New query: paste `supabase/seed.sql`, then **Run**. All 7 countries (85 entries) are now live.
+3. New query: paste `supabase/seed.sql`, then **Run**. All 55 countries and territories (473 entries) are now live.
+   *(Until you do this, the site still shows every country: anything not yet in Supabase is read from the published `seed.json`, and the first Studio edit to such a country copies it into Supabase.)*
 4. **Authentication → URL Configuration**: add your site URL (e.g. `https://edmundondo.github.io/reafronders/`) to *Redirect URLs* so magic-link sign-in returns there.
 5. Make yourself an editor. Sign in once from the site's **Studio → Data** tab, then run:
    ```sql
