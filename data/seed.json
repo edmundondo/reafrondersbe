@@ -17,7 +17,7 @@
     {
       "iso_a3": "ZWE",
       "name": "Zimbabwe",
-      "region": "Southern Africa",
+      "region": "East Africa",
       "tagline": "Where the smoke thunders, granite balances, and the Zambezi writes in light.",
       "palette": [
         "#2EC4B6",
@@ -77,7 +77,7 @@
     {
       "iso_a3": "MWI",
       "name": "Malawi",
-      "region": "Southern Africa",
+      "region": "East Africa",
       "tagline": "The Warm Heart of Africa: a lake of a thousand cichlids beneath sacred granite.",
       "palette": [
         "#1F78B4",
@@ -92,7 +92,7 @@
     {
       "iso_a3": "ZMB",
       "name": "Zambia",
-      "region": "Southern Africa",
+      "region": "East Africa",
       "tagline": "Rivers, waterfalls and miombo, where ten million bats arrive with the rains.",
       "palette": [
         "#198754",
@@ -107,7 +107,7 @@
     {
       "iso_a3": "MOZ",
       "name": "Mozambique",
-      "region": "Southern Africa",
+      "region": "East Africa",
       "tagline": "Some 2,500 km of Indian Ocean coast: coral islands, dugong bays and sky-island forests.",
       "palette": [
         "#00A6A6",
@@ -118,6 +118,111 @@
       ],
       "active": true,
       "sort_order": 7
+    },
+    {
+      "iso_a3": "DZA",
+      "name": "Algeria",
+      "region": "North Africa",
+      "tagline": "Africa’s largest country: Roman cities in the Tell, painted cliffs in the Tassili, volcanic peaks in the Hoggar.",
+      "palette": [
+        "#D98E48",
+        "#3D3A4B",
+        "#4C8C4A",
+        "#5BA4CF",
+        "#F2E3C9"
+      ],
+      "active": true,
+      "sort_order": 8
+    },
+    {
+      "iso_a3": "EGY",
+      "name": "Egypt",
+      "region": "North Africa",
+      "tagline": "A green ribbon of Nile through the desert: pyramids, temples and whale bones in the sand.",
+      "palette": [
+        "#1F7A8C",
+        "#E8D5A9",
+        "#D4A017",
+        "#26619C",
+        "#6B8E23"
+      ],
+      "active": true,
+      "sort_order": 9
+    },
+    {
+      "iso_a3": "LBY",
+      "name": "Libya",
+      "region": "North Africa",
+      "tagline": "Sand seas, crater lakes and Roman theatres facing the Mediterranean.",
+      "palette": [
+        "#E07A3F",
+        "#C2B280",
+        "#2E86AB",
+        "#6A994E",
+        "#8B4513"
+      ],
+      "active": true,
+      "sort_order": 10
+    },
+    {
+      "iso_a3": "MAR",
+      "name": "Morocco",
+      "region": "North Africa",
+      "tagline": "From the High Atlas to the Saharan ergs: imperial medinas, red-earth kasbahs and argan forests.",
+      "palette": [
+        "#2D4BA0",
+        "#C65D3B",
+        "#E8A33D",
+        "#3E8E7E",
+        "#EAD7B7"
+      ],
+      "active": true,
+      "sort_order": 11
+    },
+    {
+      "iso_a3": "SDN",
+      "name": "Sudan",
+      "region": "North Africa",
+      "tagline": "More pyramids than Egypt, along the Nile where the Blue and White rivers meet.",
+      "palette": [
+        "#C8784A",
+        "#3A6EA5",
+        "#D9A54C",
+        "#1A9E8F",
+        "#557A46"
+      ],
+      "active": true,
+      "sort_order": 12
+    },
+    {
+      "iso_a3": "TUN",
+      "name": "Tunisia",
+      "region": "North Africa",
+      "tagline": "Carthage, Roman amphitheatres and blue-and-white villages above the Gulf of Tunis.",
+      "palette": [
+        "#1E5AA8",
+        "#F5F3EE",
+        "#C1440E",
+        "#7A9A3A",
+        "#E2B04A"
+      ],
+      "active": true,
+      "sort_order": 13
+    },
+    {
+      "iso_a3": "ESH",
+      "name": "Western Sahara",
+      "region": "North Africa",
+      "tagline": "A disputed Atlantic desert where the Sahara runs into the ocean.",
+      "palette": [
+        "#D4A373",
+        "#2A9D8F",
+        "#B5651D",
+        "#F1E3C6",
+        "#264653"
+      ],
+      "active": true,
+      "sort_order": 14
     }
   ],
   "wonders": [
@@ -3968,6 +4073,3671 @@
       "citations": [
         "https://en.wikipedia.org/wiki/Bazaruto_Archipelago",
         "https://en.wikipedia.org/wiki/Dugong"
+      ]
+    },
+    {
+      "slug": "beni-hammad",
+      "country_iso": "DZA",
+      "name": "Al Qal'a of Beni Hammad",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": 35.81,
+      "lng": 4.79,
+      "summary": "The ruined first capital of the Hammadid dynasty, founded in 1007 in the Hodna mountains.",
+      "uniqueness": "Its great mosque, with a 25 m minaret, is among the oldest in Algeria. The city was abandoned in 1090 under threat from the Banu Hilal. World Heritage Site since 1980.",
+      "stat_label": "Founded",
+      "stat_value": "1007",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 1,
+      "art": {
+        "color": "#C8955A",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Beni_Hammad_Fort.jpg/1280px-Beni_Hammad_Fort.jpg",
+            "credit": "Si20u",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Beni_Hammad_Fort.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Beni_Hammad.jpg/1280px-Beni_Hammad.jpg",
+            "credit": "Si20u",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Beni_Hammad.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/28-2_Kal%C3%A2a_de_Beni_Hammad_(3).jpg/1280px-28-2_Kal%C3%A2a_de_Beni_Hammad_(3).jpg",
+            "credit": "R hakka",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:28-2_Kal%C3%A2a_de_Beni_Hammad_(3).jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/102/",
+        "https://en.wikipedia.org/wiki/Beni_Hammad_Fort"
+      ]
+    },
+    {
+      "slug": "tassili-n-ajjer",
+      "country_iso": "DZA",
+      "name": "Tassili n'Ajjer",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "rock",
+      "lat": 25.67,
+      "lng": 9.0,
+      "summary": "A sandstone plateau of rock forests and canyons holding more than 15,000 prehistoric paintings and engravings.",
+      "uniqueness": "The art records a green Sahara of hippos, cattle herders and dancing figures. The plateau also shelters the last wild Saharan cypresses. A mixed (cultural and natural) World Heritage Site since 1982.",
+      "stat_label": "Rock artworks",
+      "stat_value": "15,000+",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 2,
+      "art": {
+        "color": "#B5502E",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Camel_In_Tassili.jpg/1280px-Camel_In_Tassili.jpg",
+            "credit": "Abdallahdjabi",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Camel_In_Tassili.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Cupressus_dupreziana1.jpg/1280px-Cupressus_dupreziana1.jpg",
+            "credit": "Gruban at Flickr",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Cupressus_dupreziana1.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Cute_Lezard_Showing_Off_At_Tassili_N_Ajjer_(168099137).jpeg/1280px-Cute_Lezard_Showing_Off_At_Tassili_N_Ajjer_(168099137).jpeg",
+            "credit": "2 F Ī K Æ Ł T Ë R",
+            "license": "CC0",
+            "source": "https://commons.wikimedia.org/wiki/File:Cute_Lezard_Showing_Off_At_Tassili_N_Ajjer_(168099137).jpeg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/179/",
+        "https://en.wikipedia.org/wiki/Tassili_n'Ajjer"
+      ]
+    },
+    {
+      "slug": "djemila",
+      "country_iso": "DZA",
+      "name": "Djémila",
+      "local_name": "Cuicul",
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": 36.32,
+      "lng": 5.74,
+      "summary": "A Roman mountain town at about 900 m, with forum, temples, basilicas and arches laid out on a narrow ridge.",
+      "uniqueness": "Its plan shows how Roman builders adapted their grid to steep terrain. Its museum walls are covered with mosaics found on site. World Heritage Site since 1982.",
+      "stat_label": "Altitude",
+      "stat_value": "~900 m",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 3,
+      "art": {
+        "color": "#D9A066",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Dj%C3%A9mila,_panoramica.jpg/1280px-Dj%C3%A9mila,_panoramica.jpg",
+            "credit": "Dan Sloan",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Dj%C3%A9mila,_panoramica.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Alg%C3%A9rie,_Djemila,_Les_murs_du_Mus%C3%A9e_rev%C3%AAtus_des_mosa%C3%AFques_trouv%C3%A9es_%C3%A0_Dj%C3%A9mila_-_A61578.jpg/1280px-Alg%C3%A9rie,_Djemila,_Les_murs_du_Mus%C3%A9e_rev%C3%AAtus_des_mosa%C3%AFques_trouv%C3%A9es_%C3%A0_Dj%C3%A9mila_-_A61578.jpg",
+            "credit": "Gadmer Frédéric",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Alg%C3%A9rie,_Djemila,_Les_murs_du_Mus%C3%A9e_rev%C3%AAtus_des_mosa%C3%AFques_trouv%C3%A9es_%C3%A0_Dj%C3%A9mila_-_A61578.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/191/",
+        "https://en.wikipedia.org/wiki/Djémila"
+      ]
+    },
+    {
+      "slug": "tipasa",
+      "country_iso": "DZA",
+      "name": "Tipasa",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": 36.59,
+      "lng": 2.44,
+      "summary": "Punic, Roman, early Christian and Byzantine ruins on the shore west of Algiers.",
+      "uniqueness": "A trading post turned Roman colony, with basilicas and a royal Numidian-Mauretanian mausoleum nearby. World Heritage Site since 1982.",
+      "stat_label": "Inscribed",
+      "stat_value": "1982",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 4,
+      "art": {
+        "color": "#5BA4CF",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/View_of_Tipasa_01.jpg/1280px-View_of_Tipasa_01.jpg",
+            "credit": "Bernard Gagnon",
+            "license": "CC BY 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:View_of_Tipasa_01.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/A_roman_column_opposite_the_lighthouse.jpg/1280px-A_roman_column_opposite_the_lighthouse.jpg",
+            "credit": "RACHID BENABDELLAH",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:A_roman_column_opposite_the_lighthouse.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Corridor_in_the_form_of_a_gate_to_the_wall_of_a_Roman_temple.jpg/1280px-Corridor_in_the_form_of_a_gate_to_the_wall_of_a_Roman_temple.jpg",
+            "credit": "RACHID BENABDELLAH",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Corridor_in_the_form_of_a_gate_to_the_wall_of_a_Roman_temple.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/193/",
+        "https://en.wikipedia.org/wiki/Tipasa"
+      ]
+    },
+    {
+      "slug": "timgad",
+      "country_iso": "DZA",
+      "name": "Timgad",
+      "local_name": "Thamugadi",
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": 35.48,
+      "lng": 6.47,
+      "summary": "A Roman garrison town founded by Trajan around 100 CE, with an almost perfect grid of streets.",
+      "uniqueness": "Often called the “Pompeii of North Africa”. Its Arch of Trajan, theatre and library survived because sand buried the city. World Heritage Site since 1982.",
+      "stat_label": "Founded",
+      "stat_value": "~100 CE",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 5,
+      "art": {
+        "color": "#D98E48",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Timgad,_Algeria_-_panoramio_(30).jpg/1280px-Timgad,_Algeria_-_panoramio_(30).jpg",
+            "credit": "Xiaotong Gao",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Timgad,_Algeria_-_panoramio_(30).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Timgad_3.jpg/1280px-Timgad_3.jpg",
+            "credit": "Yassamine98",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Timgad_3.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Timgad_2.jpg/1280px-Timgad_2.jpg",
+            "credit": "Yassamine98",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Timgad_2.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/194/",
+        "https://en.wikipedia.org/wiki/Timgad"
+      ]
+    },
+    {
+      "slug": "kasbah-of-algiers",
+      "country_iso": "DZA",
+      "name": "Kasbah of Algiers",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": 36.78,
+      "lng": 3.06,
+      "summary": "The old hillside medina of Algiers, a maze of whitewashed houses, mosques and Ottoman palaces dropping to the sea.",
+      "uniqueness": "Built over ancient Icosium and shaped by the Zirids and Ottomans. Its alleys were a stronghold of the independence struggle. World Heritage Site since 1992.",
+      "stat_label": "Inscribed",
+      "stat_value": "1992",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 6,
+      "art": {
+        "color": "#F2E3C9",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Casbah_alger.jpg/1280px-Casbah_alger.jpg",
+            "credit": "jam-L",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Casbah_alger.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Kasbah_Of_Algiers_Algeria.jpg/1280px-Kasbah_Of_Algiers_Algeria.jpg",
+            "credit": "Fayeq M.Alnatour",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Kasbah_Of_Algiers_Algeria.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/AlgerCasbah.jpg/1280px-AlgerCasbah.jpg",
+            "credit": "toufik Lerari",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:AlgerCasbah.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/565/",
+        "https://en.wikipedia.org/wiki/Casbah_of_Algiers"
+      ]
+    },
+    {
+      "slug": "mzab-valley",
+      "country_iso": "DZA",
+      "name": "M'Zab Valley",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": 32.49,
+      "lng": 3.68,
+      "summary": "Five fortified ksour built from the 10th–11th century by the Ibadi Mozabites in a Saharan valley.",
+      "uniqueness": "Its simple, functional earthen architecture, with each town climbing to a mosque minaret, has influenced modern architects. World Heritage Site since 1982.",
+      "stat_label": "Towns (ksour)",
+      "stat_value": "5",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 7,
+      "art": {
+        "color": "#E4B363",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Beni_Isguen,_M'zab_Valley_(15267446323).jpg/1280px-Beni_Isguen,_M'zab_Valley_(15267446323).jpg",
+            "credit": "Dan Sloan",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Beni_Isguen,_M'zab_Valley_(15267446323).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/M'zab_Valley_(15886411032).jpg/1280px-M'zab_Valley_(15886411032).jpg",
+            "credit": "Dan Sloan",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:M'zab_Valley_(15886411032).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/M'zab_Valley_(15886423002).jpg/1280px-M'zab_Valley_(15886423002).jpg",
+            "credit": "Dan Sloan",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:M'zab_Valley_(15886423002).jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/188/",
+        "https://en.wikipedia.org/wiki/M'zab"
+      ]
+    },
+    {
+      "slug": "hoggar-mountains",
+      "country_iso": "DZA",
+      "name": "Hoggar Mountains",
+      "local_name": "Ahaggar",
+      "scientific_name": null,
+      "category": "mountain",
+      "lat": 23.29,
+      "lng": 5.53,
+      "summary": "A volcanic highland in the central Sahara, with basalt organ-pipe peaks rising to Mount Tahat at about 2,900 m.",
+      "uniqueness": "Homeland of the Kel Ahaggar Tuareg. Sunrise at Assekrem, where Charles de Foucauld built his hermitage, is one of the Sahara’s great views.",
+      "stat_label": "Highest peak",
+      "stat_value": "Tahat ~2,908 m",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 8,
+      "art": {
+        "color": "#3D3A4B",
+        "intensity": 0.85,
+        "motion": "mist"
+      },
+      "media": {
+        "video": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8b/Hoggar_Mountains_-_4th_position_-_Winners_of_Wiki_Loves_Earth_2018.webm/Hoggar_Mountains_-_4th_position_-_Winners_of_Wiki_Loves_Earth_2018.webm.480p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8b/Hoggar_Mountains_-_4th_position_-_Winners_of_Wiki_Loves_Earth_2018.webm/Hoggar_Mountains_-_4th_position_-_Winners_of_Wiki_Loves_Earth_2018.webm.360p.mpeg4.mov",
+        "credit": "Sofiane Mohammed Amri (photo), Nabin K. Sapkota (video)",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Hoggar_Mountains_-_4th_position_-_Winners_of_Wiki_Loves_Earth_2018.webm",
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Ahaggar_Mountains_1981_01.jpg/1280px-Ahaggar_Mountains_1981_01.jpg",
+            "credit": "Smiley.toerist",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Ahaggar_Mountains_1981_01.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Ahaggar_Mountains_1981_03.jpg/1280px-Ahaggar_Mountains_1981_03.jpg",
+            "credit": "Smiley.toerist",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Ahaggar_Mountains_1981_03.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Hoggar_Mountains",
+        "https://www.wikidata.org/wiki/Q26399"
+      ]
+    },
+    {
+      "slug": "djurdjura",
+      "country_iso": "DZA",
+      "name": "Djurdjura National Park",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "mountain",
+      "lat": 36.47,
+      "lng": 4.13,
+      "summary": "Limestone peaks of the Tell Atlas in Kabylie, with cedar forests and deep karst caves.",
+      "uniqueness": "Home to Barbary macaques, and to Anou Boussouil, one of the deepest known caves in Africa. Also a UNESCO biosphere reserve.",
+      "stat_label": "Highest peak",
+      "stat_value": "Lalla Khedidja 2,308 m",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 9,
+      "art": {
+        "color": "#2F5D50",
+        "intensity": 0.85,
+        "motion": "mist"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Djurdjura_national_park_algeria.jpg/1280px-Djurdjura_national_park_algeria.jpg",
+            "credit": "Hichem Marley",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Djurdjura_national_park_algeria.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Tikjda_015.jpg/1280px-Tikjda_015.jpg",
+            "credit": "Yelles",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Tikjda_015.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Grass_field.JPG/1280px-Grass_field.JPG",
+            "credit": "Hamza CHEGGOUR",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Grass_field.JPG"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Djurdjura_National_Park",
+        "https://en.wikipedia.org/wiki/Djurdjura_Mountains"
+      ]
+    },
+    {
+      "slug": "el-kala",
+      "country_iso": "DZA",
+      "name": "El Kala National Park",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "wetland",
+      "lat": 36.82,
+      "lng": 8.42,
+      "summary": "Lakes, cork-oak forest and dunes on the Mediterranean at the Tunisian border.",
+      "uniqueness": "Its lakes Tonga and Oubeïra are Ramsar wetlands for wintering waterbirds; the park is also a UNESCO biosphere reserve.",
+      "stat_label": "Created",
+      "stat_value": "1983",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 10,
+      "art": {
+        "color": "#4C8C4A",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/All%C3%A9e_des_embrumes_(El_Kala_national_park).jpg/1280px-All%C3%A9e_des_embrumes_(El_Kala_national_park).jpg",
+            "credit": "Rabah2204",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:All%C3%A9e_des_embrumes_(El_Kala_national_park).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/National_parc_of_El-kala_Taref.jpg/1280px-National_parc_of_El-kala_Taref.jpg",
+            "credit": "HAKOUMAhaki",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:National_parc_of_El-kala_Taref.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Plegadis_falcinellus._Mahieddine_Boumendjel.JPG/1280px-Plegadis_falcinellus._Mahieddine_Boumendjel.JPG",
+            "credit": "Mahieddine Boumendjel",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Plegadis_falcinellus._Mahieddine_Boumendjel.JPG"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/El_Kala_National_Park"
+      ]
+    },
+    {
+      "slug": "grand-erg-oriental",
+      "country_iso": "DZA",
+      "name": "Grand Erg Oriental",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "desert",
+      "lat": 30.0,
+      "lng": 6.0,
+      "summary": "A great sea of dunes in the Algerian Sahara, spilling into Tunisia.",
+      "uniqueness": "Its star dunes and linear ridges cover roughly 600 km by 200 km, with dunes over 100 m high in places.",
+      "stat_label": "Extent",
+      "stat_value": "~600 × 200 km",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 11,
+      "art": {
+        "color": "#E0A458",
+        "intensity": 0.85,
+        "motion": "zigzag"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Grand_Erg_Oriental(js)2.jpg/1280px-Grand_Erg_Oriental(js)2.jpg",
+            "credit": "Jerzystrzelecki",
+            "license": "CC BY 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Grand_Erg_Oriental(js)2.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Grand_Erg_Oriental(js)3.jpg/1280px-Grand_Erg_Oriental(js)3.jpg",
+            "credit": "Jerzystrzelecki",
+            "license": "CC BY 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Grand_Erg_Oriental(js)3.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Grand_Erg_Oriental(js)1.jpg/1280px-Grand_Erg_Oriental(js)1.jpg",
+            "credit": "Jerzystrzelecki",
+            "license": "CC BY 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Grand_Erg_Oriental(js)1.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Grand_Erg_Oriental"
+      ]
+    },
+    {
+      "slug": "fennec-fox",
+      "country_iso": "DZA",
+      "name": "Fennec Fox",
+      "local_name": null,
+      "scientific_name": "Vulpes zerda",
+      "category": "fauna",
+      "lat": 27.0,
+      "lng": 2.5,
+      "summary": "The smallest fox, with the largest ears for its size: a nocturnal hunter of the Sahara’s sands. Algeria’s national animal.",
+      "uniqueness": "Its ears shed desert heat and hear insects underground; furry soles let it run on hot sand. It can go long periods without free water. The pin is a representative point.",
+      "stat_label": "Ear length",
+      "stat_value": "~10–15 cm",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 12,
+      "art": {
+        "color": "#F2C57C",
+        "intensity": 0.85,
+        "motion": "herd"
+      },
+      "media": {
+        "video": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2b/Fennec_fox.webm/Fennec_fox.webm.480p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2b/Fennec_fox.webm/Fennec_fox.webm.360p.mpeg4.mov",
+        "credit": "Altes",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Fennec_fox.webm",
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Fennec_Fox_Vulpes_zerda.jpg/1280px-Fennec_Fox_Vulpes_zerda.jpg",
+            "credit": "Drew Avery",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Fennec_Fox_Vulpes_zerda.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Fennec_Fox_Peek.jpg/1280px-Fennec_Fox_Peek.jpg",
+            "credit": "Anass ERRIHANI",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Fennec_Fox_Peek.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Fennec_fox",
+        "https://www.gbif.org/species/search?q=Vulpes%20zerda"
+      ]
+    },
+    {
+      "slug": "atlas-cedar",
+      "country_iso": "DZA",
+      "name": "Atlas Cedar",
+      "local_name": null,
+      "scientific_name": "Cedrus atlantica",
+      "category": "flora",
+      "lat": 35.6,
+      "lng": 6.2,
+      "summary": "A tall cedar of the Atlas and Aurès mountains, with blue-green needles and layered branches.",
+      "uniqueness": "Found only in Morocco and Algeria, where forests are shrinking with drought and grazing. It is listed as Endangered. The pin is a representative point in the Aurès.",
+      "stat_label": "IUCN status",
+      "stat_value": "Endangered",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 13,
+      "art": {
+        "color": "#2F5D50",
+        "intensity": 0.85,
+        "motion": "bloom"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Des_arbres_du_C%C3%A8dre_d'Atlas_Cedrus_atlantica_sur_la_montagne_de_Tichoukte_(SIBE).jpg/1280px-Des_arbres_du_C%C3%A8dre_d'Atlas_Cedrus_atlantica_sur_la_montagne_de_Tichoukte_(SIBE).jpg",
+            "credit": "Aziz aitakka",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Des_arbres_du_C%C3%A8dre_d'Atlas_Cedrus_atlantica_sur_la_montagne_de_Tichoukte_(SIBE).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Cedrus_atlantica_in_Jbel_Lekraa.jpg/1280px-Cedrus_atlantica_in_Jbel_Lekraa.jpg",
+            "credit": "Mustapha Bassouh",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Cedrus_atlantica_in_Jbel_Lekraa.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Cedrus_atlantica",
+        "https://www.gbif.org/species/search?q=Cedrus%20atlantica"
+      ]
+    },
+    {
+      "slug": "abu-mena",
+      "country_iso": "EGY",
+      "name": "Abu Mena",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": 30.84,
+      "lng": 29.66,
+      "summary": "The ruins of a Late Antique Christian pilgrimage town built over the tomb of Saint Menas, south-west of Alexandria.",
+      "uniqueness": "Pilgrims carried home small flasks of its holy water, found across the Mediterranean world. Rising groundwater from irrigation has put the site on the List in Danger since 2001.",
+      "stat_label": "In Danger since",
+      "stat_value": "2001",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 1,
+      "art": {
+        "color": "#E8D5A9",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Ruins_at_Abu_Mena_(VI).jpg/1280px-Ruins_at_Abu_Mena_(VI).jpg",
+            "credit": "isawnyu",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Ruins_at_Abu_Mena_(VI).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Landscape_at_Abu_Mena_(I).jpg/1280px-Landscape_at_Abu_Mena_(I).jpg",
+            "credit": "isawnyu",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Landscape_at_Abu_Mena_(I).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Landscape_at_Abu_Mena_(II).jpg/1280px-Landscape_at_Abu_Mena_(II).jpg",
+            "credit": "isawnyu",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Landscape_at_Abu_Mena_(II).jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/90/",
+        "https://en.wikipedia.org/wiki/Abu_Mena"
+      ]
+    },
+    {
+      "slug": "ancient-thebes",
+      "country_iso": "EGY",
+      "name": "Ancient Thebes and its Necropolis",
+      "local_name": "Waset",
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": 25.72,
+      "lng": 32.61,
+      "summary": "The New Kingdom capital at Luxor: the temples of Karnak and Luxor on the east bank, the Valley of the Kings on the west.",
+      "uniqueness": "Karnak is one of the largest religious complexes ever built. Across the river lie royal tombs such as Tutankhamun’s and the mortuary temple of Hatshepsut. World Heritage Site since 1979.",
+      "stat_label": "Inscribed",
+      "stat_value": "1979",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 2,
+      "art": {
+        "color": "#D4A017",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Luxor_Temple_R15.jpg/1280px-Luxor_Temple_R15.jpg",
+            "credit": "Marc Ryckaert",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Luxor_Temple_R15.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Luxor_Temple_Courtyard_&_Colonnade_of_Amon-Ophis_III_(9794840664).jpg/1280px-Luxor_Temple_Courtyard_&_Colonnade_of_Amon-Ophis_III_(9794840664).jpg",
+            "credit": "Gary Todd",
+            "license": "CC0",
+            "source": "https://commons.wikimedia.org/wiki/File:Luxor_Temple_Courtyard_&_Colonnade_of_Amon-Ophis_III_(9794840664).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Flickr_-_archer10_(Dennis)_-_Egypt-3A-028.jpg/1280px-Flickr_-_archer10_(Dennis)_-_Egypt-3A-028.jpg",
+            "credit": "Dennis G. Jarvis",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Flickr_-_archer10_(Dennis)_-_Egypt-3A-028.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/87/",
+        "https://en.wikipedia.org/wiki/Thebes,_Egypt"
+      ]
+    },
+    {
+      "slug": "historic-cairo",
+      "country_iso": "EGY",
+      "name": "Historic Cairo",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": 30.05,
+      "lng": 31.26,
+      "summary": "The medieval city of mosques, madrasas, hammams and fountains, founded in the 10th century.",
+      "uniqueness": "Al-Azhar, one of the world’s oldest universities, and the Citadel of Saladin are part of it. Often called the “city of a thousand minarets”. World Heritage Site since 1979.",
+      "stat_label": "Founded",
+      "stat_value": "969 CE",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 3,
+      "art": {
+        "color": "#B5651D",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Al-Ghouryia.jpg/1280px-Al-Ghouryia.jpg",
+            "credit": "Ashashyou",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Al-Ghouryia.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/%D9%85%D8%B5%D8%B1_%D8%A7%D9%84%D8%B9%D8%B8%D9%8A%D9%85%D8%A9.jpg/1280px-%D9%85%D8%B5%D8%B1_%D8%A7%D9%84%D8%B9%D8%B8%D9%8A%D9%85%D8%A9.jpg",
+            "credit": "Kareem Tarek Hussein",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:%D9%85%D8%B5%D8%B1_%D8%A7%D9%84%D8%B9%D8%B8%D9%8A%D9%85%D8%A9.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Al-Imam_al-Shafi'i_Cemetery,_Cairo.jpg/1280px-Al-Imam_al-Shafi'i_Cemetery,_Cairo.jpg",
+            "credit": "Hassan Hamdy wahidy",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Al-Imam_al-Shafi'i_Cemetery,_Cairo.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/89/",
+        "https://en.wikipedia.org/wiki/Islamic_Cairo"
+      ]
+    },
+    {
+      "slug": "abu-simbel-philae",
+      "country_iso": "EGY",
+      "name": "Nubian Monuments from Abu Simbel to Philae",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": 22.34,
+      "lng": 31.63,
+      "summary": "The temples of Ramesses II at Abu Simbel and of Isis at Philae, among others, on the Nile in Nubia.",
+      "uniqueness": "In the 1960s an international UNESCO campaign cut Abu Simbel into blocks and moved it uphill, away from the rising waters of Lake Nasser. That campaign inspired the World Heritage Convention.",
+      "stat_label": "Abu Simbel moved",
+      "stat_value": "1964–1968",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 4,
+      "art": {
+        "color": "#E3A857",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Nubian_Monuments_from_Abu_Simbel_to_Philae-108552.jpg/1280px-Nubian_Monuments_from_Abu_Simbel_to_Philae-108552.jpg",
+            "credit": "Christian Manhart",
+            "license": "CC BY-SA 3.0 IGO",
+            "source": "https://commons.wikimedia.org/wiki/File:Nubian_Monuments_from_Abu_Simbel_to_Philae-108552.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Nubian_Monuments_from_Abu_Simbel_to_Philae-108556.jpg/1280px-Nubian_Monuments_from_Abu_Simbel_to_Philae-108556.jpg",
+            "credit": "Christian Manhart",
+            "license": "CC BY-SA 3.0 IGO",
+            "source": "https://commons.wikimedia.org/wiki/File:Nubian_Monuments_from_Abu_Simbel_to_Philae-108556.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Nubian_Monuments_from_Abu_Simbel_to_Philae-108554.jpg/1280px-Nubian_Monuments_from_Abu_Simbel_to_Philae-108554.jpg",
+            "credit": "Christian Manhart",
+            "license": "CC BY-SA 3.0 IGO",
+            "source": "https://commons.wikimedia.org/wiki/File:Nubian_Monuments_from_Abu_Simbel_to_Philae-108554.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/88/",
+        "https://en.wikipedia.org/wiki/International_Campaign_to_Save_the_Monuments_of_Nubia"
+      ]
+    },
+    {
+      "slug": "giza-memphis",
+      "country_iso": "EGY",
+      "name": "Memphis and its Necropolis: Giza to Dahshur",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": 29.98,
+      "lng": 31.13,
+      "summary": "The Old Kingdom capital and its pyramid fields: Giza, Saqqara, Abusir and Dahshur.",
+      "uniqueness": "The Great Pyramid of Khufu is the only one of the Seven Wonders of the Ancient World still standing. Djoser’s step pyramid at Saqqara is among the oldest large stone buildings. World Heritage Site since 1979.",
+      "stat_label": "Great Pyramid",
+      "stat_value": "~4,500 years old",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 5,
+      "art": {
+        "color": "#E8D5A9",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/All_Gizah_Pyramids.jpg/1280px-All_Gizah_Pyramids.jpg",
+            "credit": "Ricardo Liberato",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:All_Gizah_Pyramids.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Pyramids_of_Giza_and_boat_pit.jpg/1280px-Pyramids_of_Giza_and_boat_pit.jpg",
+            "credit": "kallerna",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Pyramids_of_Giza_and_boat_pit.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/All_pyramids_of_Giza_panorama_2.jpg/1280px-All_pyramids_of_Giza_panorama_2.jpg",
+            "credit": "kallerna",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:All_pyramids_of_Giza_panorama_2.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/86/",
+        "https://en.wikipedia.org/wiki/Memphis,_Egypt",
+        "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza"
+      ]
+    },
+    {
+      "slug": "saint-catherine-sinai",
+      "country_iso": "EGY",
+      "name": "Saint Catherine Area",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "mountain",
+      "lat": 28.56,
+      "lng": 33.98,
+      "summary": "The 6th-century Orthodox monastery of Saint Catherine at the foot of Mount Sinai.",
+      "uniqueness": "One of the oldest working Christian monasteries, built under Justinian. The mountain is sacred to Christianity, Islam and Judaism. World Heritage Site since 2002.",
+      "stat_label": "Monastery built",
+      "stat_value": "~548–565 CE",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 6,
+      "art": {
+        "color": "#C1693C",
+        "intensity": 0.85,
+        "motion": "mist"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Mount_Moses.jpg/1280px-Mount_Moses.jpg",
+            "credit": "Mohammed Moussa",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Mount_Moses.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Saint_Catherine_Monastery_church_and_mosque_towers.jpg/1280px-Saint_Catherine_Monastery_church_and_mosque_towers.jpg",
+            "credit": "Florian Prischl",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Saint_Catherine_Monastery_church_and_mosque_towers.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Panorama_Mount_Sinai_south.jpg/1280px-Panorama_Mount_Sinai_south.jpg",
+            "credit": "Florian Prischl",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Panorama_Mount_Sinai_south.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/954/",
+        "https://en.wikipedia.org/wiki/Saint_Catherine's_Monastery"
+      ]
+    },
+    {
+      "slug": "wadi-al-hitan",
+      "country_iso": "EGY",
+      "name": "Wadi Al-Hitan",
+      "local_name": "Whale Valley",
+      "scientific_name": null,
+      "category": "desert",
+      "lat": 29.27,
+      "lng": 30.04,
+      "summary": "Hundreds of fossil whale skeletons lying in the desert of the Fayoum, from a sea that covered it 40 million years ago.",
+      "uniqueness": "The fossils of Basilosaurus and Dorudon still have small hind legs, showing how whales evolved from land mammals. Egypt’s first natural World Heritage Site (2005).",
+      "stat_label": "Fossil age",
+      "stat_value": "~40 million years",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 7,
+      "art": {
+        "color": "#F0E1C0",
+        "intensity": 0.85,
+        "motion": "sink"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Wadi_Al-Hitan_(Whale_Valley).jpg/1280px-Wadi_Al-Hitan_(Whale_Valley).jpg",
+            "credit": "Mohammed Moussa",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Wadi_Al-Hitan_(Whale_Valley).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Wadi_Al-Hitan_(Whale_Valley)-113614.jpg/1280px-Wadi_Al-Hitan_(Whale_Valley)-113614.jpg",
+            "credit": "Guy Debonnet",
+            "license": "CC BY-SA 3.0 IGO",
+            "source": "https://commons.wikimedia.org/wiki/File:Wadi_Al-Hitan_(Whale_Valley)-113614.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Wadi_Al-Hitan_(Whale_Valley)-113616.jpg/1280px-Wadi_Al-Hitan_(Whale_Valley)-113616.jpg",
+            "credit": "Guy Debonnet",
+            "license": "CC BY-SA 3.0 IGO",
+            "source": "https://commons.wikimedia.org/wiki/File:Wadi_Al-Hitan_(Whale_Valley)-113616.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/1186/",
+        "https://en.wikipedia.org/wiki/Wadi_Al-Hitan"
+      ]
+    },
+    {
+      "slug": "white-desert",
+      "country_iso": "EGY",
+      "name": "White Desert",
+      "local_name": "Sahara el Beyda",
+      "scientific_name": null,
+      "category": "desert",
+      "lat": 27.28,
+      "lng": 28.2,
+      "summary": "Chalk towers and “mushroom” rocks sculpted by wind in the Farafra Depression.",
+      "uniqueness": "The chalk is made of tiny marine fossils. In moonlight the formations glow like snow; the area has been protected since 2002.",
+      "stat_label": "Protected since",
+      "stat_value": "2002",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 8,
+      "art": {
+        "color": "#F5F1E6",
+        "intensity": 0.85,
+        "motion": "mist"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Egypt_White_Desert_The_Mushroom.jpg/1280px-Egypt_White_Desert_The_Mushroom.jpg",
+            "credit": "Nearodney",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Egypt_White_Desert_The_Mushroom.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Desert_blanc.jpg/1280px-Desert_blanc.jpg",
+            "credit": "Daniel Fafard",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Desert_blanc.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Champinnones_blancos.jpg/1280px-Champinnones_blancos.jpg",
+            "credit": "Silviapef",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Champinnones_blancos.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/White_Desert_National_Park"
+      ]
+    },
+    {
+      "slug": "ras-muhammad",
+      "country_iso": "EGY",
+      "name": "Ras Muhammad National Park",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "coast",
+      "lat": 27.77,
+      "lng": 34.21,
+      "summary": "The southern tip of Sinai, where the Gulfs of Suez and Aqaba meet over coral reefs.",
+      "uniqueness": "Egypt’s first national park (1983). Its reef walls drop hundreds of metres, and its mangroves are among the most northerly in the world.",
+      "stat_label": "Established",
+      "stat_value": "1983",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 9,
+      "art": {
+        "color": "#1F9BBF",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Egypt,_Ras_Muhammad_national_park.jpg/1280px-Egypt,_Ras_Muhammad_national_park.jpg",
+            "credit": "Paul Grach",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Egypt,_Ras_Muhammad_national_park.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Alfombra_de_algas_amarillas,_parque_nacional_Ras_Muhammad,_Egipto,_2022-03-27,_DD_42.jpg/1280px-Alfombra_de_algas_amarillas,_parque_nacional_Ras_Muhammad,_Egipto,_2022-03-27,_DD_42.jpg",
+            "credit": "Diego Delso",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Alfombra_de_algas_amarillas,_parque_nacional_Ras_Muhammad,_Egipto,_2022-03-27,_DD_42.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Underground_water_groove_in_Ras_Muhammad_National_Park.jpg/1280px-Underground_water_groove_in_Ras_Muhammad_National_Park.jpg",
+            "credit": "Hesham Kassem",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Underground_water_groove_in_Ras_Muhammad_National_Park.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Ras_Muhammad_National_Park"
+      ]
+    },
+    {
+      "slug": "gilf-kebir",
+      "country_iso": "EGY",
+      "name": "Gilf Kebir",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "landform",
+      "lat": 23.44,
+      "lng": 25.84,
+      "summary": "A vast sandstone plateau in Egypt’s far south-west, one of the most remote places in the Sahara.",
+      "uniqueness": "Its caves hold the “Cave of Swimmers” and the Cave of the Beasts, with painted figures from a wetter Sahara.",
+      "stat_label": "Plateau area",
+      "stat_value": "~7,770 km²",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 10,
+      "art": {
+        "color": "#B5502E",
+        "intensity": 0.85,
+        "motion": "zigzag"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/GilfKebirSouth.jpg/1280px-GilfKebirSouth.jpg",
+            "credit": "Roland Unger",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:GilfKebirSouth.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Gilf_Kebir_jan_2007_tourists_valley.jpg",
+            "credit": "Ilan Molcho",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Gilf_Kebir_jan_2007_tourists_valley.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Gilf_Kebir",
+        "https://en.wikipedia.org/wiki/Cave_of_Swimmers"
+      ]
+    },
+    {
+      "slug": "siwa-oasis",
+      "country_iso": "EGY",
+      "name": "Siwa Oasis",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "lake",
+      "lat": 29.21,
+      "lng": 25.52,
+      "summary": "A palm and olive oasis near the Libyan border, with salt lakes and a town of mud-and-salt kershef.",
+      "uniqueness": "Its Oracle of Amun was consulted by Alexander the Great. The Siwi people speak a Berber language, unlike the rest of Egypt.",
+      "stat_label": "Below sea level",
+      "stat_value": "~18 m",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 11,
+      "art": {
+        "color": "#6B8E23",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Siwa_Oasis_homes_(May_2007).jpg/1280px-Siwa_Oasis_homes_(May_2007).jpg",
+            "credit": "VascoPlanet Egypt",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Siwa_Oasis_homes_(May_2007).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Siwa_Oasis,_Qesm_Siwah,_Matrouh_Governorate,_Egypt_-_panoramio_(7).jpg/1280px-Siwa_Oasis,_Qesm_Siwah,_Matrouh_Governorate,_Egypt_-_panoramio_(7).jpg",
+            "credit": "mykola.rykov",
+            "license": "CC BY 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Siwa_Oasis,_Qesm_Siwah,_Matrouh_Governorate,_Egypt_-_panoramio_(7).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/The_way_to_siwa_oasis.jpg/1280px-The_way_to_siwa_oasis.jpg",
+            "credit": "Ahmed Emad H",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:The_way_to_siwa_oasis.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Siwa_Oasis"
+      ]
+    },
+    {
+      "slug": "steppe-eagle-suez",
+      "country_iso": "EGY",
+      "name": "Steppe Eagle",
+      "local_name": null,
+      "scientific_name": "Aquila nipalensis",
+      "category": "fauna",
+      "lat": 29.97,
+      "lng": 32.55,
+      "summary": "A large migrating eagle that funnels through Suez and Sinai each spring and autumn, between Eurasia and East Africa.",
+      "uniqueness": "The Red Sea flyway carries hundreds of thousands of raptors over Egypt. The steppe eagle has declined sharply and is listed as Endangered. The pin is at Suez.",
+      "stat_label": "IUCN status",
+      "stat_value": "Endangered",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 12,
+      "art": {
+        "color": "#8B5E34",
+        "intensity": 0.85,
+        "motion": "herd"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Aquila_nipalensis_orientalis_qtl1.jpg/1280px-Aquila_nipalensis_orientalis_qtl1.jpg",
+            "credit": "Quartl",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Aquila_nipalensis_orientalis_qtl1.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Aquila_nipalensis_-_20100905.jpg/1280px-Aquila_nipalensis_-_20100905.jpg",
+            "credit": "H005",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Aquila_nipalensis_-_20100905.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Aquila_nipalensis_orientalis_qtl2.jpg/1280px-Aquila_nipalensis_orientalis_qtl2.jpg",
+            "credit": "Quartl",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Aquila_nipalensis_orientalis_qtl2.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Steppe_eagle",
+        "https://www.gbif.org/species/search?q=Aquila%20nipalensis"
+      ]
+    },
+    {
+      "slug": "blue-lotus",
+      "country_iso": "EGY",
+      "name": "Blue Lotus",
+      "local_name": "sšn (ancient Egyptian)",
+      "scientific_name": "Nymphaea caerulea",
+      "category": "flora",
+      "lat": 30.6,
+      "lng": 31.2,
+      "summary": "A water lily of the Nile that opens at morning and closes at dusk, painted on tomb walls for thousands of years.",
+      "uniqueness": "Ancient Egyptians linked it with the sun and rebirth; it appears in temple art and on Tutankhamun’s funerary objects. The pin is in the Nile Delta.",
+      "stat_label": "Opens",
+      "stat_value": "At sunrise",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 13,
+      "art": {
+        "color": "#4F6FD6",
+        "intensity": 0.85,
+        "motion": "bloom"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Nymphaea_Caerulea_Aug_2009.jpg/1280px-Nymphaea_Caerulea_Aug_2009.jpg",
+            "credit": "Kemmi.1 (Stefan Kemmerling)",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Nymphaea_Caerulea_Aug_2009.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Nymphaea_caerulea-20091014-RM-115245.jpg/1280px-Nymphaea_caerulea-20091014-RM-115245.jpg",
+            "credit": "Ermell",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Nymphaea_caerulea-20091014-RM-115245.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Nymphaea_caerulea-20091014-RM-115358.jpg/1280px-Nymphaea_caerulea-20091014-RM-115358.jpg",
+            "credit": "Ermell",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Nymphaea_caerulea-20091014-RM-115358.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Nymphaea_caerulea",
+        "https://www.gbif.org/species/search?q=Nymphaea%20caerulea"
+      ]
+    },
+    {
+      "slug": "tadrart-acacus",
+      "country_iso": "LBY",
+      "name": "Rock-Art Sites of Tadrart Acacus",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "rock",
+      "lat": 24.83,
+      "lng": 10.33,
+      "summary": "A mountain range of dark sandstone arches near Ghat, with thousands of paintings and engravings.",
+      "uniqueness": "The art spans from about 12,000 BCE to the 1st century CE, showing giraffes, elephants and later cattle and horses as the Sahara dried. World Heritage Site since 1985; on the List in Danger since 2016.",
+      "stat_label": "Art spans",
+      "stat_value": "~12,000 BCE–100 CE",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 1,
+      "art": {
+        "color": "#B5502E",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Libya_5076_Tadrart_Acacus_Luca_Galuzzi_2007.jpg/1280px-Libya_5076_Tadrart_Acacus_Luca_Galuzzi_2007.jpg",
+            "credit": "Luca Galuzzi (Lucag)",
+            "license": "CC BY-SA 2.5",
+            "source": "https://commons.wikimedia.org/wiki/File:Libya_5076_Tadrart_Acacus_Luca_Galuzzi_2007.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Rock-Art_Sites_of_Tadrart_Acacus-109792.jpg/1280px-Rock-Art_Sites_of_Tadrart_Acacus-109792.jpg",
+            "credit": "Yvon Fruneau",
+            "license": "CC BY-SA 3.0 IGO",
+            "source": "https://commons.wikimedia.org/wiki/File:Rock-Art_Sites_of_Tadrart_Acacus-109792.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Tadrart01.JPG/1280px-Tadrart01.JPG",
+            "credit": "Pir6mon",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Tadrart01.JPG"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/287/",
+        "https://en.wikipedia.org/wiki/Acacus_Mountains"
+      ]
+    },
+    {
+      "slug": "cyrene",
+      "country_iso": "LBY",
+      "name": "Cyrene",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": 32.82,
+      "lng": 21.86,
+      "summary": "A Greek colony founded about 631 BCE in the Green Mountain, later one of the great Roman cities of Africa.",
+      "uniqueness": "Its sanctuary of Apollo and Temple of Zeus rival those of Greece. Cyrene was famed for silphium, a medicinal plant traded until it vanished. On the List in Danger since 2016.",
+      "stat_label": "Founded",
+      "stat_value": "~631 BCE",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 2,
+      "art": {
+        "color": "#E8D5A9",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Archaeological_Site_of_Cyrene-109030.jpg/1280px-Archaeological_Site_of_Cyrene-109030.jpg",
+            "credit": "Francesco Bandarin",
+            "license": "CC BY-SA 3.0 IGO",
+            "source": "https://commons.wikimedia.org/wiki/File:Archaeological_Site_of_Cyrene-109030.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Archaeological_Site_of_Cyrene-109031.jpg/1280px-Archaeological_Site_of_Cyrene-109031.jpg",
+            "credit": "Francesco Bandarin",
+            "license": "CC BY-SA 3.0 IGO",
+            "source": "https://commons.wikimedia.org/wiki/File:Archaeological_Site_of_Cyrene-109031.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Archaeological_Site_of_Cyrene-109025.jpg",
+            "credit": "Giovanni Boccardi",
+            "license": "CC BY-SA 3.0 IGO",
+            "source": "https://commons.wikimedia.org/wiki/File:Archaeological_Site_of_Cyrene-109025.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/190/",
+        "https://en.wikipedia.org/wiki/Cyrene,_Libya"
+      ]
+    },
+    {
+      "slug": "ghadames",
+      "country_iso": "LBY",
+      "name": "Old Town of Ghadamès",
+      "local_name": "“the pearl of the desert”",
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": 30.13,
+      "lng": 9.5,
+      "summary": "An oasis town of linked mud-brick houses and covered alleys on the old caravan routes.",
+      "uniqueness": "Houses have separate levels for families and rooftop walkways for women. The town stays cool in desert heat. World Heritage Site since 1986.",
+      "stat_label": "Inscribed",
+      "stat_value": "1986",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 3,
+      "art": {
+        "color": "#F2E3C9",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Ghadames,_2006.jpg/1280px-Ghadames,_2006.jpg",
+            "credit": "Teogomez",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Ghadames,_2006.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Ghadames_2.jpg/1280px-Ghadames_2.jpg",
+            "credit": "Teogomez",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Ghadames_2.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Ghadames_3.jpg/1280px-Ghadames_3.jpg",
+            "credit": "Teogomez",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Ghadames_3.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/362/",
+        "https://en.wikipedia.org/wiki/Ghadames"
+      ]
+    },
+    {
+      "slug": "leptis-magna",
+      "country_iso": "LBY",
+      "name": "Leptis Magna",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": 32.64,
+      "lng": 14.29,
+      "summary": "One of the best-preserved Roman cities, enlarged by the emperor Septimius Severus, who was born here.",
+      "uniqueness": "Its theatre, basilica, harbour and the Arch of Septimius Severus survived largely because sand covered them. On the List in Danger since 2016.",
+      "stat_label": "Hometown of",
+      "stat_value": "Septimius Severus",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 4,
+      "art": {
+        "color": "#D9A066",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Archaeological_Site_of_Leptis_Magna-108965.jpg/1280px-Archaeological_Site_of_Leptis_Magna-108965.jpg",
+            "credit": "Francesco Bandarin",
+            "license": "CC BY-SA 3.0 IGO",
+            "source": "https://commons.wikimedia.org/wiki/File:Archaeological_Site_of_Leptis_Magna-108965.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Archaeological_Site_of_Leptis_Magna-108967.jpg/1280px-Archaeological_Site_of_Leptis_Magna-108967.jpg",
+            "credit": "Francesco Bandarin",
+            "license": "CC BY-SA 3.0 IGO",
+            "source": "https://commons.wikimedia.org/wiki/File:Archaeological_Site_of_Leptis_Magna-108967.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Archaeological_site_of_leptis_magna.jpg/1280px-Archaeological_site_of_leptis_magna.jpg",
+            "credit": "Retaj Alsheikh",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Archaeological_site_of_leptis_magna.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/183/",
+        "https://en.wikipedia.org/wiki/Leptis_Magna"
+      ]
+    },
+    {
+      "slug": "sabratha",
+      "country_iso": "LBY",
+      "name": "Sabratha",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": 32.81,
+      "lng": 12.48,
+      "summary": "A Phoenician trading post that became a Roman city on the Tripolitanian coast.",
+      "uniqueness": "Its three-storey theatre, built around 190 CE, looks out to the Mediterranean. On the List in Danger since 2016.",
+      "stat_label": "Theatre built",
+      "stat_value": "~190 CE",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 5,
+      "art": {
+        "color": "#C8784A",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Archaeological_Site_of_Sabratha_Roman_Theater.jpg/1280px-Archaeological_Site_of_Sabratha_Roman_Theater.jpg",
+            "credit": "Amanyalbadry",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Archaeological_Site_of_Sabratha_Roman_Theater.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Archaeological_site_of_Sabratha,_Libya.jpg/1280px-Archaeological_site_of_Sabratha,_Libya.jpg",
+            "credit": "Soma dntst Mohammed",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Archaeological_site_of_Sabratha,_Libya.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Theatre_of_Sabratha,_Libya.jpg/1280px-Theatre_of_Sabratha,_Libya.jpg",
+            "credit": "Wikimedia Commons contributor",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Theatre_of_Sabratha,_Libya.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/184/",
+        "https://en.wikipedia.org/wiki/Sabratha"
+      ]
+    },
+    {
+      "slug": "waw-an-namus",
+      "country_iso": "LBY",
+      "name": "Waw an Namus",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "volcano",
+      "lat": 24.9,
+      "lng": 17.75,
+      "summary": "A black volcanic crater in the middle of the Sahara, holding small salty lakes ringed with reeds.",
+      "uniqueness": "Its dark ash field stands out from space against the sand. The crater is about 4 km across, one of the most isolated volcanoes on Earth.",
+      "stat_label": "Crater width",
+      "stat_value": "~4 km",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 6,
+      "art": {
+        "color": "#2F3E46",
+        "intensity": 0.85,
+        "motion": "sink"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Waw_an-Namus-zentraler_Krater.jpg/1280px-Waw_an-Namus-zentraler_Krater.jpg",
+            "credit": "StFr",
+            "license": "CC0",
+            "source": "https://commons.wikimedia.org/wiki/File:Waw_an-Namus-zentraler_Krater.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Waw_an_namus_from_top.jpg",
+            "credit": "ruba_ch / Rudolf Baumann",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Waw_an_namus_from_top.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Waw_An_Namus_-_STS052.JPG/1280px-Waw_An_Namus_-_STS052.JPG",
+            "credit": "NASA",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Waw_An_Namus_-_STS052.JPG"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Waw_an_Namus"
+      ]
+    },
+    {
+      "slug": "jebel-akhdar-libya",
+      "country_iso": "LBY",
+      "name": "Jebel Akhdar",
+      "local_name": "the Green Mountain",
+      "scientific_name": null,
+      "category": "forest",
+      "lat": 32.6,
+      "lng": 21.47,
+      "summary": "A wooded limestone upland in Cyrenaica, the wettest part of Libya.",
+      "uniqueness": "Juniper and cypress woods and fertile valleys made it the heartland of ancient Cyrene, in a country that is mostly desert.",
+      "stat_label": "Rainfall",
+      "stat_value": "Up to ~600 mm/yr",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 7,
+      "art": {
+        "color": "#6A994E",
+        "intensity": 0.85,
+        "motion": "mist"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Al_Bakour4.JPG/1280px-Al_Bakour4.JPG",
+            "credit": "Maher A. A. Abdussalam",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Al_Bakour4.JPG"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Cows_graze_near_Wadi_Jarjarama.JPG/1280px-Cows_graze_near_Wadi_Jarjarama.JPG",
+            "credit": "Maher27777",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Cows_graze_near_Wadi_Jarjarama.JPG"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Al_Marj_Tacnis_road.JPG/1280px-Al_Marj_Tacnis_road.JPG",
+            "credit": "Maher A. A. Abdussalam",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Al_Marj_Tacnis_road.JPG"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Jebel_Akhdar_(Libya)"
+      ]
+    },
+    {
+      "slug": "ubari-lakes",
+      "country_iso": "LBY",
+      "name": "Ubari Lakes",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "lake",
+      "lat": 26.79,
+      "lng": 12.78,
+      "summary": "Palm-fringed salt lakes among the dunes of the Ubari Sand Sea in the Fezzan.",
+      "uniqueness": "Fed by ancient groundwater, the lakes are saltier than the sea. Lakes such as Gaberoun and Umm al-Maa are falling as the water table drops.",
+      "stat_label": "Region",
+      "stat_value": "Fezzan",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 8,
+      "art": {
+        "color": "#2E86AB",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Libya_5391_Ubari_Lakes_Luca_Galuzzi_2007.jpg/1280px-Libya_5391_Ubari_Lakes_Luca_Galuzzi_2007.jpg",
+            "credit": "Luca Galuzzi (Lucag)",
+            "license": "CC BY-SA 2.5",
+            "source": "https://commons.wikimedia.org/wiki/File:Libya_5391_Ubari_Lakes_Luca_Galuzzi_2007.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Simon_Reeve_IMG_2583.JPG/1280px-Simon_Reeve_IMG_2583.JPG",
+            "credit": "Amy Chapman",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Simon_Reeve_IMG_2583.JPG"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Ubari_Sand_Sea"
+      ]
+    },
+    {
+      "slug": "barbary-sheep",
+      "country_iso": "LBY",
+      "name": "Barbary Sheep",
+      "local_name": "aoudad",
+      "scientific_name": "Ammotragus lervia",
+      "category": "fauna",
+      "lat": 25.2,
+      "lng": 10.6,
+      "summary": "A sure-footed wild goat-sheep of the Sahara’s rocky massifs, with a long fringe of hair on its throat and forelegs.",
+      "uniqueness": "It can live without drinking for long periods, getting water from plants. It appears in Saharan rock art. The pin is in the Acacus.",
+      "stat_label": "IUCN status",
+      "stat_value": "Vulnerable",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 9,
+      "art": {
+        "color": "#B07D4B",
+        "intensity": 0.85,
+        "motion": "herd"
+      },
+      "media": {
+        "video": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3d/Barbary_sheep.webm/Barbary_sheep.webm.480p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3d/Barbary_sheep.webm/Barbary_sheep.webm.360p.mpeg4.mov",
+        "credit": "Altes",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Barbary_sheep.webm",
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Barbary_Sheep_(Ammotragus_lervia).JPG/1280px-Barbary_Sheep_(Ammotragus_lervia).JPG",
+            "credit": "The High Fin Sperm Whale",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Barbary_Sheep_(Ammotragus_lervia).JPG"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/BarbarySheep4.jpg/1280px-BarbarySheep4.jpg",
+            "credit": "Rei",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:BarbarySheep4.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Barbary_sheep",
+        "https://www.gbif.org/species/search?q=Ammotragus%20lervia"
+      ]
+    },
+    {
+      "slug": "pomegranate",
+      "country_iso": "LBY",
+      "name": "Pomegranate",
+      "local_name": null,
+      "scientific_name": "Punica granatum",
+      "category": "flora",
+      "lat": 32.5,
+      "lng": 13.2,
+      "summary": "A fruit tree grown in Mediterranean gardens and oases since antiquity, with ruby seeds inside a leathery skin.",
+      "uniqueness": "Cultivated across North Africa since Phoenician and Roman times; the Romans called it the “Punic apple”. The pin is a representative point near Tripoli.",
+      "stat_label": "Roman name",
+      "stat_value": "malum punicum",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 10,
+      "art": {
+        "color": "#C1121F",
+        "intensity": 0.85,
+        "motion": "bloom"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Punica_granatum_004.JPG/1280px-Punica_granatum_004.JPG",
+            "credit": "H. Zell",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Punica_granatum_004.JPG"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Punica_granatum_L._Nana.jpg/1280px-Punica_granatum_L._Nana.jpg",
+            "credit": "Jebulon",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Punica_granatum_L._Nana.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Punica_granatum_(pomegranate)_flower_-_relative_size.jpeg/1280px-Punica_granatum_(pomegranate)_flower_-_relative_size.jpeg",
+            "credit": "Sankarshansen",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Punica_granatum_(pomegranate)_flower_-_relative_size.jpeg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Pomegranate",
+        "https://www.gbif.org/species/search?q=Punica%20granatum"
+      ]
+    },
+    {
+      "slug": "medina-of-fez",
+      "country_iso": "MAR",
+      "name": "Medina of Fez",
+      "local_name": "Fès el Bali",
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": 34.06,
+      "lng": -4.97,
+      "summary": "One of the largest car-free urban areas in the world, founded in the 9th century.",
+      "uniqueness": "Al-Qarawiyyin, founded in 859, is often cited as the oldest continually operating university. The Chouara tannery still dyes leather in stone vats. World Heritage Site since 1981.",
+      "stat_label": "Al-Qarawiyyin",
+      "stat_value": "859 CE",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 1,
+      "art": {
+        "color": "#2D4BA0",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Delivery_by_mule_in_Medina_of_Fez.jpg/1280px-Delivery_by_mule_in_Medina_of_Fez.jpg",
+            "credit": "Subotai85",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Delivery_by_mule_in_Medina_of_Fez.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Medina_of_Fez_082023_005.jpg/1280px-Medina_of_Fez_082023_005.jpg",
+            "credit": "Yamen",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Medina_of_Fez_082023_005.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Medina_of_Fez_082023_034.jpg/1280px-Medina_of_Fez_082023_034.jpg",
+            "credit": "Yamen",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Medina_of_Fez_082023_034.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/170/",
+        "https://en.wikipedia.org/wiki/Fes_el_Bali"
+      ]
+    },
+    {
+      "slug": "medina-of-marrakesh",
+      "country_iso": "MAR",
+      "name": "Medina of Marrakesh",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": 31.63,
+      "lng": -7.99,
+      "summary": "The red city founded by the Almoravids in 1070, with the Koutoubia minaret and the square of Jemaa el-Fnaa.",
+      "uniqueness": "Jemaa el-Fnaa, with its storytellers, musicians and food stalls, helped inspire UNESCO’s list of Intangible Cultural Heritage. World Heritage Site since 1985.",
+      "stat_label": "Founded",
+      "stat_value": "1070",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 2,
+      "art": {
+        "color": "#C65D3B",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Medina_of_Marrakesh_Sept2022_004.jpg/1280px-Medina_of_Marrakesh_Sept2022_004.jpg",
+            "credit": "Yamen",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Medina_of_Marrakesh_Sept2022_004.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Medina_of_Marrakesh_Sept2022_048.jpg/1280px-Medina_of_Marrakesh_Sept2022_048.jpg",
+            "credit": "Yamen",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Medina_of_Marrakesh_Sept2022_048.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Medina_of_Marrakesh_Sept2022_089.jpg/1280px-Medina_of_Marrakesh_Sept2022_089.jpg",
+            "credit": "Yamen",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Medina_of_Marrakesh_Sept2022_089.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/331/",
+        "https://en.wikipedia.org/wiki/Marrakesh"
+      ]
+    },
+    {
+      "slug": "ait-ben-haddou",
+      "country_iso": "MAR",
+      "name": "Ksar of Aït-Ben-Haddou",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": 31.05,
+      "lng": -7.13,
+      "summary": "A fortified village of earthen kasbahs stacked up a hillside on the old caravan road from the Sahara to Marrakesh.",
+      "uniqueness": "A classic example of southern Moroccan earthen architecture, and a backdrop for many films. World Heritage Site since 1987.",
+      "stat_label": "Inscribed",
+      "stat_value": "1987",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 3,
+      "art": {
+        "color": "#B5502E",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/A%C3%AFt_Benhaddou_view_from_above.jpg/1280px-A%C3%AFt_Benhaddou_view_from_above.jpg",
+            "credit": "Elena Tatiana Chis",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:A%C3%AFt_Benhaddou_view_from_above.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/A%C3%AFt_Benhaddou_view_from_a_restaurant.jpg/1280px-A%C3%AFt_Benhaddou_view_from_a_restaurant.jpg",
+            "credit": "Elena Tatiana Chis",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:A%C3%AFt_Benhaddou_view_from_a_restaurant.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/A%C3%AFt_Benhaddou_walk_on_the_streets_souvenir_shop.jpg/1280px-A%C3%AFt_Benhaddou_walk_on_the_streets_souvenir_shop.jpg",
+            "credit": "Elena Tatiana Chis",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:A%C3%AFt_Benhaddou_walk_on_the_streets_souvenir_shop.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/444/",
+        "https://en.wikipedia.org/wiki/Aït_Benhaddou"
+      ]
+    },
+    {
+      "slug": "meknes",
+      "country_iso": "MAR",
+      "name": "Historic City of Meknes",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": 33.89,
+      "lng": -5.56,
+      "summary": "The imperial capital of Sultan Moulay Ismail, ringed by some 40 km of walls.",
+      "uniqueness": "The monumental Bab Mansour gate and vast royal granaries and stables show the scale of his 17th-century projects. World Heritage Site since 1996.",
+      "stat_label": "City walls",
+      "stat_value": "~40 km",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 4,
+      "art": {
+        "color": "#3E8E7E",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "video": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cf/Bab_Mensour-_The_Poem.webm/Bab_Mensour-_The_Poem.webm.480p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cf/Bab_Mensour-_The_Poem.webm/Bab_Mensour-_The_Poem.webm.360p.mpeg4.mov",
+        "credit": "Karmouch",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Bab_Mensour-_The_Poem.webm",
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Classical_Architecture_and_Street_Vendor_-_Medina_(Old_City)_-_Meknes_-_Morocco.jpg/1280px-Classical_Architecture_and_Street_Vendor_-_Medina_(Old_City)_-_Meknes_-_Morocco.jpg",
+            "credit": "Adam Jones, Ph.D.",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Classical_Architecture_and_Street_Vendor_-_Medina_(Old_City)_-_Meknes_-_Morocco.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Medina,_Meknes,_Morocco_-_panoramio_(14).jpg/1280px-Medina,_Meknes,_Morocco_-_panoramio_(14).jpg",
+            "credit": "Ben Bender",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Medina,_Meknes,_Morocco_-_panoramio_(14).jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/793/",
+        "https://en.wikipedia.org/wiki/Meknes"
+      ]
+    },
+    {
+      "slug": "volubilis",
+      "country_iso": "MAR",
+      "name": "Volubilis",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": 34.07,
+      "lng": -5.55,
+      "summary": "A Berber and Roman city on fertile plains below the Zerhoun hills, with fine floor mosaics still in place.",
+      "uniqueness": "A capital of Mauretania and a Roman frontier town; later Idris I came here to found the first Moroccan dynasty. World Heritage Site since 1997.",
+      "stat_label": "Inscribed",
+      "stat_value": "1997",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 5,
+      "art": {
+        "color": "#D9A066",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Panoramic_view_of_Volubilis_-_Morocco.jpg/1280px-Panoramic_view_of_Volubilis_-_Morocco.jpg",
+            "credit": "Paul Barker Hemings",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Panoramic_view_of_Volubilis_-_Morocco.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Volubilis,Morocco.jpg/1280px-Volubilis,Morocco.jpg",
+            "credit": "Marcin Sochacki (Wanted)",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Volubilis,Morocco.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Morocco_-_ancient_Roman_remains_in_Volubilis.JPG/1280px-Morocco_-_ancient_Roman_remains_in_Volubilis.JPG",
+            "credit": "High Contrast",
+            "license": "CC BY 3.0 DE",
+            "source": "https://commons.wikimedia.org/wiki/File:Morocco_-_ancient_Roman_remains_in_Volubilis.JPG"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/836/",
+        "https://en.wikipedia.org/wiki/Volubilis"
+      ]
+    },
+    {
+      "slug": "tetouan-medina",
+      "country_iso": "MAR",
+      "name": "Medina of Tétouan",
+      "local_name": "Titawin",
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": 35.57,
+      "lng": -5.37,
+      "summary": "A whitewashed medina below the Rif, rebuilt by Andalusian refugees after 1492.",
+      "uniqueness": "It is one of the most complete medinas in Morocco and shows strong Andalusian influence. World Heritage Site since 1997.",
+      "stat_label": "Rebuilt from",
+      "stat_value": "late 15th c.",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 6,
+      "art": {
+        "color": "#F2E3C9",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "video": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/59/Medina_of_Tetouan_traditional_tannery_2.webm/Medina_of_Tetouan_traditional_tannery_2.webm.480p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/59/Medina_of_Tetouan_traditional_tannery_2.webm/Medina_of_Tetouan_traditional_tannery_2.webm.360p.mpeg4.mov",
+        "credit": "Ideophagous",
+        "license": "CC0",
+        "source": "https://commons.wikimedia.org/wiki/File:Medina_of_Tetouan_traditional_tannery_2.webm",
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Medina_of_T%C3%A9touan.jpg/1280px-Medina_of_T%C3%A9touan.jpg",
+            "credit": "Alamrani.a",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Medina_of_T%C3%A9touan.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Rue_Chahboun_Medina_T%C3%A9touan_MedinaStories_Mlnzwyibz_09112020.jpg/1280px-Rue_Chahboun_Medina_T%C3%A9touan_MedinaStories_Mlnzwyibz_09112020.jpg",
+            "credit": "Yamen",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Rue_Chahboun_Medina_T%C3%A9touan_MedinaStories_Mlnzwyibz_09112020.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/837/",
+        "https://en.wikipedia.org/wiki/Tétouan"
+      ]
+    },
+    {
+      "slug": "essaouira",
+      "country_iso": "MAR",
+      "name": "Medina of Essaouira",
+      "local_name": "Mogador",
+      "scientific_name": null,
+      "category": "coast",
+      "lat": 31.51,
+      "lng": -9.77,
+      "summary": "An 18th-century fortified port on the Atlantic, laid out by a French engineer for the sultan.",
+      "uniqueness": "It blends European military design with a North African medina, and it is known for its wind, gnawa music and thuya-wood crafts. World Heritage Site since 2001.",
+      "stat_label": "Built from",
+      "stat_value": "1760s",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 7,
+      "art": {
+        "color": "#2A9D8F",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Medina_of_Essaouira_(formerly_Mogador)-113160.jpg/1280px-Medina_of_Essaouira_(formerly_Mogador)-113160.jpg",
+            "credit": "Leila Maziz",
+            "license": "CC BY-SA 3.0 IGO",
+            "source": "https://commons.wikimedia.org/wiki/File:Medina_of_Essaouira_(formerly_Mogador)-113160.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Medina_of_Essaouira_(formerly_Mogador)-113167.jpg/1280px-Medina_of_Essaouira_(formerly_Mogador)-113167.jpg",
+            "credit": "Leila Maziz",
+            "license": "CC BY-SA 3.0 IGO",
+            "source": "https://commons.wikimedia.org/wiki/File:Medina_of_Essaouira_(formerly_Mogador)-113167.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Medina_of_Essaouira_(formerly_Mogador)-113171.jpg/1280px-Medina_of_Essaouira_(formerly_Mogador)-113171.jpg",
+            "credit": "Leila Maziz",
+            "license": "CC BY-SA 3.0 IGO",
+            "source": "https://commons.wikimedia.org/wiki/File:Medina_of_Essaouira_(formerly_Mogador)-113171.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/753/",
+        "https://en.wikipedia.org/wiki/Medina_of_Essaouira"
+      ]
+    },
+    {
+      "slug": "mazagan",
+      "country_iso": "MAR",
+      "name": "Portuguese City of Mazagan",
+      "local_name": "El Jadida",
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": 33.26,
+      "lng": -8.5,
+      "summary": "A Portuguese Renaissance fortress on the Atlantic, built from 1514.",
+      "uniqueness": "Its vaulted underground cistern, where light falls through a single opening onto shallow water, is the town’s best-known sight. World Heritage Site since 2004.",
+      "stat_label": "Fortified from",
+      "stat_value": "1514",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 8,
+      "art": {
+        "color": "#1E5AA8",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/El_Jadida_cistern.jpg/1280px-El_Jadida_cistern.jpg",
+            "credit": "Axel Rouvin",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:El_Jadida_cistern.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/La_Citerne_portugaise.jpg/1280px-La_Citerne_portugaise.jpg",
+            "credit": "Guilandre",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:La_Citerne_portugaise.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Water_reflection_Portuguese_Cistern.jpg/1280px-Water_reflection_Portuguese_Cistern.jpg",
+            "credit": "Alamrani.a",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Water_reflection_Portuguese_Cistern.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/1058/",
+        "https://en.wikipedia.org/wiki/El_Jadida"
+      ]
+    },
+    {
+      "slug": "rabat-heritage",
+      "country_iso": "MAR",
+      "name": "Rabat, Modern Capital and Historic City",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": 34.02,
+      "lng": -6.84,
+      "summary": "The capital on the Bou Regreg, joining the Kasbah of the Udayas and Hassan Tower with a 20th-century city plan.",
+      "uniqueness": "Inscribed in 2012 for its dialogue between Arab-Muslim heritage and modern European urbanism; Hassan Tower is the unfinished minaret of a 12th-century mosque.",
+      "stat_label": "Inscribed",
+      "stat_value": "2012",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 9,
+      "art": {
+        "color": "#E8A33D",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Kasbah_Oudayas_exterior.jpg/1280px-Kasbah_Oudayas_exterior.jpg",
+            "credit": "Davide Cesare Veniani",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Kasbah_Oudayas_exterior.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/The_streets_inside_the_Kasbah_of_the_Udayas,_Rabat,_Morocco.jpg/1280px-The_streets_inside_the_Kasbah_of_the_Udayas,_Rabat,_Morocco.jpg",
+            "credit": "Alllexxxis",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:The_streets_inside_the_Kasbah_of_the_Udayas,_Rabat,_Morocco.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Kasbah_of_the_Udayas_2.jpg/1280px-Kasbah_of_the_Udayas_2.jpg",
+            "credit": "Dieglop",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Kasbah_of_the_Udayas_2.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/1401/",
+        "https://en.wikipedia.org/wiki/Kasbah_of_the_Udayas"
+      ]
+    },
+    {
+      "slug": "jbel-toubkal",
+      "country_iso": "MAR",
+      "name": "Jbel Toubkal",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "mountain",
+      "lat": 31.06,
+      "lng": -7.92,
+      "summary": "The highest peak in North Africa, in the High Atlas south of Marrakesh.",
+      "uniqueness": "At 4,167 m it is often snow-capped in winter. Berber villages in the Imlil valley are the starting point of the climb.",
+      "stat_label": "Height",
+      "stat_value": "4,167 m",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 10,
+      "art": {
+        "color": "#5B6C8F",
+        "intensity": 0.85,
+        "motion": "mist"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/View_from_Toubkal_west_flank.jpg/1280px-View_from_Toubkal_west_flank.jpg",
+            "credit": "ThartmannWiki",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:View_from_Toubkal_west_flank.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Veronica-Jbel_Toubkal_II.jpg/1280px-Veronica-Jbel_Toubkal_II.jpg",
+            "credit": "David",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Veronica-Jbel_Toubkal_II.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Spring_blossom_Toubkal_National_Park.jpg/1280px-Spring_blossom_Toubkal_National_Park.jpg",
+            "credit": "Toni Wöhrl",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Spring_blossom_Toubkal_National_Park.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Toubkal"
+      ]
+    },
+    {
+      "slug": "ouzoud-falls",
+      "country_iso": "MAR",
+      "name": "Ouzoud Falls",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "waterfall",
+      "lat": 32.02,
+      "lng": -6.72,
+      "summary": "A tiered waterfall of about 110 m dropping into the gorge of the El Abid River in the Middle Atlas.",
+      "uniqueness": "Barbary macaques live in the olive groves around the falls. The name comes from the Berber word for olive.",
+      "stat_label": "Drop",
+      "stat_value": "~110 m",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 11,
+      "art": {
+        "color": "#7BDFF2",
+        "intensity": 0.85,
+        "motion": "cascade"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Cascade_Ouzoud.jpg/1280px-Cascade_Ouzoud.jpg",
+            "credit": "leila Kh",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Cascade_Ouzoud.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Cascade_d'Ouzoud.jpg/1280px-Cascade_d'Ouzoud.jpg",
+            "credit": "Houssain tork",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Cascade_d'Ouzoud.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Azoud_falls_Morocco.jpg/1280px-Azoud_falls_Morocco.jpg",
+            "credit": "Zagoravive",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Azoud_falls_Morocco.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Ouzoud_Falls"
+      ]
+    },
+    {
+      "slug": "erg-chebbi",
+      "country_iso": "MAR",
+      "name": "Erg Chebbi",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "desert",
+      "lat": 31.15,
+      "lng": -3.98,
+      "summary": "A field of orange dunes near Merzouga, on the western edge of the Sahara.",
+      "uniqueness": "Its dunes rise up to about 150 m. After rare rains a lake forms nearby and flamingos sometimes visit.",
+      "stat_label": "Dune height",
+      "stat_value": "Up to ~150 m",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 12,
+      "art": {
+        "color": "#E07A3F",
+        "intensity": 0.85,
+        "motion": "zigzag"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Erg_chebbi_sunrise.jpg/1280px-Erg_chebbi_sunrise.jpg",
+            "credit": "JanSuchy",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Erg_chebbi_sunrise.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Morocco_Africa_Flickr_Rosino_December_2005_84514010.jpg/1280px-Morocco_Africa_Flickr_Rosino_December_2005_84514010.jpg",
+            "credit": "Rosino",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Morocco_Africa_Flickr_Rosino_December_2005_84514010.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Erg_Chebbi"
+      ]
+    },
+    {
+      "slug": "todgha-gorge",
+      "country_iso": "MAR",
+      "name": "Todgha Gorge",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "gorge",
+      "lat": 31.59,
+      "lng": -5.59,
+      "summary": "A limestone canyon in the High Atlas, with walls up to about 400 m and a gap as narrow as about 10 m.",
+      "uniqueness": "The Todgha River cut through the eastern High Atlas here; the gorge is a major rock-climbing area.",
+      "stat_label": "Wall height",
+      "stat_value": "Up to ~400 m",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 13,
+      "art": {
+        "color": "#C65D3B",
+        "intensity": 0.85,
+        "motion": "cascade"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Todgha_Gorge_from_above.jpg/1280px-Todgha_Gorge_from_above.jpg",
+            "credit": "ThartmannWiki",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Todgha_Gorge_from_above.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Todgha_Gorge_walking_through_02.jpg/1280px-Todgha_Gorge_walking_through_02.jpg",
+            "credit": "Elena Tatiana Chis",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Todgha_Gorge_walking_through_02.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Todgha_Gorge_walking_through_01.jpg/1280px-Todgha_Gorge_walking_through_01.jpg",
+            "credit": "Elena Tatiana Chis",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Todgha_Gorge_walking_through_01.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Todgha_Gorges"
+      ]
+    },
+    {
+      "slug": "barbary-macaque",
+      "country_iso": "MAR",
+      "name": "Barbary Macaque",
+      "local_name": "magot",
+      "scientific_name": "Macaca sylvanus",
+      "category": "fauna",
+      "lat": 33.4,
+      "lng": -5.2,
+      "summary": "The only wild primate north of the Sahara, living in the cedar forests of the Atlas and Rif.",
+      "uniqueness": "Males help carry and care for infants, unusual among macaques. It is Endangered; Morocco’s Middle Atlas cedar forests near Azrou hold the largest population. A small introduced group lives on Gibraltar.",
+      "stat_label": "IUCN status",
+      "stat_value": "Endangered",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 14,
+      "art": {
+        "color": "#A47148",
+        "intensity": 0.85,
+        "motion": "herd"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Gibraltar_Barbary_Macaque.jpg/1280px-Gibraltar_Barbary_Macaque.jpg",
+            "credit": "RedCoat",
+            "license": "CC BY-SA 2.5",
+            "source": "https://commons.wikimedia.org/wiki/File:Gibraltar_Barbary_Macaque.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Macaca_sylvanus_head_2011_Gibraltar.jpg/1280px-Macaca_sylvanus_head_2011_Gibraltar.jpg",
+            "credit": "Sprok",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Macaca_sylvanus_head_2011_Gibraltar.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Macaca_sylvanus_feet_and_hands.JPG/1280px-Macaca_sylvanus_feet_and_hands.JPG",
+            "credit": "Grez",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Macaca_sylvanus_feet_and_hands.JPG"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Barbary_macaque",
+        "https://www.gbif.org/species/search?q=Macaca%20sylvanus"
+      ]
+    },
+    {
+      "slug": "argan-tree",
+      "country_iso": "MAR",
+      "name": "Argan Tree",
+      "local_name": null,
+      "scientific_name": "Sideroxylon spinosum",
+      "category": "flora",
+      "lat": 30.5,
+      "lng": -9.2,
+      "summary": "A thorny, drought-hardy tree of south-west Morocco whose kernels give argan oil.",
+      "uniqueness": "Goats climb its branches to eat the fruit. Women’s cooperatives press the oil by hand; the argan area is a UNESCO biosphere reserve and the know-how is intangible heritage.",
+      "stat_label": "Native range",
+      "stat_value": "South-west Morocco",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 15,
+      "art": {
+        "color": "#7A9A3A",
+        "intensity": 0.85,
+        "motion": "bloom"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Argan_Tree_near_Tafraoute.jpg/1280px-Argan_Tree_near_Tafraoute.jpg",
+            "credit": "Bjørn Christian Tørrissen",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Argan_Tree_near_Tafraoute.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/An_Argan_tree_standing_alone_in_nowhere.JPG/1280px-An_Argan_tree_standing_alone_in_nowhere.JPG",
+            "credit": "F.Benotman",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:An_Argan_tree_standing_alone_in_nowhere.JPG"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Argania",
+        "https://www.gbif.org/species/search?q=Sideroxylon%20spinosum"
+      ]
+    },
+    {
+      "slug": "meroe",
+      "country_iso": "SDN",
+      "name": "Archaeological Sites of the Island of Meroe",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": 16.93,
+      "lng": 33.72,
+      "summary": "The steep pyramids and royal city of the Kingdom of Kush, between the Nile and the Atbara River.",
+      "uniqueness": "Meroë was a capital from the 8th century BCE to the 4th century CE, and a centre of iron-working. Its more than 200 pyramids are smaller and steeper than Egypt’s. World Heritage Site since 2011.",
+      "stat_label": "Pyramids",
+      "stat_value": "200+",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 1,
+      "art": {
+        "color": "#C8784A",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Archaeological_Sites_of_the_Island_of_Meroe-114970.jpg/1280px-Archaeological_Sites_of_the_Island_of_Meroe-114970.jpg",
+            "credit": "Ron Van Oers",
+            "license": "CC BY-SA 3.0 IGO",
+            "source": "https://commons.wikimedia.org/wiki/File:Archaeological_Sites_of_the_Island_of_Meroe-114970.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Archaeological_Sites_of_the_Island_of_Meroe-114973.jpg/1280px-Archaeological_Sites_of_the_Island_of_Meroe-114973.jpg",
+            "credit": "Ron Van Oers",
+            "license": "CC BY-SA 3.0 IGO",
+            "source": "https://commons.wikimedia.org/wiki/File:Archaeological_Sites_of_the_Island_of_Meroe-114973.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Archaeological_Sites_of_the_Island_of_Meroe-114975.jpg/1280px-Archaeological_Sites_of_the_Island_of_Meroe-114975.jpg",
+            "credit": "Ron Van Oers",
+            "license": "CC BY-SA 3.0 IGO",
+            "source": "https://commons.wikimedia.org/wiki/File:Archaeological_Sites_of_the_Island_of_Meroe-114975.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/1336/",
+        "https://en.wikipedia.org/wiki/Meroë"
+      ]
+    },
+    {
+      "slug": "gebel-barkal",
+      "country_iso": "SDN",
+      "name": "Gebel Barkal and the Sites of the Napatan Region",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": 18.53,
+      "lng": 31.82,
+      "summary": "A flat-topped sandstone mountain by the Nile, held sacred by Egyptians and Kushites as the home of Amun.",
+      "uniqueness": "Its temples, palaces and the royal tombs at El-Kurru and Nuri belong to the Napatan kings who ruled Egypt as its 25th Dynasty. World Heritage Site since 2003.",
+      "stat_label": "Mountain height",
+      "stat_value": "~98 m",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 2,
+      "art": {
+        "color": "#D9A54C",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Gebel_Barkal_and_the_Sites_of_the_Napatan_Region-114660.jpg/1280px-Gebel_Barkal_and_the_Sites_of_the_Napatan_Region-114660.jpg",
+            "credit": "Maria Gropa",
+            "license": "CC BY-SA 3.0 IGO",
+            "source": "https://commons.wikimedia.org/wiki/File:Gebel_Barkal_and_the_Sites_of_the_Napatan_Region-114660.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Gebel_Barkal_and_the_Sites_of_the_Napatan_Region-114662.jpg/1280px-Gebel_Barkal_and_the_Sites_of_the_Napatan_Region-114662.jpg",
+            "credit": "Maria Gropa",
+            "license": "CC BY-SA 3.0 IGO",
+            "source": "https://commons.wikimedia.org/wiki/File:Gebel_Barkal_and_the_Sites_of_the_Napatan_Region-114662.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Gebel_Barkal_and_the_Sites_of_the_Napatan_Region-114664.jpg/1280px-Gebel_Barkal_and_the_Sites_of_the_Napatan_Region-114664.jpg",
+            "credit": "Maria Gropa",
+            "license": "CC BY-SA 3.0 IGO",
+            "source": "https://commons.wikimedia.org/wiki/File:Gebel_Barkal_and_the_Sites_of_the_Napatan_Region-114664.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/1073/",
+        "https://en.wikipedia.org/wiki/Jebel_Barkal"
+      ]
+    },
+    {
+      "slug": "sanganeb-dungonab",
+      "country_iso": "SDN",
+      "name": "Sanganeb and Dungonab Bay",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "coast",
+      "lat": 21.0,
+      "lng": 37.18,
+      "summary": "An isolated coral atoll and a coastal bay on Sudan’s Red Sea coast, north of Port Sudan.",
+      "uniqueness": "Dungonab Bay and Mukkawar Island host dugongs, manta rays and nesting turtles. The site was inscribed as natural World Heritage in 2016.",
+      "stat_label": "Inscribed",
+      "stat_value": "2016",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 3,
+      "art": {
+        "color": "#1A9E8F",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Coral_Reef_in_the_Red_Sea.JPG/1280px-Coral_Reef_in_the_Red_Sea.JPG",
+            "credit": "Mahmoud Habeeb",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Coral_Reef_in_the_Red_Sea.JPG"
+          }
+        ],
+        "note": "Red Sea reef stand-in — no open footage of Sanganeb or Dungonab yet."
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/262/",
+        "https://en.wikipedia.org/wiki/Sanganeb",
+        "https://en.wikipedia.org/wiki/Dungonab_Bay"
+      ]
+    },
+    {
+      "slug": "jebel-marra",
+      "country_iso": "SDN",
+      "name": "Jebel Marra",
+      "local_name": "Marrah Mountains",
+      "scientific_name": null,
+      "category": "volcano",
+      "lat": 12.94,
+      "lng": 24.24,
+      "summary": "A volcanic massif in Darfur rising to about 3,042 m, with crater lakes in its summit caldera.",
+      "uniqueness": "The Deriba caldera holds two lakes. The mountains catch rain and stay green, with waterfalls and orchards, in an otherwise arid region.",
+      "stat_label": "Height",
+      "stat_value": "~3,042 m",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 4,
+      "art": {
+        "color": "#557A46",
+        "intensity": 0.85,
+        "motion": "mist"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Sudan_Jebel_Marra_Deriba_Lakes.jpg/1280px-Sudan_Jebel_Marra_Deriba_Lakes.jpg",
+            "credit": "J Williams (Hammy07)",
+            "license": "CC BY 2.5",
+            "source": "https://commons.wikimedia.org/wiki/File:Sudan_Jebel_Marra_Deriba_Lakes.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Marrah_Mountains_waterfall_-_Sudan.jpg/1280px-Marrah_Mountains_waterfall_-_Sudan.jpg",
+            "credit": "Mohamed Siddig Abdelaziz",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Marrah_Mountains_waterfall_-_Sudan.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/ISS-64_Deriba_caldera_in_the_Marrah_Mountains_in_Darfur,_Sudan.jpg/1280px-ISS-64_Deriba_caldera_in_the_Marrah_Mountains_in_Darfur,_Sudan.jpg",
+            "credit": "NASA",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:ISS-64_Deriba_caldera_in_the_Marrah_Mountains_in_Darfur,_Sudan.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Marrah_Mountains"
+      ]
+    },
+    {
+      "slug": "dinder",
+      "country_iso": "SDN",
+      "name": "Dinder National Park",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "savanna",
+      "lat": 12.0,
+      "lng": 35.23,
+      "summary": "A savanna and floodplain park on the Ethiopian border, with oxbow lakes called mayas.",
+      "uniqueness": "It is a UNESCO biosphere reserve and an important wetland for waterbirds; it connects with Ethiopia’s Alatish National Park.",
+      "stat_label": "Area",
+      "stat_value": "~10,000 km²",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 5,
+      "art": {
+        "color": "#8FB339",
+        "intensity": 0.85,
+        "motion": "herd"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/%D8%A7%D9%84%D8%AF%D9%86%D8%AF%D8%B1.jpg/1280px-%D8%A7%D9%84%D8%AF%D9%86%D8%AF%D8%B1.jpg",
+            "credit": "محسن الفكي",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:%D8%A7%D9%84%D8%AF%D9%86%D8%AF%D8%B1.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Dinder_National_Park"
+      ]
+    },
+    {
+      "slug": "bayuda-desert",
+      "country_iso": "SDN",
+      "name": "Bayuda Desert",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "volcano",
+      "lat": 18.33,
+      "lng": 32.75,
+      "summary": "A desert of black volcanic cones and craters inside the great bend of the Nile.",
+      "uniqueness": "The Bayuda volcanic field has dozens of cinder cones and maar craters, some of them very young in geological terms.",
+      "stat_label": "Area",
+      "stat_value": "~100,000 km²",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 6,
+      "art": {
+        "color": "#3D3A4B",
+        "intensity": 0.85,
+        "motion": "zigzag"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/BayudaDesertWell.jpg",
+            "credit": "Clemens Schmillen",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:BayudaDesertWell.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Bayuda_Vulkanfeld.jpg/1280px-Bayuda_Vulkanfeld.jpg",
+            "credit": "NASA",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Bayuda_Vulkanfeld.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Bayuda_Desert"
+      ]
+    },
+    {
+      "slug": "secretarybird",
+      "country_iso": "SDN",
+      "name": "Secretarybird",
+      "local_name": null,
+      "scientific_name": "Sagittarius serpentarius",
+      "category": "fauna",
+      "lat": 12.2,
+      "lng": 34.9,
+      "summary": "A long-legged eagle that hunts on foot, stamping snakes and lizards to death in the grass.",
+      "uniqueness": "Its kick lasts a fraction of a second and is aimed with great precision. It is on Sudan’s coat of arms, and is listed as Endangered. The pin is a representative point near Dinder.",
+      "stat_label": "IUCN status",
+      "stat_value": "Endangered",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 7,
+      "art": {
+        "color": "#3A6EA5",
+        "intensity": 0.85,
+        "motion": "herd"
+      },
+      "media": {
+        "video": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/36/Secretarybird_(Sagittarius_serpentarius)_hunting_in_the_grass_....webm/Secretarybird_(Sagittarius_serpentarius)_hunting_in_the_grass_....webm.480p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/36/Secretarybird_(Sagittarius_serpentarius)_hunting_in_the_grass_....webm/Secretarybird_(Sagittarius_serpentarius)_hunting_in_the_grass_....webm.360p.mpeg4.mov",
+        "credit": "Bernard DUPONT",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Secretarybird_(Sagittarius_serpentarius)_hunting_in_the_grass_....webm",
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Sagittarius_serpentarius_Sekret%C3%A4r.JPG/1280px-Sagittarius_serpentarius_Sekret%C3%A4r.JPG",
+            "credit": "Yoky",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Sagittarius_serpentarius_Sekret%C3%A4r.JPG"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Sagittarius_serpentarius_qtl1.jpg/1280px-Sagittarius_serpentarius_qtl1.jpg",
+            "credit": "Quartl",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Sagittarius_serpentarius_qtl1.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Secretarybird",
+        "https://www.gbif.org/species/search?q=Sagittarius%20serpentarius"
+      ]
+    },
+    {
+      "slug": "gum-arabic-tree",
+      "country_iso": "SDN",
+      "name": "Gum Arabic Tree",
+      "local_name": "hashab",
+      "scientific_name": "Senegalia senegal",
+      "category": "flora",
+      "lat": 13.2,
+      "lng": 30.2,
+      "summary": "A small thorny tree of the Sahel whose resin is gum arabic, used in food, drinks and paints.",
+      "uniqueness": "Sudan’s “gum belt” in Kordofan and Darfur supplies much of the world’s gum arabic. The trees also fix nitrogen and hold back the desert. The pin is in Kordofan.",
+      "stat_label": "Gum belt",
+      "stat_value": "Kordofan · Darfur",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 8,
+      "art": {
+        "color": "#D9A54C",
+        "intensity": 0.85,
+        "motion": "bloom"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Senegalia_senegal_Saifoulaye_Kanon.jpg/1280px-Senegalia_senegal_Saifoulaye_Kanon.jpg",
+            "credit": "Saifoulaye KANON",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Senegalia_senegal_Saifoulaye_Kanon.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Senegalia_senegal_(kummat).jpg/1280px-Senegalia_senegal_(kummat).jpg",
+            "credit": "WikiPanti",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Senegalia_senegal_(kummat).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Senegalia_senegal_var._leiorachis_20D_3939.jpg/1280px-Senegalia_senegal_var._leiorachis_20D_3939.jpg",
+            "credit": "SAplants",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Senegalia_senegal_var._leiorachis_20D_3939.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Senegalia_senegal",
+        "https://en.wikipedia.org/wiki/Gum_arabic"
+      ]
+    },
+    {
+      "slug": "el-jem",
+      "country_iso": "TUN",
+      "name": "Amphitheatre of El Jem",
+      "local_name": "Thysdrus",
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": 35.3,
+      "lng": 10.71,
+      "summary": "A 3rd-century Roman amphitheatre that could seat about 35,000 people, standing in a small town on the plain.",
+      "uniqueness": "One of the largest amphitheatres of the Roman world and among the best preserved. World Heritage Site since 1979.",
+      "stat_label": "Seats",
+      "stat_value": "~35,000",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 1,
+      "art": {
+        "color": "#E2B04A",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "video": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2e/El_Jem_amphitheatre_video_no_text_27102020.webm/El_Jem_amphitheatre_video_no_text_27102020.webm.480p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2e/El_Jem_amphitheatre_video_no_text_27102020.webm/El_Jem_amphitheatre_video_no_text_27102020.webm.360p.mpeg4.mov",
+        "credit": "Yamen and contributors",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:El_Jem_amphitheatre_video_no_text_27102020.webm",
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Anfiteatro,_El_Jem,_T%C3%BAnez,_2016-09-04,_DD_08.jpg/1280px-Anfiteatro,_El_Jem,_T%C3%BAnez,_2016-09-04,_DD_08.jpg",
+            "credit": "Diego Delso",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Anfiteatro,_El_Jem,_T%C3%BAnez,_2016-09-04,_DD_08.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Amphi_El_Jem.jpg/1280px-Amphi_El_Jem.jpg",
+            "credit": "Cimoi",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Amphi_El_Jem.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/38/",
+        "https://en.wikipedia.org/wiki/Amphitheatre_of_El_Jem"
+      ]
+    },
+    {
+      "slug": "carthage",
+      "country_iso": "TUN",
+      "name": "Archaeological Site of Carthage",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": 36.86,
+      "lng": 10.33,
+      "summary": "The Phoenician city that rivalled Rome, destroyed in 146 BCE and rebuilt as a Roman capital of Africa.",
+      "uniqueness": "Its round Punic military harbour, the Antonine Baths and the tophet survive among the villas of modern suburbs. World Heritage Site since 1979.",
+      "stat_label": "Destroyed",
+      "stat_value": "146 BCE",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 2,
+      "art": {
+        "color": "#1E5AA8",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "video": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/18/Karthago,_Ph%C3%B6nizische_Gro%C3%9Fstadt_(CC_BY-SA_4.0).webm/Karthago,_Ph%C3%B6nizische_Gro%C3%9Fstadt_(CC_BY-SA_4.0).webm.480p.vp9.webm",
+        "credit": "ZDF/Terra X/Faber Courtial, Jörg Courtial",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Karthago,_Ph%C3%B6nizische_Gro%C3%9Fstadt_(CC_BY-SA_4.0).webm",
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Archaeological_Site_of_Carthage-130237.jpg/1280px-Archaeological_Site_of_Carthage-130237.jpg",
+            "credit": "Christian Manhart",
+            "license": "CC BY-SA 3.0 IGO",
+            "source": "https://commons.wikimedia.org/wiki/File:Archaeological_Site_of_Carthage-130237.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Tunisie_Carthage_Ruines_08.JPG/1280px-Tunisie_Carthage_Ruines_08.JPG",
+            "credit": "Calips",
+            "license": "CC BY 2.5",
+            "source": "https://commons.wikimedia.org/wiki/File:Tunisie_Carthage_Ruines_08.JPG"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/37/",
+        "https://en.wikipedia.org/wiki/Carthage"
+      ]
+    },
+    {
+      "slug": "dougga",
+      "country_iso": "TUN",
+      "name": "Dougga",
+      "local_name": "Thugga",
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": 36.42,
+      "lng": 9.22,
+      "summary": "A Numidian, Punic and Roman hill town with a capitol, theatre and houses still standing over olive groves.",
+      "uniqueness": "Often called the best-preserved small Roman town in North Africa. Its Libyco-Punic mausoleum is a rare monument of Numidian architecture. World Heritage Site since 1997.",
+      "stat_label": "Site area",
+      "stat_value": "~75 ha",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 3,
+      "art": {
+        "color": "#C1440E",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Dougga_06.jpg/1280px-Dougga_06.jpg",
+            "credit": "Bernard Gagnon",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Dougga_06.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Dougga,_Beja.jpg/1280px-Dougga,_Beja.jpg",
+            "credit": "Emna Trabelsi",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Dougga,_Beja.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Byzantine_Fortifications_at_Dougga_-_isawnyu.jpg/1280px-Byzantine_Fortifications_at_Dougga_-_isawnyu.jpg",
+            "credit": "Institute for the Study of the Ancient World",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Byzantine_Fortifications_at_Dougga_-_isawnyu.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/794/",
+        "https://en.wikipedia.org/wiki/Dougga"
+      ]
+    },
+    {
+      "slug": "djerba",
+      "country_iso": "TUN",
+      "name": "Djerba: Testimony to a Settlement Pattern",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "coast",
+      "lat": 33.8,
+      "lng": 10.88,
+      "summary": "The largest island in North Africa, with scattered homesteads, mosques and synagogues among olive groves.",
+      "uniqueness": "Ibadi, Sunni and Jewish communities have shared the island for centuries; the El Ghriba synagogue is one of Africa’s oldest. World Heritage Site since 2023.",
+      "stat_label": "Island area",
+      "stat_value": "514 km²",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 4,
+      "art": {
+        "color": "#2A9D8F",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Djerba_Island.jpeg/1280px-Djerba_Island.jpeg",
+            "credit": "NASA Earth Observatory (Lauren Dauphin, Landsat)",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Djerba_Island.jpeg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Djerba_hood.jpg/1280px-Djerba_hood.jpg",
+            "credit": "Noomen9",
+            "license": "CC0",
+            "source": "https://commons.wikimedia.org/wiki/File:Djerba_hood.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Reflet_ros%C3%A9.jpg/1280px-Reflet_ros%C3%A9.jpg",
+            "credit": "Nourane75",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Reflet_ros%C3%A9.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/1640/",
+        "https://en.wikipedia.org/wiki/Djerba"
+      ]
+    },
+    {
+      "slug": "ichkeul",
+      "country_iso": "TUN",
+      "name": "Ichkeul National Park",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "wetland",
+      "lat": 37.12,
+      "lng": 9.66,
+      "summary": "A lake and marshes near Bizerte that switch between fresh and salty water with the seasons.",
+      "uniqueness": "Hundreds of thousands of ducks, geese and coots winter here. Dams once pushed it onto the List in Danger; it was removed in 2006 after recovery. World Heritage Site since 1980.",
+      "stat_label": "Wintering birds",
+      "stat_value": "Hundreds of thousands",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 5,
+      "art": {
+        "color": "#4C8C4A",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Ichkeul_National_Park_16.JPG/1280px-Ichkeul_National_Park_16.JPG",
+            "credit": "Anisbgs",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Ichkeul_National_Park_16.JPG"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Ichkeul_4.JPG/1280px-Ichkeul_4.JPG",
+            "credit": "Hamed gamaoun",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Ichkeul_4.JPG"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Ichkeul_5.JPG/1280px-Ichkeul_5.JPG",
+            "credit": "Hamed gamaoun",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Ichkeul_5.JPG"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/8/",
+        "https://en.wikipedia.org/wiki/Lake_Ichkeul"
+      ]
+    },
+    {
+      "slug": "kairouan",
+      "country_iso": "TUN",
+      "name": "Kairouan",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": 35.68,
+      "lng": 10.1,
+      "summary": "The first Arab-Muslim city of the Maghreb, founded in 670.",
+      "uniqueness": "Its Great Mosque, with a forest of reused Roman columns, became a model for mosques across the region. World Heritage Site since 1988.",
+      "stat_label": "Founded",
+      "stat_value": "670",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 6,
+      "art": {
+        "color": "#E8D5A9",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "video": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5e/Bir_Barrouta_Kairouan.webm/Bir_Barrouta_Kairouan.webm.480p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5e/Bir_Barrouta_Kairouan.webm/Bir_Barrouta_Kairouan.webm.360p.mpeg4.mov",
+        "credit": "Habib M'henni",
+        "license": "CC BY 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Bir_Barrouta_Kairouan.webm",
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Kairouan,_4_f%C3%A9vrier_2024,_ZVE04341.jpg/1280px-Kairouan,_4_f%C3%A9vrier_2024,_ZVE04341.jpg",
+            "credit": "Habib M'henni",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Kairouan,_4_f%C3%A9vrier_2024,_ZVE04341.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Kairouan,_4_f%C3%A9vrier_2024,_ZVE04319.jpg/1280px-Kairouan,_4_f%C3%A9vrier_2024,_ZVE04319.jpg",
+            "credit": "Habib M'henni",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Kairouan,_4_f%C3%A9vrier_2024,_ZVE04319.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/499/",
+        "https://en.wikipedia.org/wiki/Kairouan"
+      ]
+    },
+    {
+      "slug": "medina-of-sousse",
+      "country_iso": "TUN",
+      "name": "Medina of Sousse",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": 35.83,
+      "lng": 10.64,
+      "summary": "A walled port town of the early Islamic period, with a ribat (fortified monastery) and Great Mosque.",
+      "uniqueness": "The ribat, built in the 8th–9th century, guarded the coast. World Heritage Site since 1988.",
+      "stat_label": "Inscribed",
+      "stat_value": "1988",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 7,
+      "art": {
+        "color": "#F5F3EE",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Medina_of_Sousse-130320.jpg/1280px-Medina_of_Sousse-130320.jpg",
+            "credit": "Christian Manhart",
+            "license": "CC BY-SA 3.0 IGO",
+            "source": "https://commons.wikimedia.org/wiki/File:Medina_of_Sousse-130320.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Medina_of_Sousse,_Sousse_Governorate,_Tunisia,_January_2024_-_Thru_window_in_rain.jpg/1280px-Medina_of_Sousse,_Sousse_Governorate,_Tunisia,_January_2024_-_Thru_window_in_rain.jpg",
+            "credit": "Sharon Hahn Darlin",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Medina_of_Sousse,_Sousse_Governorate,_Tunisia,_January_2024_-_Thru_window_in_rain.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/498/",
+        "https://en.wikipedia.org/wiki/Medina_of_Sousse"
+      ]
+    },
+    {
+      "slug": "medina-of-tunis",
+      "country_iso": "TUN",
+      "name": "Medina of Tunis",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": 36.8,
+      "lng": 10.17,
+      "summary": "The old city of Tunis, with some 700 monuments including palaces, mosques and madrasas.",
+      "uniqueness": "From the 12th to the 16th century Tunis was among the greatest cities of the Islamic world. World Heritage Site since 1979.",
+      "stat_label": "Monuments",
+      "stat_value": "~700",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 8,
+      "art": {
+        "color": "#C1440E",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Medina_of_Tunis_-_world_heritage_-_UNESCO.jpg/1280px-Medina_of_Tunis_-_world_heritage_-_UNESCO.jpg",
+            "credit": "Sami Mlouhi",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Medina_of_Tunis_-_world_heritage_-_UNESCO.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Medina_of_Tunis_002.jpg/1280px-Medina_of_Tunis_002.jpg",
+            "credit": "Touzrimounir",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Medina_of_Tunis_002.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Medina_of_Tunis_001.jpg/1280px-Medina_of_Tunis_001.jpg",
+            "credit": "Touzrimounir",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Medina_of_Tunis_001.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/36/",
+        "https://en.wikipedia.org/wiki/Medina_of_Tunis"
+      ]
+    },
+    {
+      "slug": "kerkuane",
+      "country_iso": "TUN",
+      "name": "Punic Town of Kerkuane",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": 36.95,
+      "lng": 11.1,
+      "summary": "The only Phoenician-Punic city to survive without being rebuilt by the Romans, on Cap Bon.",
+      "uniqueness": "Abandoned around 250 BCE, it preserves house plans, streets and bathtubs from Punic daily life. World Heritage Site since 1985.",
+      "stat_label": "Abandoned",
+      "stat_value": "~250 BCE",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 9,
+      "art": {
+        "color": "#E2B04A",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Punic_Town_of_Kerkuane_and_its_Necropolis-130314.jpg/1280px-Punic_Town_of_Kerkuane_and_its_Necropolis-130314.jpg",
+            "credit": "Christian Manhart",
+            "license": "CC BY-SA 3.0 IGO",
+            "source": "https://commons.wikimedia.org/wiki/File:Punic_Town_of_Kerkuane_and_its_Necropolis-130314.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Punic_Town_of_Kerkuane_and_its_Necropolis-130309.jpg/1280px-Punic_Town_of_Kerkuane_and_its_Necropolis-130309.jpg",
+            "credit": "Christian Manhart",
+            "license": "CC BY-SA 3.0 IGO",
+            "source": "https://commons.wikimedia.org/wiki/File:Punic_Town_of_Kerkuane_and_its_Necropolis-130309.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Punic_Town_of_Kerkuane_and_its_Necropolis-130310.jpg/1280px-Punic_Town_of_Kerkuane_and_its_Necropolis-130310.jpg",
+            "credit": "Christian Manhart",
+            "license": "CC BY-SA 3.0 IGO",
+            "source": "https://commons.wikimedia.org/wiki/File:Punic_Town_of_Kerkuane_and_its_Necropolis-130310.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/332/",
+        "https://en.wikipedia.org/wiki/Kerkouane"
+      ]
+    },
+    {
+      "slug": "sidi-bou-said",
+      "country_iso": "TUN",
+      "name": "Village of Sidi Bou Saïd",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": 36.87,
+      "lng": 10.34,
+      "summary": "A white village with blue doors and shutters on a cliff above the Gulf of Tunis.",
+      "uniqueness": "Protected by decree since 1915, the village drew painters such as Paul Klee and August Macke. Inscribed as a World Heritage Site in 2026.",
+      "stat_label": "Inscribed",
+      "stat_value": "2026",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 10,
+      "art": {
+        "color": "#1E5AA8",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Sidi_Bou_Said,_Tunisia,_19_March_2018_DSC_8004.jpg/1280px-Sidi_Bou_Said,_Tunisia,_19_March_2018_DSC_8004.jpg",
+            "credit": "Habib M'henni",
+            "license": "CC BY 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Sidi_Bou_Said,_Tunisia,_19_March_2018_DSC_8004.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/L%E2%80%99arc_de_Sidi_bou_said.jpg/1280px-L%E2%80%99arc_de_Sidi_bou_said.jpg",
+            "credit": "Elh Katcha",
+            "license": "CC BY 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:L%E2%80%99arc_de_Sidi_bou_said.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/%D9%85%D9%86%D8%B7%D9%82%D8%A9_%D8%B3%D9%8A%D8%AF%D9%8A_%D8%A8%D9%88%D8%B3%D8%B9%D9%8A%D8%AF.jpg/1280px-%D9%85%D9%86%D8%B7%D9%82%D8%A9_%D8%B3%D9%8A%D8%AF%D9%8A_%D8%A8%D9%88%D8%B3%D8%B9%D9%8A%D8%AF.jpg",
+            "credit": "روتانا مبارك",
+            "license": "CC BY 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:%D9%85%D9%86%D8%B7%D9%82%D8%A9_%D8%B3%D9%8A%D8%AF%D9%8A_%D8%A8%D9%88%D8%B3%D8%B9%D9%8A%D8%AF.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/1769/",
+        "https://en.wikipedia.org/wiki/Sidi_Bou_Said"
+      ]
+    },
+    {
+      "slug": "chott-el-djerid",
+      "country_iso": "TUN",
+      "name": "Chott el Djerid",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "lake",
+      "lat": 33.7,
+      "lng": 8.43,
+      "summary": "The largest salt pan in the Sahara, a crust of salt crossed by a causeway.",
+      "uniqueness": "It covers about 7,000 km². In summer heat its surface makes mirages; after rain, algae can tint pools pink.",
+      "stat_label": "Area",
+      "stat_value": "~7,000 km²",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 11,
+      "art": {
+        "color": "#E8B4BC",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Chott_el_Djerid(js)2.jpg/1280px-Chott_el_Djerid(js)2.jpg",
+            "credit": "Jerzystrzelecki",
+            "license": "CC BY 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Chott_el_Djerid(js)2.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Chott_el_Djerid(js)4.jpg/1280px-Chott_el_Djerid(js)4.jpg",
+            "credit": "Jerzystrzelecki",
+            "license": "CC BY 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Chott_el_Djerid(js)4.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Chott_el_Djerid(js)5.jpg/1280px-Chott_el_Djerid(js)5.jpg",
+            "credit": "Jerzystrzelecki",
+            "license": "CC BY 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Chott_el_Djerid(js)5.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Chott_el_Djerid"
+      ]
+    },
+    {
+      "slug": "jebel-chambi",
+      "country_iso": "TUN",
+      "name": "Jebel ech Chambi",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "mountain",
+      "lat": 35.21,
+      "lng": 8.68,
+      "summary": "Tunisia’s highest mountain, near Kasserine, with Aleppo pine forest on its slopes.",
+      "uniqueness": "It is a national park and biosphere reserve, home to Cuvier’s gazelle and Barbary sheep.",
+      "stat_label": "Height",
+      "stat_value": "1,544 m",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 12,
+      "art": {
+        "color": "#5B6C8F",
+        "intensity": 0.85,
+        "motion": "mist"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Parc_national_chaambi_02.jpg/1280px-Parc_national_chaambi_02.jpg",
+            "credit": "TOUMOU",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Parc_national_chaambi_02.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Chambi1.JPG/1280px-Chambi1.JPG",
+            "credit": "Nabucodonosor",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Chambi1.JPG"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Alg%C3%A9rie_vue_Djebel_Chambi.jpg/1280px-Alg%C3%A9rie_vue_Djebel_Chambi.jpg",
+            "credit": "Ggeorgery",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Alg%C3%A9rie_vue_Djebel_Chambi.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Jebel_ech_Chambi"
+      ]
+    },
+    {
+      "slug": "bou-hedma",
+      "country_iso": "TUN",
+      "name": "Bou-Hedma National Park",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "savanna",
+      "lat": 34.42,
+      "lng": 9.5,
+      "summary": "The last stand of pseudo-savanna with Acacia raddiana in Tunisia.",
+      "uniqueness": "Scimitar-horned oryx and addax, both long gone from the wild in Tunisia, have been reintroduced here.",
+      "stat_label": "Created",
+      "stat_value": "1980",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 13,
+      "art": {
+        "color": "#C2B280",
+        "intensity": 0.85,
+        "motion": "herd"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Parc_national_de_Bouhedma.jpg/1280px-Parc_national_de_Bouhedma.jpg",
+            "credit": "El Golli Mohamed",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Parc_national_de_Bouhedma.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Acacia_raddiana_in_Bouhedma.jpg/1280px-Acacia_raddiana_in_Bouhedma.jpg",
+            "credit": "IssamBarhoumi",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Acacia_raddiana_in_Bouhedma.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Acacia_raddiana_in_Bouhedma_-_Fruits.jpg/1280px-Acacia_raddiana_in_Bouhedma_-_Fruits.jpg",
+            "credit": "IssamBarhoumi",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Acacia_raddiana_in_Bouhedma_-_Fruits.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Bou-Hedma_National_Park"
+      ]
+    },
+    {
+      "slug": "barbary-stag",
+      "country_iso": "TUN",
+      "name": "Barbary Stag",
+      "local_name": "Atlas deer",
+      "scientific_name": "Cervus elaphus barbarus",
+      "category": "fauna",
+      "lat": 36.65,
+      "lng": 8.6,
+      "summary": "Africa’s only native deer, living in the cork-oak forests along the Tunisian–Algerian border.",
+      "uniqueness": "Hunted almost to extinction by the 1960s; protection in Tunisia and Algeria has helped it recover. The pin is in the Kroumirie forests.",
+      "stat_label": "Only native",
+      "stat_value": "deer of Africa",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 14,
+      "art": {
+        "color": "#8B5E34",
+        "intensity": 0.85,
+        "motion": "herd"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Cervus_elaphus_barbarus,_Friguia_Park,_Tunisie_2015.jpg/1280px-Cervus_elaphus_barbarus,_Friguia_Park,_Tunisie_2015.jpg",
+            "credit": "Habib M'henni",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Cervus_elaphus_barbarus,_Friguia_Park,_Tunisie_2015.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Cervus_elaphus_barbarus,_Tierpark_Berlin,_523-629.jpg/1280px-Cervus_elaphus_barbarus,_Tierpark_Berlin,_523-629.jpg",
+            "credit": "Lotse",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Cervus_elaphus_barbarus,_Tierpark_Berlin,_523-629.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Barbary_stag",
+        "https://www.gbif.org/species/search?q=Cervus%20elaphus%20barbarus"
+      ]
+    },
+    {
+      "slug": "olive-sfax",
+      "country_iso": "TUN",
+      "name": "Olive Tree",
+      "local_name": null,
+      "scientific_name": "Olea europaea",
+      "category": "flora",
+      "lat": 34.74,
+      "lng": 10.5,
+      "summary": "The tree of Tunisia: tens of millions of olive trees cover the Sahel and the plains around Sfax.",
+      "uniqueness": "Olives have been grown here since Phoenician times, and Tunisia is one of the world’s largest olive-oil exporters. The pin is near Sfax.",
+      "stat_label": "Grown since",
+      "stat_value": "Phoenician times",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 15,
+      "art": {
+        "color": "#7A9A3A",
+        "intensity": 0.85,
+        "motion": "bloom"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Olea_europaea_2810.jpg/1280px-Olea_europaea_2810.jpg",
+            "credit": "Anna Anichkova",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Olea_europaea_2810.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Olea_europaea_1782.jpg/1280px-Olea_europaea_1782.jpg",
+            "credit": "Anna Anichkova",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Olea_europaea_1782.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Olea_europaea_6086.jpg/1280px-Olea_europaea_6086.jpg",
+            "credit": "Anna Anichkova",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Olea_europaea_6086.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Olive",
+        "https://en.wikipedia.org/wiki/Olive_oil"
+      ]
+    },
+    {
+      "slug": "dakhla-lagoon",
+      "country_iso": "ESH",
+      "name": "Dakhla Bay",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "coast",
+      "lat": 23.71,
+      "lng": -15.95,
+      "summary": "A long Atlantic lagoon behind a sandy peninsula, where the desert meets cold, nutrient-rich ocean.",
+      "uniqueness": "Steady trade winds make it a kitesurfing destination; its shallows support oysters, seagrass and wintering shorebirds. The city of Dakhla is in the Moroccan-administered part of the disputed territory.",
+      "stat_label": "Lagoon length",
+      "stat_value": "~40 km",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 1,
+      "art": {
+        "color": "#2A9D8F",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Dakhla,_Western_Sahara_(2).jpg/1280px-Dakhla,_Western_Sahara_(2).jpg",
+            "credit": "YoTuT",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Dakhla,_Western_Sahara_(2).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Dakhla,_Western_Sahara.jpg/1280px-Dakhla,_Western_Sahara.jpg",
+            "credit": "YoTuT",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Dakhla,_Western_Sahara.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Dakhla,_Western_Sahara_(3).jpg/1280px-Dakhla,_Western_Sahara_(3).jpg",
+            "credit": "YoTuT",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Dakhla,_Western_Sahara_(3).jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Dakhla,_Western_Sahara",
+        "https://en.wikipedia.org/wiki/Western_Sahara"
+      ]
+    },
+    {
+      "slug": "saguia-el-hamra",
+      "country_iso": "ESH",
+      "name": "Saguia el-Hamra",
+      "local_name": "“the red watercourse”",
+      "scientific_name": null,
+      "category": "river",
+      "lat": 27.15,
+      "lng": -13.2,
+      "summary": "A long dry riverbed (wadi) running across the north of Western Sahara to the Atlantic near Laayoune.",
+      "uniqueness": "It flows only after rare storms. The name, “red watercourse”, also served for the northern region of the former Spanish Sahara.",
+      "stat_label": "Flows",
+      "stat_value": "After rare storms",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 2,
+      "art": {
+        "color": "#B5651D",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Saguia_el-Hamra.jpg/1280px-Saguia_el-Hamra.jpg",
+            "credit": "ZAINEB HACHAMI",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Saguia_el-Hamra.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Saguia_el-Hamra"
+      ]
+    },
+    {
+      "slug": "guelta-zemmur",
+      "country_iso": "ESH",
+      "name": "Guelta Zemmur",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "rock",
+      "lat": 25.15,
+      "lng": -12.37,
+      "summary": "A rocky desert of granite inselbergs and seasonal pools (gueltas) in the interior of Western Sahara.",
+      "uniqueness": "Gueltas are rock basins that hold rainwater for months and were vital to herders and wildlife. Rock art is found across the region.",
+      "stat_label": "Guelta",
+      "stat_value": "seasonal rock pool",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 3,
+      "art": {
+        "color": "#D4A373",
+        "intensity": 0.85,
+        "motion": "mist"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Western_Sahara_desert_1.jpg/1280px-Western_Sahara_desert_1.jpg",
+            "credit": "Radosław Botev",
+            "license": "Attribution",
+            "source": "https://commons.wikimedia.org/wiki/File:Western_Sahara_desert_1.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Western_Sahara_desert_2.jpg/1280px-Western_Sahara_desert_2.jpg",
+            "credit": "Radosław Botev",
+            "license": "Attribution",
+            "source": "https://commons.wikimedia.org/wiki/File:Western_Sahara_desert_2.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Guelta_Zemmur",
+        "https://en.wikipedia.org/wiki/Guelta"
+      ]
+    },
+    {
+      "slug": "dorcas-gazelle",
+      "country_iso": "ESH",
+      "name": "Dorcas Gazelle",
+      "local_name": null,
+      "scientific_name": "Gazella dorcas",
+      "category": "fauna",
+      "lat": 26.0,
+      "lng": -12.0,
+      "summary": "A small, pale gazelle of the Sahara that may never need to drink, getting water from plants and dew.",
+      "uniqueness": "Once common across North Africa, it has declined from hunting and is listed as Vulnerable. The pin is a representative point.",
+      "stat_label": "Shoulder height",
+      "stat_value": "~55–65 cm",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 4,
+      "art": {
+        "color": "#E0B07A",
+        "intensity": 0.85,
+        "motion": "herd"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Gazella_dorcas.JPG/1280px-Gazella_dorcas.JPG",
+            "credit": "Altaipanther",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Gazella_dorcas.JPG"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Gazella_dorcas,_Israel.jpg/1280px-Gazella_dorcas,_Israel.jpg",
+            "credit": "MinoZig",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Gazella_dorcas,_Israel.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Dorcasgazellemarwell.jpg/1280px-Dorcasgazellemarwell.jpg",
+            "credit": "Khendon",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Dorcasgazellemarwell.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Dorcas_gazelle",
+        "https://www.gbif.org/species/search?q=Gazella%20dorcas"
+      ]
+    },
+    {
+      "slug": "umbrella-thorn-sahara",
+      "country_iso": "ESH",
+      "name": "Umbrella Thorn Acacia",
+      "local_name": null,
+      "scientific_name": "Vachellia tortilis",
+      "category": "flora",
+      "lat": 24.5,
+      "lng": -13.5,
+      "summary": "A flat-topped thorn tree, often the only shade in the Saharan plains.",
+      "uniqueness": "Its deep roots reach groundwater, and its pods feed camels and goats. The same species grows from the Sahara to East Africa. The pin is a representative point.",
+      "stat_label": "Roots reach",
+      "stat_value": "Deep groundwater",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 5,
+      "art": {
+        "color": "#6A994E",
+        "intensity": 0.85,
+        "motion": "bloom"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Acacia_(Vachellia_tortilis),_parque_nacional_de_Amboseli,_Kenia,_2024-05-22,_DD_99.jpg/1280px-Acacia_(Vachellia_tortilis),_parque_nacional_de_Amboseli,_Kenia,_2024-05-22,_DD_99.jpg",
+            "credit": "Diego Delso",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Acacia_(Vachellia_tortilis),_parque_nacional_de_Amboseli,_Kenia,_2024-05-22,_DD_99.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Acacia_(Vachellia_tortilis),_parque_nacional_Serengueti,_Tanzania,_2024-05-26,_DD_26.jpg/1280px-Acacia_(Vachellia_tortilis),_parque_nacional_Serengueti,_Tanzania,_2024-05-26,_DD_26.jpg",
+            "credit": "Diego Delso",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Acacia_(Vachellia_tortilis),_parque_nacional_Serengueti,_Tanzania,_2024-05-26,_DD_26.jpg"
+          }
+        ],
+        "note": "Photographed in East Africa — the same species grows across the Sahara’s edges."
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Vachellia_tortilis",
+        "https://www.gbif.org/species/search?q=Vachellia%20tortilis"
       ]
     }
   ]
