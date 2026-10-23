@@ -463,6 +463,141 @@
       ],
       "active": true,
       "sort_order": 30
+    },
+    {
+      "iso_a3": "AGO",
+      "name": "Angola",
+      "region": "Central Africa",
+      "tagline": "The thundering Kalandula, the Namib’s northern edge and the giant sable of the miombo.",
+      "palette": [
+        "#C1121F",
+        "#2A9D8F",
+        "#E9C46A",
+        "#3D405B",
+        "#F4A261"
+      ],
+      "active": true,
+      "sort_order": 31
+    },
+    {
+      "iso_a3": "CMR",
+      "name": "Cameroon",
+      "region": "Central Africa",
+      "tagline": "“Africa in miniature”: a volcano by the sea, rainforest, savanna and the Mandara highlands.",
+      "palette": [
+        "#007A5E",
+        "#CE1126",
+        "#FCD116",
+        "#5C4033",
+        "#48CAE4"
+      ],
+      "active": true,
+      "sort_order": 32
+    },
+    {
+      "iso_a3": "CAF",
+      "name": "Central African Republic",
+      "region": "Central Africa",
+      "tagline": "Forest clearings where elephants gather by the hundred, at the heart of the continent.",
+      "palette": [
+        "#2D6A4F",
+        "#C8784A",
+        "#E9C46A",
+        "#264653",
+        "#8AB17D"
+      ],
+      "active": true,
+      "sort_order": 33
+    },
+    {
+      "iso_a3": "TCD",
+      "name": "Chad",
+      "region": "Central Africa",
+      "tagline": "Lakes in the Sahara, the arches of the Ennedi and the elephants of Zakouma.",
+      "palette": [
+        "#E07A3F",
+        "#002664",
+        "#FECB00",
+        "#C60C30",
+        "#2A9D8F"
+      ],
+      "active": true,
+      "sort_order": 34
+    },
+    {
+      "iso_a3": "COD",
+      "name": "DR Congo",
+      "region": "Central Africa",
+      "tagline": "The Congo basin: rainforest, lava lakes, okapi and the bonobo.",
+      "palette": [
+        "#007FFF",
+        "#1B4332",
+        "#F7D618",
+        "#CE1021",
+        "#52B788"
+      ],
+      "active": true,
+      "sort_order": 35
+    },
+    {
+      "iso_a3": "COG",
+      "name": "Republic of the Congo",
+      "region": "Central Africa",
+      "tagline": "Forest clearings of gorillas and elephants, and the Congo rapids at Brazzaville.",
+      "palette": [
+        "#009543",
+        "#FBDE4A",
+        "#DC241F",
+        "#1B4332",
+        "#2A6F97"
+      ],
+      "active": true,
+      "sort_order": 36
+    },
+    {
+      "iso_a3": "GNQ",
+      "name": "Equatorial Guinea",
+      "region": "Central Africa",
+      "tagline": "Volcanic Bioko, the rainforest of Río Muni and turtle beaches facing the Gulf of Guinea.",
+      "palette": [
+        "#3E9A00",
+        "#0073CE",
+        "#E32118",
+        "#2B2D42",
+        "#F4E3C1"
+      ],
+      "active": true,
+      "sort_order": 37
+    },
+    {
+      "iso_a3": "GAB",
+      "name": "Gabon",
+      "region": "Central Africa",
+      "tagline": "Nearly 90% forest: surfing hippos, beach elephants and the mandrill’s painted face.",
+      "palette": [
+        "#009E60",
+        "#FCD116",
+        "#3A75C4",
+        "#1B4332",
+        "#E07A3F"
+      ],
+      "active": true,
+      "sort_order": 38
+    },
+    {
+      "iso_a3": "STP",
+      "name": "São Tomé and Príncipe",
+      "region": "Central Africa",
+      "tagline": "Two volcanic islands on the equator: cloud forest, a needle of rock and old cocoa plantations.",
+      "palette": [
+        "#12AD2B",
+        "#FFCE00",
+        "#D21034",
+        "#5C4033",
+        "#48CAE4"
+      ],
+      "active": true,
+      "sort_order": 39
     }
   ],
   "wonders": [
@@ -13361,6 +13496,2737 @@
       "citations": [
         "https://en.wikipedia.org/wiki/Bombax_costatum",
         "https://www.gbif.org/species/search?q=Bombax%20costatum"
+      ]
+    },
+    {
+      "slug": "mbanza-kongo",
+      "country_iso": "AGO",
+      "name": "Mbanza Kongo",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": -6.27,
+      "lng": 14.25,
+      "summary": "The capital of the Kingdom of Kongo, one of the largest states of southern Africa from the 14th to the 19th century.",
+      "uniqueness": "Renamed São Salvador after the king converted, it holds the ruins of Kulumbimbi, one of the oldest churches in sub-Saharan Africa. Angola’s first World Heritage Site (2017).",
+      "stat_label": "Inscribed",
+      "stat_value": "2017",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 1,
+      "art": {
+        "color": "#C1121F",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/The_Bansa,_or_residence_of_the_King_of_Kongo,_called_St._Salvador_(M'Banza_Kongo),_Astley_1745.jpg/1280px-The_Bansa,_or_residence_of_the_King_of_Kongo,_called_St._Salvador_(M'Banza_Kongo),_Astley_1745.jpg",
+            "credit": "Thomas Astley (1745)",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:The_Bansa,_or_residence_of_the_King_of_Kongo,_called_St._Salvador_(M'Banza_Kongo),_Astley_1745.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Tomada_da_cidade_de_S%C3%A3o_Salvador_s%C3%A9culo_XVIII_(panor%C3%A2mico).jpg/1280px-Tomada_da_cidade_de_S%C3%A3o_Salvador_s%C3%A9culo_XVIII_(panor%C3%A2mico).jpg",
+            "credit": "Unknown 18th-century artist",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Tomada_da_cidade_de_S%C3%A3o_Salvador_s%C3%A9culo_XVIII_(panor%C3%A2mico).jpg"
+          }
+        ],
+        "note": "Historic views of São Salvador — no recent open photos of the site yet."
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/1511/",
+        "https://en.wikipedia.org/wiki/M'banza-Kongo"
+      ]
+    },
+    {
+      "slug": "kalandula-falls",
+      "country_iso": "AGO",
+      "name": "Kalandula Falls",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "waterfall",
+      "lat": -9.08,
+      "lng": 16.0,
+      "summary": "A horseshoe of waterfalls on the Lucala River, about 105 m high and 400 m wide.",
+      "uniqueness": "One of the largest waterfalls in Africa by volume, especially in the rainy season.",
+      "stat_label": "Height",
+      "stat_value": "~105 m",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 2,
+      "art": {
+        "color": "#48CAE4",
+        "intensity": 0.85,
+        "motion": "cascade"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Kalandula_Falls_Pan.jpg/1280px-Kalandula_Falls_Pan.jpg",
+            "credit": "Zorglub",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Kalandula_Falls_Pan.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Kalandula_Falls_C.jpg/1280px-Kalandula_Falls_C.jpg",
+            "credit": "Zorglub",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Kalandula_Falls_C.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kalandula_waterfalls_of_the_Lucala-River_in_Malange,_Angola.JPG/1280px-Kalandula_waterfalls_of_the_Lucala-River_in_Malange,_Angola.JPG",
+            "credit": "Paulo César Santos",
+            "license": "CC0",
+            "source": "https://commons.wikimedia.org/wiki/File:Kalandula_waterfalls_of_the_Lucala-River_in_Malange,_Angola.JPG"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Kalandula_Falls"
+      ]
+    },
+    {
+      "slug": "tundavala-gap",
+      "country_iso": "AGO",
+      "name": "Tundavala Gap",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "gorge",
+      "lat": -14.82,
+      "lng": 13.4,
+      "summary": "A sheer escarpment edge near Lubango where the highlands drop more than 1,000 m towards the Namib.",
+      "uniqueness": "On clear days the view runs far across the coastal plain; the gap sits at about 2,200 m.",
+      "stat_label": "Drop",
+      "stat_value": "~1,000 m",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 3,
+      "art": {
+        "color": "#3D405B",
+        "intensity": 0.85,
+        "motion": "mist"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Tundavala_panorama.jpg/1280px-Tundavala_panorama.jpg",
+            "credit": "SangeevP",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Tundavala_panorama.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Tundavala_Gap.jpg/1280px-Tundavala_Gap.jpg",
+            "credit": "tim kubacki",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Tundavala_Gap.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Tundavala"
+      ]
+    },
+    {
+      "slug": "serra-da-leba",
+      "country_iso": "AGO",
+      "name": "Serra da Leba Pass",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "mountain",
+      "lat": -15.07,
+      "lng": 13.25,
+      "summary": "A road of tight hairpin bends that drops down the escarpment from Lubango to Namibe.",
+      "uniqueness": "Built in the 1970s, the pass is one of Angola’s best-known landmarks, a ribbon of switchbacks on a near-vertical slope.",
+      "stat_label": "Built",
+      "stat_value": "1970s",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 4,
+      "art": {
+        "color": "#F4A261",
+        "intensity": 0.85,
+        "motion": "zigzag"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Serra_da_Leba-Road.jpg/1280px-Serra_da_Leba-Road.jpg",
+            "credit": "Valmir144",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Serra_da_Leba-Road.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Lubango-Namibe_landscape.jpg/1280px-Lubango-Namibe_landscape.jpg",
+            "credit": "Erik Cleves Kristensen",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Lubango-Namibe_landscape.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Serra_da_Leba"
+      ]
+    },
+    {
+      "slug": "pungo-andongo",
+      "country_iso": "AGO",
+      "name": "Black Rocks of Pungo Andongo",
+      "local_name": "Pedras Negras",
+      "scientific_name": null,
+      "category": "rock",
+      "lat": -9.67,
+      "lng": 15.58,
+      "summary": "Giant dark rock towers rising from the savanna in Malanje.",
+      "uniqueness": "Legend says footprints in the rock belong to Queen Nzinga, who resisted Portuguese conquest in the 17th century.",
+      "stat_label": "Province",
+      "stat_value": "Malanje",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 5,
+      "art": {
+        "color": "#2B2D42",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Pungo_Andongo,_Malange,_Angola2.JPG/1280px-Pungo_Andongo,_Malange,_Angola2.JPG",
+            "credit": "Paulo César Santos",
+            "license": "CC0",
+            "source": "https://commons.wikimedia.org/wiki/File:Pungo_Andongo,_Malange,_Angola2.JPG"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Pungo_Andongo,_Malange,_Angola.JPG/1280px-Pungo_Andongo,_Malange,_Angola.JPG",
+            "credit": "Paulo César Santos",
+            "license": "CC0",
+            "source": "https://commons.wikimedia.org/wiki/File:Pungo_Andongo,_Malange,_Angola.JPG"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Pungo_Andongo,_Malange,_Angola,_2008.JPG/1280px-Pungo_Andongo,_Malange,_Angola,_2008.JPG",
+            "credit": "Paulo César Santos",
+            "license": "CC0",
+            "source": "https://commons.wikimedia.org/wiki/File:Pungo_Andongo,_Malange,_Angola,_2008.JPG"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Pungo_Andongo"
+      ]
+    },
+    {
+      "slug": "giant-sable",
+      "country_iso": "AGO",
+      "name": "Giant Sable Antelope",
+      "local_name": "palanca negra gigante",
+      "scientific_name": "Hippotragus niger variani",
+      "category": "fauna",
+      "lat": -9.5,
+      "lng": 17.1,
+      "summary": "A black antelope with sweeping horns up to about 1.5 m, found only in central Angola. A national symbol.",
+      "uniqueness": "Thought lost during the civil war, it was rediscovered by camera traps in 2005 in Cangandala. Critically Endangered. The pin is in Cangandala National Park.",
+      "stat_label": "Rediscovered",
+      "stat_value": "2005",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 6,
+      "art": {
+        "color": "#2B2D42",
+        "intensity": 0.85,
+        "motion": "herd"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Giant_Sable_Antelope_(22018702922).jpg/1280px-Giant_Sable_Antelope_(22018702922).jpg",
+            "credit": "Thomas Quine",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Giant_Sable_Antelope_(22018702922).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Museu_de_Hist%C3%B3ria_Natural_in_Luanda_-_Angola_2015.jpg",
+            "credit": "David Stanley",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Museu_de_Hist%C3%B3ria_Natural_in_Luanda_-_Angola_2015.jpg"
+          }
+        ],
+        "note": "Museum dioramas — the wild herds are rarely photographed."
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Giant_sable_antelope",
+        "https://www.gbif.org/species/search?q=Hippotragus%20niger%20variani"
+      ]
+    },
+    {
+      "slug": "mopane",
+      "country_iso": "AGO",
+      "name": "Mopane",
+      "local_name": null,
+      "scientific_name": "Colophospermum mopane",
+      "category": "flora",
+      "lat": -16.5,
+      "lng": 14.5,
+      "summary": "A tree of hot, dry valleys with butterfly-shaped leaves that fold together in the midday heat.",
+      "uniqueness": "Mopane worms, the caterpillars that feed on it, are a protein-rich delicacy across southern Africa. The pin is in southern Angola.",
+      "stat_label": "Leaves",
+      "stat_value": "Butterfly-shaped",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 7,
+      "art": {
+        "color": "#8AB17D",
+        "intensity": 0.85,
+        "motion": "bloom"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Mopane.JPG/1280px-Mopane.JPG",
+            "credit": "Teo Gómez",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Mopane.JPG"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Colophospermum_mopane_arbre_MHNT.jpg/1280px-Colophospermum_mopane_arbre_MHNT.jpg",
+            "credit": "Roger Culos",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Colophospermum_mopane_arbre_MHNT.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Colophospermum_mopane_feuilles_MHNT.jpg/1280px-Colophospermum_mopane_feuilles_MHNT.jpg",
+            "credit": "Roger Culos",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Colophospermum_mopane_feuilles_MHNT.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Colophospermum",
+        "https://www.gbif.org/species/search?q=Colophospermum%20mopane"
+      ]
+    },
+    {
+      "slug": "dja-reserve",
+      "country_iso": "CMR",
+      "name": "Dja Faunal Reserve",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "forest",
+      "lat": 3.0,
+      "lng": 13.0,
+      "summary": "One of the largest and best-protected rainforests in Africa, almost encircled by the Dja River.",
+      "uniqueness": "It holds gorillas, chimpanzees, forest elephants and over 100 other mammal species. World Heritage Site since 1987.",
+      "stat_label": "Area",
+      "stat_value": "~5,260 km²",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 1,
+      "art": {
+        "color": "#007A5E",
+        "intensity": 0.85,
+        "motion": "mist"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Dja_River_view.JPG/1280px-Dja_River_view.JPG",
+            "credit": "Amcaja",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Dja_River_view.JPG"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Dja_River_and_pirogue.JPG/1280px-Dja_River_and_pirogue.JPG",
+            "credit": "Amcaja",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Dja_River_and_pirogue.JPG"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Crossing_the_Dja_on_a_ferry.jpg/1280px-Crossing_the_Dja_on_a_ferry.jpg",
+            "credit": "Wikimedia Commons contributor",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Crossing_the_Dja_on_a_ferry.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/407/",
+        "https://en.wikipedia.org/wiki/Dja_Faunal_Reserve"
+      ]
+    },
+    {
+      "slug": "diy-gid-biy",
+      "country_iso": "CMR",
+      "name": "Diy-Gid-Biy of the Mandara Mountains",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": 10.88,
+      "lng": 13.78,
+      "summary": "Sixteen dry-stone hilltop sites in the Mandara Mountains, built between about the 12th and 17th centuries.",
+      "uniqueness": "Their builders are unknown; the name means “ruins of the chief’s house” in the Mafa language. Volcanic plugs such as Rhumsiki rise nearby. World Heritage Site since 2025.",
+      "stat_label": "Sites",
+      "stat_value": "16",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 2,
+      "art": {
+        "color": "#5C4033",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Rhumsiki_Peak.jpg",
+            "credit": "Amcaja",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Rhumsiki_Peak.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Rhumsiki_with_Kapsiki_Peak_(after_sunrise),_Far_North_Province_of_Cameroon.jpg/1280px-Rhumsiki_with_Kapsiki_Peak_(after_sunrise),_Far_North_Province_of_Cameroon.jpg",
+            "credit": "Alfred Weidinger",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Rhumsiki_with_Kapsiki_Peak_(after_sunrise),_Far_North_Province_of_Cameroon.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Kapsiki_home_in_Rhumsiki.jpg/1280px-Kapsiki_home_in_Rhumsiki.jpg",
+            "credit": "Amcaja",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Kapsiki_home_in_Rhumsiki.jpg"
+          }
+        ],
+        "note": "The Mandara Mountains near Rhumsiki — no open photos of the stone sites themselves yet."
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/1745/",
+        "https://en.wikipedia.org/wiki/Diy-Gid-Biy"
+      ]
+    },
+    {
+      "slug": "mount-cameroon",
+      "country_iso": "CMR",
+      "name": "Mount Cameroon",
+      "local_name": "Mongo ma Ndemi",
+      "scientific_name": null,
+      "category": "volcano",
+      "lat": 4.22,
+      "lng": 9.17,
+      "summary": "An active volcano rising to 4,040 m straight from the Atlantic shore, the highest peak in West and Central Africa.",
+      "uniqueness": "Its seaward slopes are among the wettest places on Earth. Each year runners race to the summit and back in the Race of Hope.",
+      "stat_label": "Height",
+      "stat_value": "4,040 m",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 3,
+      "art": {
+        "color": "#CE1126",
+        "intensity": 0.85,
+        "motion": "mist"
+      },
+      "media": {
+        "video": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ae/Cameroon_Mountain_Race.webm/Cameroon_Mountain_Race.webm.480p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ae/Cameroon_Mountain_Race.webm/Cameroon_Mountain_Race.webm.360p.mpeg4.mov",
+        "credit": "Eyongblaise",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Cameroon_Mountain_Race.webm",
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Mount_Cameroon_from_douala_Cameroon.jpg/1280px-Mount_Cameroon_from_douala_Cameroon.jpg",
+            "credit": "Blaizo 237",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Mount_Cameroon_from_douala_Cameroon.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Mount_Cameroon_hut_2.jpg/1280px-Mount_Cameroon_hut_2.jpg",
+            "credit": "Betterfoto",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Mount_Cameroon_hut_2.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Mount_Cameroon_(ASTER).jpg/1280px-Mount_Cameroon_(ASTER).jpg",
+            "credit": "NASA/METI/AIST/Japan Space Systems and U.S./Japan ASTER Science Team",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Mount_Cameroon_(ASTER).jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Mount_Cameroon"
+      ]
+    },
+    {
+      "slug": "lake-nyos",
+      "country_iso": "CMR",
+      "name": "Lake Nyos",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "lake",
+      "lat": 6.44,
+      "lng": 10.3,
+      "summary": "A crater lake whose dissolved carbon dioxide burst out in 1986, suffocating about 1,700 people and their animals.",
+      "uniqueness": "It is one of only three lakes known to have this kind of “limnic eruption”. Pipes now vent the gas from the deep water.",
+      "stat_label": "Disaster",
+      "stat_value": "1986",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 4,
+      "art": {
+        "color": "#2A9D8F",
+        "intensity": 0.85,
+        "motion": "sink"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Lake_nyos_co2_vent.jpg/1280px-Lake_nyos_co2_vent.jpg",
+            "credit": "Bill Evans, USGS",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Lake_nyos_co2_vent.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Lake_Nyos",
+        "https://en.wikipedia.org/wiki/Lake_Nyos_disaster"
+      ]
+    },
+    {
+      "slug": "lobe-falls",
+      "country_iso": "CMR",
+      "name": "Lobé Falls",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "waterfall",
+      "lat": 2.88,
+      "lng": 9.9,
+      "summary": "A waterfall that tumbles directly into the Atlantic Ocean near Kribi.",
+      "uniqueness": "Waterfalls falling straight into the sea are rare; fishermen’s pirogues paddle right up to the falls.",
+      "stat_label": "Falls into",
+      "stat_value": "The Atlantic",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 5,
+      "art": {
+        "color": "#48CAE4",
+        "intensity": 0.85,
+        "motion": "cascade"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Chutes-Lob%C3%A9-Kribi.JPG/1280px-Chutes-Lob%C3%A9-Kribi.JPG",
+            "credit": "Ophelio13",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Chutes-Lob%C3%A9-Kribi.JPG"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Chutes-Lob%C3%A9-Kribi2.JPG/1280px-Chutes-Lob%C3%A9-Kribi2.JPG",
+            "credit": "Ophelio13",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Chutes-Lob%C3%A9-Kribi2.JPG"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Chutes-de-la-Lob%C3%A93.JPG/1280px-Chutes-de-la-Lob%C3%A93.JPG",
+            "credit": "Ophelio13",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Chutes-de-la-Lob%C3%A93.JPG"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Lobé_Falls"
+      ]
+    },
+    {
+      "slug": "waza",
+      "country_iso": "CMR",
+      "name": "Waza National Park",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "savanna",
+      "lat": 11.33,
+      "lng": 14.73,
+      "summary": "Sahelian savanna and floodplain near Lake Chad, with elephants, giraffes and lions.",
+      "uniqueness": "Its seasonal waterholes concentrate wildlife in the dry season; it is also a UNESCO biosphere reserve.",
+      "stat_label": "Area",
+      "stat_value": "~1,700 km²",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 6,
+      "art": {
+        "color": "#FCD116",
+        "intensity": 0.85,
+        "motion": "herd"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Waza-NP-Elephant.jpg/1280px-Waza-NP-Elephant.jpg",
+            "credit": "Albert Backer",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Waza-NP-Elephant.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Waza-NP-Giraffes.jpg/1280px-Waza-NP-Giraffes.jpg",
+            "credit": "Albert Backer",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Waza-NP-Giraffes.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/A_herd_of_Camels_off_the_Northern_part_of_the_Waza_National_Park_02.jpg/1280px-A_herd_of_Camels_off_the_Northern_part_of_the_Waza_National_Park_02.jpg",
+            "credit": "Adesolive",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:A_herd_of_Camels_off_the_Northern_part_of_the_Waza_National_Park_02.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Waza_National_Park"
+      ]
+    },
+    {
+      "slug": "goliath-frog",
+      "country_iso": "CMR",
+      "name": "Goliath Frog",
+      "local_name": null,
+      "scientific_name": "Conraua goliath",
+      "category": "fauna",
+      "lat": 4.1,
+      "lng": 10.2,
+      "summary": "The largest frog on Earth, up to about 32 cm long and over 3 kg, living in fast rivers of Cameroon and Equatorial Guinea.",
+      "uniqueness": "Males move stones to build nesting pools for their eggs. Endangered. The pin is in the Sanaga basin.",
+      "stat_label": "Weight",
+      "stat_value": "Up to ~3.3 kg",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 7,
+      "art": {
+        "color": "#3A5A40",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Conraua_goliath_360001369.jpg/1280px-Conraua_goliath_360001369.jpg",
+            "credit": "Ryan van Huyssteen",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Conraua_goliath_360001369.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Goliath_Frog.jpg/1280px-Goliath_Frog.jpg",
+            "credit": "Ryan Somma",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Goliath_Frog.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Goliath_frog",
+        "https://www.gbif.org/species/search?q=Conraua%20goliath"
+      ]
+    },
+    {
+      "slug": "african-cherry",
+      "country_iso": "CMR",
+      "name": "African Cherry",
+      "local_name": "pygeum",
+      "scientific_name": "Prunus africana",
+      "category": "flora",
+      "lat": 6.0,
+      "lng": 10.5,
+      "summary": "A montane forest tree whose bark is used in medicine for prostate conditions.",
+      "uniqueness": "Heavy bark-stripping for export led to its listing under CITES; Cameroon’s highlands are a major source. The pin is a representative point.",
+      "stat_label": "Height",
+      "stat_value": "Up to ~40 m",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 8,
+      "art": {
+        "color": "#7F4F24",
+        "intensity": 0.85,
+        "motion": "bloom"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Prunus_africana_MS_3588.jpg/1280px-Prunus_africana_MS_3588.jpg",
+            "credit": "Marco Schmidt",
+            "license": "CC BY-SA 2.5",
+            "source": "https://commons.wikimedia.org/wiki/File:Prunus_africana_MS_3588.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Red_stinkwood_-_US_Botanic_Gardens_-_Stierch.jpg/1280px-Red_stinkwood_-_US_Botanic_Gardens_-_Stierch.jpg",
+            "credit": "Sarah Stierch",
+            "license": "CC BY 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Red_stinkwood_-_US_Botanic_Gardens_-_Stierch.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Prunus_africana",
+        "https://www.gbif.org/species/search?q=Prunus%20africana"
+      ]
+    },
+    {
+      "slug": "manovo-gounda-st-floris",
+      "country_iso": "CAF",
+      "name": "Manovo-Gounda St Floris National Park",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "savanna",
+      "lat": 9.0,
+      "lng": 21.5,
+      "summary": "Wide floodplain savanna in the north, once one of Africa’s richest wildlife areas.",
+      "uniqueness": "Poaching devastated its rhinos and elephants; it has been on the List in Danger since 1997. World Heritage Site since 1988.",
+      "stat_label": "Area",
+      "stat_value": "~17,400 km²",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 1,
+      "art": {
+        "color": "#E9C46A",
+        "intensity": 0.85,
+        "motion": "herd"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Manovo.jpg/1280px-Manovo.jpg",
+            "credit": "Garoa larrañeta",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Manovo.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/475/",
+        "https://en.wikipedia.org/wiki/Manovo-Gounda_St._Floris_National_Park"
+      ]
+    },
+    {
+      "slug": "dzanga-bai",
+      "country_iso": "CAF",
+      "name": "Dzanga Bai",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "wetland",
+      "lat": 2.95,
+      "lng": 16.38,
+      "summary": "A mineral-rich forest clearing where up to about 100 forest elephants gather at once.",
+      "uniqueness": "Researchers have recorded thousands of individual elephants here since 1990. It lies in Dzanga-Sangha, part of the Sangha Trinational World Heritage Site.",
+      "stat_label": "Elephants at once",
+      "stat_value": "Up to ~100",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 2,
+      "art": {
+        "color": "#C8784A",
+        "intensity": 0.85,
+        "motion": "herd"
+      },
+      "media": {
+        "video": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/26/Dzanga_Bai_panorama_with_forest_elephants_-_August_2018_01.webm/Dzanga_Bai_panorama_with_forest_elephants_-_August_2018_01.webm.480p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/26/Dzanga_Bai_panorama_with_forest_elephants_-_August_2018_01.webm/Dzanga_Bai_panorama_with_forest_elephants_-_August_2018_01.webm.360p.mpeg4.mov",
+        "credit": "JosepMGracia",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Dzanga_Bai_panorama_with_forest_elephants_-_August_2018_01.webm",
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Dzanga_Bai_forest_clearing_with_African_forest_elephants,_Central_African_Republic.jpg/1280px-Dzanga_Bai_forest_clearing_with_African_forest_elephants,_Central_African_Republic.jpg",
+            "credit": "JosepMGracia",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Dzanga_Bai_forest_clearing_with_African_forest_elephants,_Central_African_Republic.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Young_African_forest_elephant_at_Dzanga_Bai.jpg/1280px-Young_African_forest_elephant_at_Dzanga_Bai.jpg",
+            "credit": "JosepMGracia",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Young_African_forest_elephant_at_Dzanga_Bai.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Dzanga_Bai_at_sunrise,_Central_African_Republic.jpg/1280px-Dzanga_Bai_at_sunrise,_Central_African_Republic.jpg",
+            "credit": "JosepMGracia",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Dzanga_Bai_at_sunrise,_Central_African_Republic.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Dzanga-Sangha_Special_Reserve",
+        "https://whc.unesco.org/en/list/1380/"
+      ]
+    },
+    {
+      "slug": "boali-falls",
+      "country_iso": "CAF",
+      "name": "Boali Falls",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "waterfall",
+      "lat": 4.8,
+      "lng": 18.12,
+      "summary": "A curtain of water about 50 m high on the Mbali River, north-west of Bangui.",
+      "uniqueness": "A hydroelectric plant here supplies much of Bangui’s power; in the rainy season the falls spread wide.",
+      "stat_label": "Height",
+      "stat_value": "~50 m",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 3,
+      "art": {
+        "color": "#48CAE4",
+        "intensity": 0.85,
+        "motion": "cascade"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Les_Chutes_de_Boali_001.jpg/1280px-Les_Chutes_de_Boali_001.jpg",
+            "credit": "Zakalingba",
+            "license": "CC0",
+            "source": "https://commons.wikimedia.org/wiki/File:Les_Chutes_de_Boali_001.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Visite_touristique_des_Chutes_de_Boali.jpg/1280px-Visite_touristique_des_Chutes_de_Boali.jpg",
+            "credit": "Zakalingba",
+            "license": "CC0",
+            "source": "https://commons.wikimedia.org/wiki/File:Visite_touristique_des_Chutes_de_Boali.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Une_grotte_%C3%A0_c%C3%B4t%C3%A9_des_chutes_de_boali.jpg/1280px-Une_grotte_%C3%A0_c%C3%B4t%C3%A9_des_chutes_de_boali.jpg",
+            "credit": "Zakalingba",
+            "license": "CC0",
+            "source": "https://commons.wikimedia.org/wiki/File:Une_grotte_%C3%A0_c%C3%B4t%C3%A9_des_chutes_de_boali.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Boali"
+      ]
+    },
+    {
+      "slug": "ubangi-river",
+      "country_iso": "CAF",
+      "name": "Ubangi River",
+      "local_name": "Oubangui",
+      "scientific_name": null,
+      "category": "river",
+      "lat": 4.36,
+      "lng": 18.6,
+      "summary": "The great river that forms the border with DR Congo, flowing past Bangui to join the Congo.",
+      "uniqueness": "It is the largest right-bank tributary of the Congo and the country’s main route to the sea.",
+      "stat_label": "Length",
+      "stat_value": "~1,060 km",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 4,
+      "art": {
+        "color": "#264653",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/IMG_Zongo_on_the_Ubangi_river,_Friday_16,_1985;_Bangui_on_the_other_side_of_the_river;_author_JC.jpg/1280px-IMG_Zongo_on_the_Ubangi_river,_Friday_16,_1985;_Bangui_on_the_other_side_of_the_river;_author_JC.jpg",
+            "credit": "Jeanmarteauenbois",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:IMG_Zongo_on_the_Ubangi_river,_Friday_16,_1985;_Bangui_on_the_other_side_of_the_river;_author_JC.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Ubangi_River"
+      ]
+    },
+    {
+      "slug": "forest-elephant",
+      "country_iso": "CAF",
+      "name": "African Forest Elephant",
+      "local_name": null,
+      "scientific_name": "Loxodonta cyclotis",
+      "category": "fauna",
+      "lat": 2.95,
+      "lng": 16.38,
+      "summary": "A smaller elephant of the rainforest with straight, downward-pointing tusks.",
+      "uniqueness": "Recognised as a separate species, it spreads the seeds of many trees. Critically Endangered after heavy ivory poaching. The pin is at Dzanga Bai.",
+      "stat_label": "IUCN status",
+      "stat_value": "Critically Endangered",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 5,
+      "art": {
+        "color": "#6C757D",
+        "intensity": 0.85,
+        "motion": "herd"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Loxodontacyclotis.jpg/1280px-Loxodontacyclotis.jpg",
+            "credit": "Thomas Breuer",
+            "license": "CC BY 2.5",
+            "source": "https://commons.wikimedia.org/wiki/File:Loxodontacyclotis.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/L'%C3%A9l%C3%A9phant_de_for%C3%AAt_d'Afrique_(Loxodonta_cyclotis).jpg/1280px-L'%C3%A9l%C3%A9phant_de_for%C3%AAt_d'Afrique_(Loxodonta_cyclotis).jpg",
+            "credit": "Christian Vigna",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:L'%C3%A9l%C3%A9phant_de_for%C3%AAt_d'Afrique_(Loxodonta_cyclotis).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Loxodonta_cyclotis_3970045.jpg/1280px-Loxodonta_cyclotis_3970045.jpg",
+            "credit": "Matt Muir",
+            "license": "CC BY 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Loxodonta_cyclotis_3970045.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/African_forest_elephant",
+        "https://www.gbif.org/species/search?q=Loxodonta%20cyclotis"
+      ]
+    },
+    {
+      "slug": "koko-gnetum",
+      "country_iso": "CAF",
+      "name": "Koko",
+      "local_name": "eru · okok",
+      "scientific_name": "Gnetum africanum",
+      "category": "flora",
+      "lat": 3.8,
+      "lng": 17.5,
+      "summary": "A forest vine whose leaves are sliced thin and cooked as a favourite green across Central Africa.",
+      "uniqueness": "Gathered wild and traded across borders, it is a key source of income for forest families. The pin is a representative point.",
+      "stat_label": "Eaten as",
+      "stat_value": "Leafy green",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 6,
+      "art": {
+        "color": "#3E9A00",
+        "intensity": 0.85,
+        "motion": "bloom"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Gnetum_africanum_Leaves_(Eru_ou_Okok).jpg/1280px-Gnetum_africanum_Leaves_(Eru_ou_Okok).jpg",
+            "credit": "Minette Lontsie",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Gnetum_africanum_Leaves_(Eru_ou_Okok).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Gnetum_africanum_MS_3428.jpg/1280px-Gnetum_africanum_MS_3428.jpg",
+            "credit": "Marco Schmidt",
+            "license": "CC BY-SA 2.5",
+            "source": "https://commons.wikimedia.org/wiki/File:Gnetum_africanum_MS_3428.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Gnetum_africanum_Leaves_(Eru,_Okok).jpg/1280px-Gnetum_africanum_Leaves_(Eru,_Okok).jpg",
+            "credit": "Minette Lontsie",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Gnetum_africanum_Leaves_(Eru,_Okok).jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Gnetum_africanum",
+        "https://www.gbif.org/species/search?q=Gnetum%20africanum"
+      ]
+    },
+    {
+      "slug": "lakes-of-ounianga",
+      "country_iso": "TCD",
+      "name": "Lakes of Ounianga",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "lake",
+      "lat": 19.05,
+      "lng": 20.51,
+      "summary": "Eighteen lakes in the Sahara, fed by fossil groundwater, in one of the driest places on Earth.",
+      "uniqueness": "Some are fresh, others salty and red with algae; floating reeds slow evaporation. World Heritage Site since 2012.",
+      "stat_label": "Lakes",
+      "stat_value": "18",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 1,
+      "art": {
+        "color": "#C60C30",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Red_Waters_of_Lake_Motro_(24468521226).jpg",
+            "credit": "David Stanley",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Red_Waters_of_Lake_Motro_(24468521226).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Lake_Motro_(24383699102).jpg",
+            "credit": "David Stanley",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Lake_Motro_(24383699102).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Lake_Teli_(24455091546).jpg",
+            "credit": "David Stanley",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Lake_Teli_(24455091546).jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/1400/",
+        "https://en.wikipedia.org/wiki/Lakes_of_Ounianga"
+      ]
+    },
+    {
+      "slug": "ennedi-massif",
+      "country_iso": "TCD",
+      "name": "Ennedi Massif",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "rock",
+      "lat": 17.04,
+      "lng": 21.86,
+      "summary": "A sandstone plateau of arches, pillars and canyons in north-east Chad.",
+      "uniqueness": "Gueltas such as Guelta d’Archei shelter some of the last Saharan crocodiles, and the rock shelters hold thousands of paintings. Mixed World Heritage Site since 2016.",
+      "stat_label": "Inscribed",
+      "stat_value": "2016",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 2,
+      "art": {
+        "color": "#E07A3F",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Camels_in_the_Labyrinthe_(Maze)_sandstone_area_of_the_Ennedi,_Chad_(42405451704).jpg/1280px-Camels_in_the_Labyrinthe_(Maze)_sandstone_area_of_the_Ennedi,_Chad_(42405451704).jpg",
+            "credit": "Valerian Guillot",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Camels_in_the_Labyrinthe_(Maze)_sandstone_area_of_the_Ennedi,_Chad_(42405451704).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Guelta_Maya,_Ennedi,_Tschad.jpg/1280px-Guelta_Maya,_Ennedi,_Tschad.jpg",
+            "credit": "Sven.oehm",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Guelta_Maya,_Ennedi,_Tschad.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Felsbildzeichnung_im_Ennedi,_Terkei.jpg/1280px-Felsbildzeichnung_im_Ennedi,_Terkei.jpg",
+            "credit": "Sven.oehm",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Felsbildzeichnung_im_Ennedi,_Terkei.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/1475/",
+        "https://en.wikipedia.org/wiki/Ennedi_Plateau"
+      ]
+    },
+    {
+      "slug": "zakouma",
+      "country_iso": "TCD",
+      "name": "Zakouma National Park",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "savanna",
+      "lat": 10.85,
+      "lng": 19.65,
+      "summary": "Floodplain savanna in south-east Chad where elephant numbers are rising again after a poaching crisis.",
+      "uniqueness": "Managed with African Parks since 2010, it has seen elephant herds grow and lions and black rhinos return.",
+      "stat_label": "Area",
+      "stat_value": "~3,000 km²",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 3,
+      "art": {
+        "color": "#FECB00",
+        "intensity": 0.85,
+        "motion": "herd"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Girafe_du_parc_national_de_Zakouma.jpg/1280px-Girafe_du_parc_national_de_Zakouma.jpg",
+            "credit": "Fatakaya",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Girafe_du_parc_national_de_Zakouma.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Buffle_solitaire_au_Parc_national_de_Zakouma.jpg/1280px-Buffle_solitaire_au_Parc_national_de_Zakouma.jpg",
+            "credit": "Fatakaya",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Buffle_solitaire_au_Parc_national_de_Zakouma.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Vue_sur_le_camp_visiteur_%C3%A0_Zakouma.jpg/1280px-Vue_sur_le_camp_visiteur_%C3%A0_Zakouma.jpg",
+            "credit": "Fatakaya",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Vue_sur_le_camp_visiteur_%C3%A0_Zakouma.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Zakouma_National_Park"
+      ]
+    },
+    {
+      "slug": "lake-chad",
+      "country_iso": "TCD",
+      "name": "Lake Chad",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "lake",
+      "lat": 13.1,
+      "lng": 14.53,
+      "summary": "A shallow lake shared by Chad, Cameroon, Niger and Nigeria, famous for its dramatic changes in size.",
+      "uniqueness": "It shrank from about 25,000 km² in the 1960s to a fraction of that, and swells and shrinks with the rains, supporting millions of people.",
+      "stat_label": "1960s area",
+      "stat_value": "~25,000 km²",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 4,
+      "art": {
+        "color": "#2A9D8F",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/A_serene_lake_chad_shore.jpg/1280px-A_serene_lake_chad_shore.jpg",
+            "credit": "Coolthoom1",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:A_serene_lake_chad_shore.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Lake_Chad_from_Apollo_7.jpg/1280px-Lake_Chad_from_Apollo_7.jpg",
+            "credit": "NASA",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Lake_Chad_from_Apollo_7.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/An_evergreen_lake_chad_shore.jpg/1280px-An_evergreen_lake_chad_shore.jpg",
+            "credit": "Coolthoom1",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:An_evergreen_lake_chad_shore.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Lake_Chad"
+      ]
+    },
+    {
+      "slug": "emi-koussi",
+      "country_iso": "TCD",
+      "name": "Emi Koussi",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "volcano",
+      "lat": 19.79,
+      "lng": 18.55,
+      "summary": "The highest peak of the Sahara at 3,415 m, a huge shield volcano in the Tibesti Mountains.",
+      "uniqueness": "Its summit caldera is about 15 km wide, and the Tibesti’s volcanoes are among the least visited on Earth.",
+      "stat_label": "Height",
+      "stat_value": "3,415 m",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 5,
+      "art": {
+        "color": "#3D3A4B",
+        "intensity": 0.85,
+        "motion": "mist"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Tibesti_east_of_bardai.jpg/1280px-Tibesti_east_of_bardai.jpg",
+            "credit": "Michael Kerling",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Tibesti_east_of_bardai.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Tibesti_Mountains.jpg/1280px-Tibesti_Mountains.jpg",
+            "credit": "European Space Agency",
+            "license": "CC BY-SA 3.0 IGO",
+            "source": "https://commons.wikimedia.org/wiki/File:Tibesti_Mountains.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Emi_Koussi",
+        "https://en.wikipedia.org/wiki/Tibesti_Mountains"
+      ]
+    },
+    {
+      "slug": "kordofan-giraffe",
+      "country_iso": "TCD",
+      "name": "Kordofan Giraffe",
+      "local_name": null,
+      "scientific_name": "Giraffa camelopardalis antiquorum",
+      "category": "fauna",
+      "lat": 10.85,
+      "lng": 19.65,
+      "summary": "A giraffe of the central African savannas, with pale patches and spotted legs.",
+      "uniqueness": "Zakouma holds one of its largest remaining populations. Critically Endangered. The pin is in Zakouma.",
+      "stat_label": "IUCN status",
+      "stat_value": "Critically Endangered",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 6,
+      "art": {
+        "color": "#C8784A",
+        "intensity": 0.85,
+        "motion": "herd"
+      },
+      "media": {
+        "video": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/93/Kordofan-Giraffe_(Zoo_Dresden)_(9).webm/Kordofan-Giraffe_(Zoo_Dresden)_(9).webm.480p.vp9.webm",
+        "credit": "Fiver, der Hellseher",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Kordofan-Giraffe_(Zoo_Dresden)_(9).webm",
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Giraffa_camelopardalis_antiquorum_(Vincennes_Zoo)_4.jpg",
+            "credit": "Mathae",
+            "license": "CC BY 2.5",
+            "source": "https://commons.wikimedia.org/wiki/File:Giraffa_camelopardalis_antiquorum_(Vincennes_Zoo)_4.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Giraffa_camelopardalis_antiquorum_(Vincennes_Zoo)1.jpg",
+            "credit": "Mathae",
+            "license": "CC BY 2.5",
+            "source": "https://commons.wikimedia.org/wiki/File:Giraffa_camelopardalis_antiquorum_(Vincennes_Zoo)1.jpg"
+          }
+        ],
+        "note": "Zoo animals — Kordofan giraffes in the wild live in Zakouma and Garamba."
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Kordofan_giraffe",
+        "https://www.gbif.org/species/search?q=Giraffa%20camelopardalis%20antiquorum"
+      ]
+    },
+    {
+      "slug": "desert-date",
+      "country_iso": "TCD",
+      "name": "Desert Date",
+      "local_name": "hidjlidj",
+      "scientific_name": "Balanites aegyptiaca",
+      "category": "flora",
+      "lat": 13.5,
+      "lng": 18.0,
+      "summary": "A spiny Sahel tree whose sweet-bitter fruit, oil and leaves are used in food and medicine.",
+      "uniqueness": "It thrives where few other trees can, and is one of the species planted for Africa’s Great Green Wall. The pin is a representative point.",
+      "stat_label": "Planted for",
+      "stat_value": "Great Green Wall",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 7,
+      "art": {
+        "color": "#B07D4B",
+        "intensity": 0.85,
+        "motion": "bloom"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Balanites_aegyptiaca_0730.jpg/1280px-Balanites_aegyptiaca_0730.jpg",
+            "credit": "Marco Schmidt",
+            "license": "CC BY-SA 2.5",
+            "source": "https://commons.wikimedia.org/wiki/File:Balanites_aegyptiaca_0730.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Balanites_aegyptiaca_MS4917.JPG/1280px-Balanites_aegyptiaca_MS4917.JPG",
+            "credit": "Marco Schmidt",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Balanites_aegyptiaca_MS4917.JPG"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Balanites_aegyptiaca_MHNT.BOT.2009.13.5.jpg/1280px-Balanites_aegyptiaca_MHNT.BOT.2009.13.5.jpg",
+            "credit": "Roger Culos",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Balanites_aegyptiaca_MHNT.BOT.2009.13.5.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Balanites_aegyptiaca",
+        "https://www.gbif.org/species/search?q=Balanites%20aegyptiaca"
+      ]
+    },
+    {
+      "slug": "virunga",
+      "country_iso": "COD",
+      "name": "Virunga National Park",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "mountain",
+      "lat": -0.92,
+      "lng": 29.17,
+      "summary": "Africa’s oldest national park (1925), from lava plains and active volcanoes to the glaciers of the Rwenzori.",
+      "uniqueness": "It shelters about a third of the world’s mountain gorillas, along with hippos on Lake Edward. On the List in Danger since 1994.",
+      "stat_label": "Founded",
+      "stat_value": "1925",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 1,
+      "art": {
+        "color": "#1B4332",
+        "intensity": 0.85,
+        "motion": "mist"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Virunga_01.jpg/1280px-Virunga_01.jpg",
+            "credit": "Ad Meskens",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Virunga_01.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Virunga_Mountain_Gorilla.jpg/1280px-Virunga_Mountain_Gorilla.jpg",
+            "credit": "Cai Tjeenk Willink",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Virunga_Mountain_Gorilla.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Virunga_03.jpg/1280px-Virunga_03.jpg",
+            "credit": "Ad Meskens",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Virunga_03.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/63/",
+        "https://en.wikipedia.org/wiki/Virunga_National_Park"
+      ]
+    },
+    {
+      "slug": "garamba",
+      "country_iso": "COD",
+      "name": "Garamba National Park",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "savanna",
+      "lat": 4.0,
+      "lng": 29.25,
+      "summary": "Savanna and gallery forest on the South Sudan border, one of Africa’s oldest parks.",
+      "uniqueness": "It was the last stronghold of the northern white rhino in the wild. It still holds Kordofan giraffes and elephants. World Heritage Site since 1980.",
+      "stat_label": "Founded",
+      "stat_value": "1938",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 2,
+      "art": {
+        "color": "#F7D618",
+        "intensity": 0.85,
+        "motion": "herd"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Kordofan_giraffe_in_Garamba_National_Park.jpg/1280px-Kordofan_giraffe_in_Garamba_National_Park.jpg",
+            "credit": "Matthew Luizza / U.S. Fish and Wildlife Service",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Kordofan_giraffe_in_Garamba_National_Park.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Ian_and_Rangers_Garamba_National_Park,_Congo_2003.jpg/1280px-Ian_and_Rangers_Garamba_National_Park,_Congo_2003.jpg",
+            "credit": "Ian J. Saunders",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Ian_and_Rangers_Garamba_National_Park,_Congo_2003.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/136/",
+        "https://en.wikipedia.org/wiki/Garamba_National_Park"
+      ]
+    },
+    {
+      "slug": "kahuzi-biega",
+      "country_iso": "COD",
+      "name": "Kahuzi-Biega National Park",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "forest",
+      "lat": -2.5,
+      "lng": 28.75,
+      "summary": "Montane and lowland forest west of Lake Kivu, dominated by the extinct volcanoes Kahuzi and Biega.",
+      "uniqueness": "It protects the eastern lowland (Grauer’s) gorilla, the largest gorilla subspecies. On the List in Danger since 1997.",
+      "stat_label": "Gorilla",
+      "stat_value": "Grauer’s",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 3,
+      "art": {
+        "color": "#2D6A4F",
+        "intensity": 0.85,
+        "motion": "mist"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Kahuzi_Biega_National_Park_Banner.jpg/1280px-Kahuzi_Biega_National_Park_Banner.jpg",
+            "credit": "Joe McKenna",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Kahuzi_Biega_National_Park_Banner.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Kahuzi-Biega_National_Park_(39423247372).jpg/1280px-Kahuzi-Biega_National_Park_(39423247372).jpg",
+            "credit": "USDA Forest Service",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Kahuzi-Biega_National_Park_(39423247372).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Kahuzi-Biega_National_Park_(39423247252).jpg/1280px-Kahuzi-Biega_National_Park_(39423247252).jpg",
+            "credit": "USDA Forest Service",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Kahuzi-Biega_National_Park_(39423247252).jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/137/",
+        "https://en.wikipedia.org/wiki/Kahuzi-Biega_National_Park"
+      ]
+    },
+    {
+      "slug": "salonga",
+      "country_iso": "COD",
+      "name": "Salonga National Park",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "forest",
+      "lat": -2.0,
+      "lng": 21.0,
+      "summary": "Africa’s largest tropical rainforest reserve, reachable only by river.",
+      "uniqueness": "It covers about 36,000 km² and is home to the bonobo, forest elephant and Congo peafowl. Removed from the List in Danger in 2021.",
+      "stat_label": "Area",
+      "stat_value": "~36,000 km²",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 4,
+      "art": {
+        "color": "#52B788",
+        "intensity": 0.85,
+        "motion": "mist"
+      },
+      "media": {
+        "note": "No openly licensed photos of Salonga yet."
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/280/",
+        "https://en.wikipedia.org/wiki/Salonga_National_Park"
+      ]
+    },
+    {
+      "slug": "okapi-reserve",
+      "country_iso": "COD",
+      "name": "Okapi Wildlife Reserve",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "forest",
+      "lat": 1.4,
+      "lng": 28.58,
+      "summary": "The Ituri Forest, home of the okapi and of Mbuti hunter-gatherers.",
+      "uniqueness": "It holds an estimated 5,000 okapi, a large share of those left in the wild. On the List in Danger since 1997.",
+      "stat_label": "Area",
+      "stat_value": "~14,000 km²",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 5,
+      "art": {
+        "color": "#8B5E34",
+        "intensity": 0.85,
+        "motion": "mist"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Epulu_Okapi_Reserve.jpg/1280px-Epulu_Okapi_Reserve.jpg",
+            "credit": "J. Doremus",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Epulu_Okapi_Reserve.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/WV_banner_Okapi_Wildlife_Reserve_Epulu_river.jpg/1280px-WV_banner_Okapi_Wildlife_Reserve_Epulu_river.jpg",
+            "credit": "J. Doremus",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:WV_banner_Okapi_Wildlife_Reserve_Epulu_river.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/718/",
+        "https://en.wikipedia.org/wiki/Okapi_Wildlife_Reserve"
+      ]
+    },
+    {
+      "slug": "nyiragongo",
+      "country_iso": "COD",
+      "name": "Nyiragongo",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "volcano",
+      "lat": -1.52,
+      "lng": 29.25,
+      "summary": "An active volcano above Goma, with one of the largest lava lakes on Earth in its crater.",
+      "uniqueness": "Its lava is unusually fluid; eruptions in 1977, 2002 and 2021 sent flows towards the city.",
+      "stat_label": "Height",
+      "stat_value": "3,470 m",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 6,
+      "art": {
+        "color": "#CE1021",
+        "intensity": 0.85,
+        "motion": "sink"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Lava_Lake_Nyiragongo_2.jpg/1280px-Lava_Lake_Nyiragongo_2.jpg",
+            "credit": "Cai Tjeenk Willink",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Lava_Lake_Nyiragongo_2.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/An_aerial_view_of_the_towering_volcanic_peak_of_Mt._Nyiragongo.jpg/1280px-An_aerial_view_of_the_towering_volcanic_peak_of_Mt._Nyiragongo.jpg",
+            "credit": "MONUSCO / Neil Wetmore",
+            "license": "CC BY-SA 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:An_aerial_view_of_the_towering_volcanic_peak_of_Mt._Nyiragongo.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Mount_Nyiragongo"
+      ]
+    },
+    {
+      "slug": "boyoma-falls",
+      "country_iso": "COD",
+      "name": "Boyoma Falls",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "waterfall",
+      "lat": 0.49,
+      "lng": 25.21,
+      "summary": "Seven cataracts on the upper Congo near Kisangani, over about 100 km of river.",
+      "uniqueness": "By the volume of water, they are often cited as the largest waterfalls in the world. Wagenya fishermen fish them with wooden tripods and basket traps.",
+      "stat_label": "Cataracts",
+      "stat_value": "7",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 7,
+      "art": {
+        "color": "#007FFF",
+        "intensity": 0.85,
+        "motion": "cascade"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Zaire_kisangani_stroom_12_copy.jpg/1280px-Zaire_kisangani_stroom_12_copy.jpg",
+            "credit": "Ad Meskens",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Zaire_kisangani_stroom_12_copy.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Zaire_kisangani_stroom_11_copy.jpg/1280px-Zaire_kisangani_stroom_11_copy.jpg",
+            "credit": "Ad Meskens",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Zaire_kisangani_stroom_11_copy.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zaire_kisangani_stroom_14_copy.jpg/1280px-Zaire_kisangani_stroom_14_copy.jpg",
+            "credit": "Ad Meskens",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Zaire_kisangani_stroom_14_copy.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Boyoma_Falls"
+      ]
+    },
+    {
+      "slug": "livingstone-falls",
+      "country_iso": "COD",
+      "name": "Livingstone Falls",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "river",
+      "lat": -4.32,
+      "lng": 15.21,
+      "summary": "A chain of huge rapids where the Congo drops about 270 m on its way from Kinshasa to the sea.",
+      "uniqueness": "The rapids stopped navigation upstream, so early travellers had to go overland. Some stretches are among the deepest river channels known.",
+      "stat_label": "Drop",
+      "stat_value": "~270 m",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 8,
+      "art": {
+        "color": "#2A6F97",
+        "intensity": 0.85,
+        "motion": "cascade"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Fleuve_Congo_Kinshasa_1.JPG/1280px-Fleuve_Congo_Kinshasa_1.JPG",
+            "credit": "Serein",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Fleuve_Congo_Kinshasa_1.JPG"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Fleuve_Congo_Kinshasa_4.JPG/1280px-Fleuve_Congo_Kinshasa_4.JPG",
+            "credit": "Serein",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Fleuve_Congo_Kinshasa_4.JPG"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Fleuve_Congo_Kinshasa_7.JPG/1280px-Fleuve_Congo_Kinshasa_7.JPG",
+            "credit": "Serein",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Fleuve_Congo_Kinshasa_7.JPG"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Livingstone_Falls"
+      ]
+    },
+    {
+      "slug": "bonobo",
+      "country_iso": "COD",
+      "name": "Bonobo",
+      "local_name": null,
+      "scientific_name": "Pan paniscus",
+      "category": "fauna",
+      "lat": -2.0,
+      "lng": 21.5,
+      "summary": "The great ape found only south of the Congo River, our closest living relative along with the chimpanzee.",
+      "uniqueness": "Bonobo societies are led by females and settle tension through social bonds rather than fighting. Endangered. The pin is in the Salonga area.",
+      "stat_label": "Found only in",
+      "stat_value": "DR Congo",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 9,
+      "art": {
+        "color": "#3D405B",
+        "intensity": 0.85,
+        "motion": "herd"
+      },
+      "media": {
+        "video": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/27/Bonobo_chimpanzees_having_fun.webm/Bonobo_chimpanzees_having_fun.webm.480p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/27/Bonobo_chimpanzees_having_fun.webm/Bonobo_chimpanzees_having_fun.webm.360p.mpeg4.mov",
+        "credit": "Rob Bixby",
+        "license": "CC BY 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Bonobo_chimpanzees_having_fun.webm",
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Pan_paniscus_(Bonobo_baby_and_mother).jpg/1280px-Pan_paniscus_(Bonobo_baby_and_mother).jpg",
+            "credit": "Nick Hobgood",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Pan_paniscus_(Bonobo_baby_and_mother).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Bonobo-04.jpg/1280px-Bonobo-04.jpg",
+            "credit": "Greg Hume",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Bonobo-04.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Bonobo",
+        "https://www.gbif.org/species/search?q=Pan%20paniscus"
+      ]
+    },
+    {
+      "slug": "limbali",
+      "country_iso": "COD",
+      "name": "Limbali",
+      "local_name": null,
+      "scientific_name": "Gilbertiodendron dewevrei",
+      "category": "flora",
+      "lat": 1.4,
+      "lng": 28.6,
+      "summary": "A canopy tree that forms almost single-species forests along the rivers of the Congo basin.",
+      "uniqueness": "Limbali stands cast deep shade and drop large seeds that sprout under their parents, letting one species dominate a whole forest. The pin is in the Ituri.",
+      "stat_label": "Forms",
+      "stat_value": "Single-species forests",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 10,
+      "art": {
+        "color": "#F7D618",
+        "intensity": 0.85,
+        "motion": "bloom"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Gilbertiodendron_dewevrei_01.jpg/1280px-Gilbertiodendron_dewevrei_01.jpg",
+            "credit": "Xander van der Burgt",
+            "license": "CC BY 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Gilbertiodendron_dewevrei_01.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Gilbertiodendron_dewevrei_03.jpg/1280px-Gilbertiodendron_dewevrei_03.jpg",
+            "credit": "Xander van der Burgt",
+            "license": "CC BY 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Gilbertiodendron_dewevrei_03.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Gilbertiodendron_dewevrei",
+        "https://www.gbif.org/species/search?q=Gilbertiodendron%20dewevrei"
+      ]
+    },
+    {
+      "slug": "sangha-trinational",
+      "country_iso": "COG",
+      "name": "Sangha Trinational",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "forest",
+      "lat": 2.61,
+      "lng": 16.55,
+      "summary": "Some 7,500 km² of rainforest joining parks in Congo, Cameroon and the Central African Republic.",
+      "uniqueness": "Its clearings attract forest elephants, gorillas and bongos. Researchers here filmed wild gorillas using sticks as tools. World Heritage Site since 2012.",
+      "stat_label": "Countries",
+      "stat_value": "3",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 1,
+      "art": {
+        "color": "#009543",
+        "intensity": 0.85,
+        "motion": "mist"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Flooded_forest_channel_in_the_Black_Forest,_Republic_of_the_Congo.jpg/1280px-Flooded_forest_channel_in_the_Black_Forest,_Republic_of_the_Congo.jpg",
+            "credit": "JosepMGracia",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Flooded_forest_channel_in_the_Black_Forest,_Republic_of_the_Congo.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Gorilla_tool_use.png/1280px-Gorilla_tool_use.png",
+            "credit": "Breuer, Ndoundou-Hockemba & Fishlock (PLoS Biology)",
+            "license": "CC BY 2.5",
+            "source": "https://commons.wikimedia.org/wiki/File:Gorilla_tool_use.png"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Loxodontacyclotis.jpg/1280px-Loxodontacyclotis.jpg",
+            "credit": "Thomas Breuer",
+            "license": "CC BY 2.5",
+            "source": "https://commons.wikimedia.org/wiki/File:Loxodontacyclotis.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/1380/",
+        "https://en.wikipedia.org/wiki/Sangha_Trinational"
+      ]
+    },
+    {
+      "slug": "odzala-kokoua",
+      "country_iso": "COG",
+      "name": "Forest Massif of Odzala-Kokoua",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "forest",
+      "lat": 0.8,
+      "lng": 14.9,
+      "summary": "Rainforest and savanna clearings in north-west Congo with one of Africa’s densest gorilla populations.",
+      "uniqueness": "Protected since 1935, one of Africa’s oldest parks, it holds western lowland gorillas, chimpanzees and forest elephants. World Heritage Site since 2023.",
+      "stat_label": "Protected since",
+      "stat_value": "1935",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 2,
+      "art": {
+        "color": "#1B4332",
+        "intensity": 0.85,
+        "motion": "mist"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Primage2.jpg/1280px-Primage2.jpg",
+            "credit": "Leighcn",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Primage2.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/692/",
+        "https://en.wikipedia.org/wiki/Odzala-Kokoua_National_Park"
+      ]
+    },
+    {
+      "slug": "congo-rapids-brazzaville",
+      "country_iso": "COG",
+      "name": "Congo Rapids at Brazzaville",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "river",
+      "lat": -4.29,
+      "lng": 15.25,
+      "summary": "The Congo River leaves Malebo Pool in thundering rapids between Brazzaville and Kinshasa.",
+      "uniqueness": "The two capitals face each other across the river, the closest pair of capitals in the world apart from Rome and Vatican City.",
+      "stat_label": "Capitals apart",
+      "stat_value": "~1.6 km",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 3,
+      "art": {
+        "color": "#2A6F97",
+        "intensity": 0.85,
+        "motion": "cascade"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Fishermen_of_the_Congo_Basin_4.jpg/1280px-Fishermen_of_the_Congo_Basin_4.jpg",
+            "credit": "Cethuyghe",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Fishermen_of_the_Congo_Basin_4.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Congo_River"
+      ]
+    },
+    {
+      "slug": "conkouati-douli",
+      "country_iso": "COG",
+      "name": "Conkouati-Douli National Park",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "coast",
+      "lat": -3.9,
+      "lng": 11.47,
+      "summary": "A coastal park of lagoons, savanna and forest where turtles nest and chimpanzees are released.",
+      "uniqueness": "It is one of the most diverse protected areas in Congo, from the ocean to the Mayombe mountains.",
+      "stat_label": "Area",
+      "stat_value": "~5,000 km²",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 4,
+      "art": {
+        "color": "#48CAE4",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Conkouati_douli.jpg/1280px-Conkouati_douli.jpg",
+            "credit": "Stevy08",
+            "license": "CC0",
+            "source": "https://commons.wikimedia.org/wiki/File:Conkouati_douli.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Paysage_du_parc_conkouati_03.jpg/1280px-Paysage_du_parc_conkouati_03.jpg",
+            "credit": "Kezhy Chan",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Paysage_du_parc_conkouati_03.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Paysage_du_parc_conkouati_02.jpg/1280px-Paysage_du_parc_conkouati_02.jpg",
+            "credit": "Kezhy Chan",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Paysage_du_parc_conkouati_02.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Conkouati-Douli_National_Park"
+      ]
+    },
+    {
+      "slug": "western-lowland-gorilla",
+      "country_iso": "COG",
+      "name": "Western Lowland Gorilla",
+      "local_name": null,
+      "scientific_name": "Gorilla gorilla gorilla",
+      "category": "fauna",
+      "lat": 0.8,
+      "lng": 14.9,
+      "summary": "The most numerous gorilla, living in the swamp and lowland forests of the Congo basin.",
+      "uniqueness": "Most of the world’s western lowland gorillas live in Congo and Gabon, but Ebola and poaching have cut numbers sharply. Critically Endangered. The pin is in Odzala.",
+      "stat_label": "IUCN status",
+      "stat_value": "Critically Endangered",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 5,
+      "art": {
+        "color": "#2F3E46",
+        "intensity": 0.85,
+        "motion": "herd"
+      },
+      "media": {
+        "video": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/13/Western_lowland_gorillas_(mom_and_baby).webm/Western_lowland_gorillas_(mom_and_baby).webm.480p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/13/Western_lowland_gorillas_(mom_and_baby).webm/Western_lowland_gorillas_(mom_and_baby).webm.360p.mpeg4.mov",
+        "credit": "Madeline",
+        "license": "CC BY 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Western_lowland_gorillas_(mom_and_baby).webm",
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Gorilla_gorilla_gorilla_(Gorille_des_plaines_de_l'Ouest)_-_458.jpg/1280px-Gorilla_gorilla_gorilla_(Gorille_des_plaines_de_l'Ouest)_-_458.jpg",
+            "credit": "Medium69 (William Crochot)",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Gorilla_gorilla_gorilla_(Gorille_des_plaines_de_l'Ouest)_-_458.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Western_Lowland_Gorilla_at_Bronx_Zoo_4.jpg/1280px-Western_Lowland_Gorilla_at_Bronx_Zoo_4.jpg",
+            "credit": "Fred Hsu",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Western_Lowland_Gorilla_at_Bronx_Zoo_4.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Western_lowland_gorilla",
+        "https://www.gbif.org/species/search?q=Gorilla%20gorilla%20gorilla"
+      ]
+    },
+    {
+      "slug": "african-tulip-tree",
+      "country_iso": "COG",
+      "name": "African Tulip Tree",
+      "local_name": null,
+      "scientific_name": "Spathodea campanulata",
+      "category": "flora",
+      "lat": -4.2,
+      "lng": 15.3,
+      "summary": "A forest tree with fiery orange cup-shaped flowers, native to tropical Central and West Africa.",
+      "uniqueness": "Planted in gardens across the tropics, it is invasive in some islands. Its flower cups hold rain and nectar for birds. The pin is near Brazzaville.",
+      "stat_label": "Flowers",
+      "stat_value": "Orange-red",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 6,
+      "art": {
+        "color": "#F3722C",
+        "intensity": 0.85,
+        "motion": "bloom"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/African_Tulip_Tree_(Spathodea_campanulata).jpg/1280px-African_Tulip_Tree_(Spathodea_campanulata).jpg",
+            "credit": "Mokkie",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:African_Tulip_Tree_(Spathodea_campanulata).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/African_Tulip_Tree_(Spathodea_campanulata)_1.jpg/1280px-African_Tulip_Tree_(Spathodea_campanulata)_1.jpg",
+            "credit": "Mokkie",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:African_Tulip_Tree_(Spathodea_campanulata)_1.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Spathodea",
+        "https://www.gbif.org/species/search?q=Spathodea%20campanulata"
+      ]
+    },
+    {
+      "slug": "pico-basile",
+      "country_iso": "GNQ",
+      "name": "Pico Basilé",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "volcano",
+      "lat": 3.59,
+      "lng": 8.76,
+      "summary": "The highest point of Equatorial Guinea at 3,011 m, a volcano rising over Malabo on Bioko.",
+      "uniqueness": "Cloud forest on its slopes is home to endemic birds and primates found only on Bioko.",
+      "stat_label": "Height",
+      "stat_value": "3,011 m",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 1,
+      "art": {
+        "color": "#2B2D42",
+        "intensity": 0.85,
+        "motion": "mist"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Pico_Basil%C3%A9.jpg/1280px-Pico_Basil%C3%A9.jpg",
+            "credit": "Serge Moons",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Pico_Basil%C3%A9.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Pico_Basilé"
+      ]
+    },
+    {
+      "slug": "monte-alen",
+      "country_iso": "GNQ",
+      "name": "Monte Alén National Park",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "forest",
+      "lat": 1.53,
+      "lng": 10.11,
+      "summary": "The largest park in mainland Equatorial Guinea, a rainforest of rivers and granite peaks.",
+      "uniqueness": "It holds gorillas, chimpanzees, forest elephants and many butterflies, across about 2,000 km².",
+      "stat_label": "Area",
+      "stat_value": "~2,000 km²",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 2,
+      "art": {
+        "color": "#3E9A00",
+        "intensity": 0.85,
+        "motion": "mist"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Nationalpark_Monte_Al%C3%A9n.jpg/1280px-Nationalpark_Monte_Al%C3%A9n.jpg",
+            "credit": "Mehlauge",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Nationalpark_Monte_Al%C3%A9n.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Euphaedra_eleus_eleus_(Eleus_Orange_Forester).jpg/1280px-Euphaedra_eleus_eleus_(Eleus_Orange_Forester).jpg",
+            "credit": "Kristof Zyskowski & Yulia Bereshpolova",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Euphaedra_eleus_eleus_(Eleus_Orange_Forester).jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Monte_Alén_National_Park"
+      ]
+    },
+    {
+      "slug": "ureca-beaches",
+      "country_iso": "GNQ",
+      "name": "Ureca Beaches",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "coast",
+      "lat": 3.27,
+      "lng": 8.58,
+      "summary": "Black-sand beaches on the remote south coast of Bioko.",
+      "uniqueness": "Four species of sea turtle nest here, including leatherbacks and green turtles, monitored by local and university teams.",
+      "stat_label": "Turtle species",
+      "stat_value": "4",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 3,
+      "art": {
+        "color": "#0073CE",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Atardecer_en_la_playa_de_Ureca_(Ureka)_Guinea_Ecuatorial.jpg/1280px-Atardecer_en_la_playa_de_Ureca_(Ureka)_Guinea_Ecuatorial.jpg",
+            "credit": "Francesca Calisti",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Atardecer_en_la_playa_de_Ureca_(Ureka)_Guinea_Ecuatorial.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Ureca"
+      ]
+    },
+    {
+      "slug": "bioko-drill",
+      "country_iso": "GNQ",
+      "name": "Bioko Drill",
+      "local_name": null,
+      "scientific_name": "Mandrillus leucophaeus poensis",
+      "category": "fauna",
+      "lat": 3.3,
+      "lng": 8.6,
+      "summary": "A short-tailed forest monkey related to the mandrill, with a black face and red lower lip.",
+      "uniqueness": "The drill is one of Africa’s most endangered primates; the Bioko form lives only on the island, threatened by bushmeat hunting. The pin is in southern Bioko.",
+      "stat_label": "IUCN status",
+      "stat_value": "Endangered",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 4,
+      "art": {
+        "color": "#5C4033",
+        "intensity": 0.85,
+        "motion": "herd"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Mandrillus_leucophaeus_poensis_56247506.jpg/1280px-Mandrillus_leucophaeus_poensis_56247506.jpg",
+            "credit": "Chris Quirin",
+            "license": "CC BY 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Mandrillus_leucophaeus_poensis_56247506.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Mandrillus_leucophaeus_poensis_56247487.jpg/1280px-Mandrillus_leucophaeus_poensis_56247487.jpg",
+            "credit": "Chris Quirin",
+            "license": "CC BY 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Mandrillus_leucophaeus_poensis_56247487.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Mandrillus_leucophaeus_poensis_63853104.jpg/1280px-Mandrillus_leucophaeus_poensis_63853104.jpg",
+            "credit": "Chris Quirin",
+            "license": "CC BY 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Mandrillus_leucophaeus_poensis_63853104.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Drill_(animal)",
+        "https://www.gbif.org/species/search?q=Mandrillus%20leucophaeus"
+      ]
+    },
+    {
+      "slug": "ceiba-god-tree",
+      "country_iso": "GNQ",
+      "name": "God Tree",
+      "local_name": "árbol de Dios",
+      "scientific_name": "Ceiba pentandra",
+      "category": "flora",
+      "lat": 3.75,
+      "lng": 8.78,
+      "summary": "A giant silk-cotton tree, the emblem on Equatorial Guinea’s coat of arms.",
+      "uniqueness": "Tradition holds that an early treaty between Spain and a local ruler was signed beneath such a tree. Kapok trees can top 60 m. The pin is near Malabo.",
+      "stat_label": "Height",
+      "stat_value": "Up to ~60 m",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 5,
+      "art": {
+        "color": "#E9F5DB",
+        "intensity": 0.85,
+        "motion": "bloom"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Ilet_la_M%C3%A8re_Ceiba_pentandra_fromager_2013.jpg/1280px-Ilet_la_M%C3%A8re_Ceiba_pentandra_fromager_2013.jpg",
+            "credit": "Cayambe",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Ilet_la_M%C3%A8re_Ceiba_pentandra_fromager_2013.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Ceiba_pentandra_-_Jardim_Bot%C3%A2nico_da_Madeira_01.jpg/1280px-Ceiba_pentandra_-_Jardim_Bot%C3%A2nico_da_Madeira_01.jpg",
+            "credit": "H. Zell",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Ceiba_pentandra_-_Jardim_Bot%C3%A2nico_da_Madeira_01.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Coat_of_arms_of_Equatorial_Guinea",
+        "https://www.gbif.org/species/search?q=Ceiba%20pentandra"
+      ]
+    },
+    {
+      "slug": "lope-okanda",
+      "country_iso": "GAB",
+      "name": "Lopé-Okanda",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "forest",
+      "lat": -0.5,
+      "lng": 11.5,
+      "summary": "Rainforest and relict savannas along the Ogooué, with traces of people stretching back 400,000 years.",
+      "uniqueness": "Around 1,800 rock engravings and Iron Age sites lie among mandrill troops of up to several hundred. Mixed World Heritage Site since 2007.",
+      "stat_label": "Rock engravings",
+      "stat_value": "~1,800",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 1,
+      "art": {
+        "color": "#009E60",
+        "intensity": 0.85,
+        "motion": "mist"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Lop%C3%A9_National_Park_river_panorama.jpg/1280px-Lop%C3%A9_National_Park_river_panorama.jpg",
+            "credit": "FX",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Lop%C3%A9_National_Park_river_panorama.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Lop%C3%A9_National_Park_village_panorama.jpg/1280px-Lop%C3%A9_National_Park_village_panorama.jpg",
+            "credit": "FX",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Lop%C3%A9_National_Park_village_panorama.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/1147/",
+        "https://en.wikipedia.org/wiki/Lopé_National_Park"
+      ]
+    },
+    {
+      "slug": "ivindo",
+      "country_iso": "GAB",
+      "name": "Ivindo National Park",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "waterfall",
+      "lat": 0.09,
+      "lng": 12.63,
+      "summary": "Blackwater rivers and waterfalls such as Kongou in the heart of Gabon’s forest.",
+      "uniqueness": "The Langoué Bai clearing draws forest elephants and gorillas. World Heritage Site since 2021.",
+      "stat_label": "Inscribed",
+      "stat_value": "2021",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 2,
+      "art": {
+        "color": "#3A75C4",
+        "intensity": 0.85,
+        "motion": "cascade"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Waterfall_ivindo_gabon.jpg/1280px-Waterfall_ivindo_gabon.jpg",
+            "credit": "Jefe Le Gran",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Waterfall_ivindo_gabon.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Elephants_running_in_a_stream.jpg/1280px-Elephants_running_in_a_stream.jpg",
+            "credit": "Ngangorica",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Elephants_running_in_a_stream.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Tagoue_and_other_elephants.jpg/1280px-Tagoue_and_other_elephants.jpg",
+            "credit": "Ngangorica",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Tagoue_and_other_elephants.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/1653/",
+        "https://en.wikipedia.org/wiki/Ivindo_National_Park"
+      ]
+    },
+    {
+      "slug": "loango",
+      "country_iso": "GAB",
+      "name": "Loango National Park",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "coast",
+      "lat": -2.17,
+      "lng": 9.57,
+      "summary": "Lagoons, forest and beaches where elephants, buffalo and hippos walk on the sand.",
+      "uniqueness": "Called “Africa’s last Eden”; hippos have been filmed swimming in the surf, and humpback whales pass offshore.",
+      "stat_label": "Created",
+      "stat_value": "2002",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 3,
+      "art": {
+        "color": "#E07A3F",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "video": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c1/Wild_Western_Lowland_gorilla_and_his_family_foraging_for_figs.webm/Wild_Western_Lowland_gorilla_and_his_family_foraging_for_figs.webm.480p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c1/Wild_Western_Lowland_gorilla_and_his_family_foraging_for_figs.webm/Wild_Western_Lowland_gorilla_and_his_family_foraging_for_figs.webm.360p.mpeg4.mov",
+        "credit": "TheLeftCoast",
+        "license": "CC BY 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Wild_Western_Lowland_gorilla_and_his_family_foraging_for_figs.webm",
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Loango_National_Park.jpg/1280px-Loango_National_Park.jpg",
+            "credit": "Emailsson",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Loango_National_Park.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Gabon_Loango_National_Park_Elephant_with_offspring.jpeg/1280px-Gabon_Loango_National_Park_Elephant_with_offspring.jpeg",
+            "credit": "Kurt Dundy",
+            "license": "CC BY 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Gabon_Loango_National_Park_Elephant_with_offspring.jpeg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Gabon_Loango_National_Park_Wild_Buffalo_Single.jpeg/1280px-Gabon_Loango_National_Park_Wild_Buffalo_Single.jpeg",
+            "credit": "Kurt Dundy",
+            "license": "CC BY 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Gabon_Loango_National_Park_Wild_Buffalo_Single.jpeg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Loango_National_Park"
+      ]
+    },
+    {
+      "slug": "pongara",
+      "country_iso": "GAB",
+      "name": "Pongara National Park",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "coast",
+      "lat": 0.12,
+      "lng": 9.63,
+      "summary": "Mangroves and beaches across the estuary from Libreville.",
+      "uniqueness": "Its beaches are among the most important leatherback turtle nesting sites in the world.",
+      "stat_label": "Turtles",
+      "stat_value": "Leatherbacks",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 4,
+      "art": {
+        "color": "#2A9D8F",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Parc_national_de_Pongara.jpg/1280px-Parc_national_de_Pongara.jpg",
+            "credit": "Allmania23",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Parc_national_de_Pongara.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/PongaraLodge.jpg/1280px-PongaraLodge.jpg",
+            "credit": "Allmania23",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:PongaraLodge.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Pongara_National_Park"
+      ]
+    },
+    {
+      "slug": "monts-de-cristal",
+      "country_iso": "GAB",
+      "name": "Monts de Cristal",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "mountain",
+      "lat": 0.5,
+      "lng": 10.5,
+      "summary": "Misty low mountains near the Equatorial Guinea border, among the richest plant areas in Africa.",
+      "uniqueness": "Botanists have recorded many endemic begonias and orchids here.",
+      "stat_label": "Known for",
+      "stat_value": "Begonias · orchids",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 5,
+      "art": {
+        "color": "#1B4332",
+        "intensity": 0.85,
+        "motion": "mist"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Vue_de_Monts_de_Cristal.jpg",
+            "credit": "Nitoni Noio",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Vue_de_Monts_de_Cristal.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Parc_national_des_Monts_de_Cristal_banni%C3%A8re.jpg",
+            "credit": "Nitoni Noio",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Parc_national_des_Monts_de_Cristal_banni%C3%A8re.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Monts_de_Cristal_National_Park"
+      ]
+    },
+    {
+      "slug": "mandrill",
+      "country_iso": "GAB",
+      "name": "Mandrill",
+      "local_name": null,
+      "scientific_name": "Mandrillus sphinx",
+      "category": "fauna",
+      "lat": -0.6,
+      "lng": 11.6,
+      "summary": "The most colourful primate, with a red and blue face, living in large forest troops.",
+      "uniqueness": "Lopé hosts “hordes” of more than 800 mandrills, the largest groups of any primate apart from humans. The pin is in Lopé.",
+      "stat_label": "Largest hordes",
+      "stat_value": "800+",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 6,
+      "art": {
+        "color": "#E63946",
+        "intensity": 0.85,
+        "motion": "herd"
+      },
+      "media": {
+        "video": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/df/Mandrill_(Zoo_Dresden).webm/Mandrill_(Zoo_Dresden).webm.480p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/df/Mandrill_(Zoo_Dresden).webm/Mandrill_(Zoo_Dresden).webm.360p.mpeg4.mov",
+        "credit": "Fiver, der Hellseher",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Mandrill_(Zoo_Dresden).webm",
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Mandrill_July_2019-1.jpg/1280px-Mandrill_July_2019-1.jpg",
+            "credit": "Alvesgaspar",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Mandrill_July_2019-1.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Mandrill_at_SF_Zoo.jpg/1280px-Mandrill_at_SF_Zoo.jpg",
+            "credit": "Sanjay Acharya",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Mandrill_at_SF_Zoo.jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Mandrill",
+        "https://www.gbif.org/species/search?q=Mandrillus%20sphinx"
+      ]
+    },
+    {
+      "slug": "okoume",
+      "country_iso": "GAB",
+      "name": "Okoumé",
+      "local_name": null,
+      "scientific_name": "Aucoumea klaineana",
+      "category": "flora",
+      "lat": -0.7,
+      "lng": 10.2,
+      "summary": "Gabon’s signature timber tree, a tall softwood of the coastal forest.",
+      "uniqueness": "For a century it was the backbone of Gabon’s economy, shipped for plywood; since 2010 Gabon has required logs to be processed in the country. The pin is a representative point.",
+      "stat_label": "Raw log export ban",
+      "stat_value": "2010",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 7,
+      "art": {
+        "color": "#B07D4B",
+        "intensity": 0.85,
+        "motion": "bloom"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Abattage_d'un_okoum%C3%A9_en_Afrique_%C3%A9quatoriale_fran%C3%A7aise_-_btv1b101033272.jpg/1280px-Abattage_d'un_okoum%C3%A9_en_Afrique_%C3%A9quatoriale_fran%C3%A7aise_-_btv1b101033272.jpg",
+            "credit": "Bibliothèque nationale de France",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:Abattage_d'un_okoum%C3%A9_en_Afrique_%C3%A9quatoriale_fran%C3%A7aise_-_btv1b101033272.jpg"
+          }
+        ],
+        "note": "An okoumé being felled in French Equatorial Africa, early 20th century."
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Aucoumea",
+        "https://www.gbif.org/species/search?q=Aucoumea%20klaineana"
+      ]
+    },
+    {
+      "slug": "rocas-sao-tome",
+      "country_iso": "STP",
+      "name": "The Roças of São Tomé and Príncipe",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "heritage",
+      "lat": 0.38,
+      "lng": 6.7,
+      "summary": "Plantation estates that made the islands among the world’s top cocoa producers in the early 1900s, built on forced labour.",
+      "uniqueness": "Hospitals, workers’ quarters and drying sheds survive at roças such as Agostinho Neto. Inscribed in 2026 as a record of colonial agriculture and forced migration.",
+      "stat_label": "Inscribed",
+      "stat_value": "2026",
+      "unesco": true,
+      "visible": true,
+      "sort_order": 1,
+      "art": {
+        "color": "#5C4033",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Ro%C3%A7a_Agostinho_Neto_(S%C3%A3o_Tom%C3%A9)_(2).jpg/1280px-Ro%C3%A7a_Agostinho_Neto_(S%C3%A3o_Tom%C3%A9)_(2).jpg",
+            "credit": "Ji-Elle",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Ro%C3%A7a_Agostinho_Neto_(S%C3%A3o_Tom%C3%A9)_(2).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Ro%C3%A7a_Agostinho_Neto_(S%C3%A3o_Tom%C3%A9)_(1).jpg/1280px-Ro%C3%A7a_Agostinho_Neto_(S%C3%A3o_Tom%C3%A9)_(1).jpg",
+            "credit": "Ji-Elle",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Ro%C3%A7a_Agostinho_Neto_(S%C3%A3o_Tom%C3%A9)_(1).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ro%C3%A7a_Agostinho_Neto_(S%C3%A3o_Tom%C3%A9)_(3).jpg/1280px-Ro%C3%A7a_Agostinho_Neto_(S%C3%A3o_Tom%C3%A9)_(3).jpg",
+            "credit": "Ji-Elle",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Ro%C3%A7a_Agostinho_Neto_(S%C3%A3o_Tom%C3%A9)_(3).jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://whc.unesco.org/en/list/1750/",
+        "https://en.wikipedia.org/wiki/Roça"
+      ]
+    },
+    {
+      "slug": "pico-cao-grande",
+      "country_iso": "STP",
+      "name": "Pico Cão Grande",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "rock",
+      "lat": 0.12,
+      "lng": 6.57,
+      "summary": "A needle of volcanic rock rising about 370 m above the forest of southern São Tomé.",
+      "uniqueness": "It is a volcanic plug, the hardened core of an old volcano; its sheer sides were first climbed in 1991.",
+      "stat_label": "Rises",
+      "stat_value": "~370 m",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 2,
+      "art": {
+        "color": "#2B2D42",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Pico_C%C3%A3o_Grande.jpg/1280px-Pico_C%C3%A3o_Grande.jpg",
+            "credit": "Philippe Bourachot",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Pico_C%C3%A3o_Grande.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/C%C3%A3o_Grande_et_C%C3%A3o_Pequeno_%C3%A0_S%C3%A3o_Tom%C3%A9_(3).jpg/1280px-C%C3%A3o_Grande_et_C%C3%A3o_Pequeno_%C3%A0_S%C3%A3o_Tom%C3%A9_(3).jpg",
+            "credit": "Ji-Elle",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:C%C3%A3o_Grande_et_C%C3%A3o_Pequeno_%C3%A0_S%C3%A3o_Tom%C3%A9_(3).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/S%C3%A3o_Tom%C3%A9_(13685526293).jpg/1280px-S%C3%A3o_Tom%C3%A9_(13685526293).jpg",
+            "credit": "seriykotik1970",
+            "license": "Public domain",
+            "source": "https://commons.wikimedia.org/wiki/File:S%C3%A3o_Tom%C3%A9_(13685526293).jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Pico_Cão_Grande"
+      ]
+    },
+    {
+      "slug": "obo-natural-park",
+      "country_iso": "STP",
+      "name": "Obô Natural Park",
+      "local_name": null,
+      "scientific_name": null,
+      "category": "forest",
+      "lat": 0.25,
+      "lng": 6.6,
+      "summary": "Cloud forest and lowland rainforest covering much of the interior of both islands.",
+      "uniqueness": "The islands have exceptional numbers of endemic birds, frogs and plants for their size, many protected here.",
+      "stat_label": "Covers",
+      "stat_value": "~30% of the country",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 3,
+      "art": {
+        "color": "#12AD2B",
+        "intensity": 0.85,
+        "motion": "mist"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Philothamnus_thomensis._Endemic_snake_of_S%C3%A3o_Tom%C3%A9_in_the_Ob%C3%B4_Natural_Park.jpg/1280px-Philothamnus_thomensis._Endemic_snake_of_S%C3%A3o_Tom%C3%A9_in_the_Ob%C3%B4_Natural_Park.jpg",
+            "credit": "FrankBanalis",
+            "license": "CC BY 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Philothamnus_thomensis._Endemic_snake_of_S%C3%A3o_Tom%C3%A9_in_the_Ob%C3%B4_Natural_Park.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Allophylus_africanus_%C3%A0_S%C3%A3o_Tom%C3%A9_(2).jpg/1280px-Allophylus_africanus_%C3%A0_S%C3%A3o_Tom%C3%A9_(2).jpg",
+            "credit": "Ji-Elle",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Allophylus_africanus_%C3%A0_S%C3%A3o_Tom%C3%A9_(2).jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Obô_Natural_Park_of_São_Tomé"
+      ]
+    },
+    {
+      "slug": "boca-do-inferno",
+      "country_iso": "STP",
+      "name": "Boca do Inferno",
+      "local_name": "“mouth of hell”",
+      "scientific_name": null,
+      "category": "coast",
+      "lat": 0.15,
+      "lng": 6.75,
+      "summary": "A blowhole on the east coast where Atlantic waves surge through a lava tunnel.",
+      "uniqueness": "Spray bursts high from the black volcanic rock at high tide.",
+      "stat_label": "Rock",
+      "stat_value": "Basalt lava",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 4,
+      "art": {
+        "color": "#48CAE4",
+        "intensity": 0.85,
+        "motion": "ripple"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Boca_do_Inferno_(S%C3%A3o_Tom%C3%A9)_(3).jpg/1280px-Boca_do_Inferno_(S%C3%A3o_Tom%C3%A9)_(3).jpg",
+            "credit": "Ji-Elle",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Boca_do_Inferno_(S%C3%A3o_Tom%C3%A9)_(3).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/2012SaoTome-49_(8042901010).jpg/1280px-2012SaoTome-49_(8042901010).jpg",
+            "credit": "Helena Van Eykeren",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:2012SaoTome-49_(8042901010).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Boca_do_Inferno_(S%C3%A3o_Tom%C3%A9)_(2).jpg/1280px-Boca_do_Inferno_(S%C3%A3o_Tom%C3%A9)_(2).jpg",
+            "credit": "Ji-Elle",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Boca_do_Inferno_(S%C3%A3o_Tom%C3%A9)_(2).jpg"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/São_Tomé_Island"
+      ]
+    },
+    {
+      "slug": "giant-sunbird",
+      "country_iso": "STP",
+      "name": "Giant Sunbird",
+      "local_name": null,
+      "scientific_name": "Dreptes thomensis",
+      "category": "fauna",
+      "lat": 0.2,
+      "lng": 6.58,
+      "summary": "The largest sunbird in the world, found only in the forests of São Tomé.",
+      "uniqueness": "At about 23 cm it is twice the length of most sunbirds. Vulnerable. The pin is in Obô Natural Park.",
+      "stat_label": "Length",
+      "stat_value": "~23 cm",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 5,
+      "art": {
+        "color": "#2B2D42",
+        "intensity": 0.85,
+        "motion": "orbit"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Dreptes_thomensis_12933301.jpg/1280px-Dreptes_thomensis_12933301.jpg",
+            "credit": "thibaudaronson",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Dreptes_thomensis_12933301.jpg"
+          },
+          {
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/225823978/large.jpg",
+            "credit": "iNaturalist observer (no rights reserved)",
+            "license": "CC0",
+            "source": "https://www.inaturalist.org/observations/132611339"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Giant_sunbird",
+        "https://www.gbif.org/species/search?q=Dreptes%20thomensis"
+      ]
+    },
+    {
+      "slug": "giant-begonia",
+      "country_iso": "STP",
+      "name": "Giant Begonia",
+      "local_name": "bléblé",
+      "scientific_name": "Begonia baccata",
+      "category": "flora",
+      "lat": 0.28,
+      "lng": 6.6,
+      "summary": "A begonia that grows taller than a person, found only on São Tomé.",
+      "uniqueness": "Its stems can reach about 2–3 m, among the largest of any begonia. The pin is in the cloud forest.",
+      "stat_label": "Height",
+      "stat_value": "~2–3 m",
+      "unesco": false,
+      "visible": true,
+      "sort_order": 6,
+      "art": {
+        "color": "#D21034",
+        "intensity": 0.85,
+        "motion": "bloom"
+      },
+      "media": {
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Leal_Begonia_baccata_Sao_Tom%C3%A9_(2).jpg/1280px-Leal_Begonia_baccata_Sao_Tom%C3%A9_(2).jpg",
+            "credit": "Mleal002",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Leal_Begonia_baccata_Sao_Tom%C3%A9_(2).jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Conservatoire_du_b%C3%A9gonia_2015._Begonia_baccata_01.JPG/1280px-Conservatoire_du_b%C3%A9gonia_2015._Begonia_baccata_01.JPG",
+            "credit": "Salix",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Conservatoire_du_b%C3%A9gonia_2015._Begonia_baccata_01.JPG"
+          }
+        ]
+      },
+      "citations": [
+        "https://en.wikipedia.org/wiki/Begonia_baccata",
+        "https://www.gbif.org/species/search?q=Begonia%20baccata"
       ]
     }
   ]
